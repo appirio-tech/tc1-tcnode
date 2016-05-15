@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <name>topcoder-ear-security</name>
+    <parent>
+        <artifactId>topcoder-parent</artifactId>
+        <groupId>topcoder</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <artifactId>topcoder-ear-security</artifactId>
+    <packaging>ear</packaging>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-ear-plugin</artifactId>
+                <configuration>
+                    <version>1.4</version>
+                    <modules>
+                        <ejbModule>
+                            <groupId>topcoder</groupId>
+                            <artifactId>topcoder-ejb-security</artifactId>
+                            <bundleFileName>security.jar</bundleFileName>
+                        </ejbModule>
+                    </modules>
+                    <generateApplicationXml>true</generateApplicationXml>
+                    <includeLibInApplicationXml>true</includeLibInApplicationXml>
+                    <displayName>Security EAR</displayName>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.3</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+        <finalName>security</finalName>
+    </build>
+
+    <!-- Define the versions of your ear components here -->
+    <dependencies>
+        <dependency>
+            <groupId>topcoder</groupId>
+            <artifactId>topcoder-ejb-security</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>ejb</type>
+        </dependency>
+    </dependencies>
+</project>

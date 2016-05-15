@@ -1,0 +1,460 @@
+/* ------------------------------------
+Engage
+------------------------------------- */
+
+
+#engage
+{
+	width: 930px;
+	background: transparent url(/i/innovate/bg_engage.png) no-repeat left top;
+}
+#engage #engage-header
+{
+	width: 930px;
+	height: 218px;
+}
+#engage #engage-header .engage-left
+{
+	float: left;
+	width: 632px;
+}
+#engage #engage-header .engage-right
+{
+	float: left;
+	width: 298px;
+	text-align: center;
+	padding: 45px 0px 0px 0px;
+}
+#engage #engage-header .engage-right #org
+{
+	height: 50px;
+	text-align: left;
+}
+#engage #engage-header .engage-right .org_logo
+{
+	float: left;
+	display: none;
+	height: 50px;
+	margin-top: 0px;
+	margin-left: 75px;
+}
+#engage #engage-header .engage-right .org_quote
+{
+	width: 266px;
+	color: #888888;
+	font-size: 14px;
+	font-family: "Myriad Pro", Arial;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px;
+	margin: 0px auto;
+	margin-top: 18px;
+}
+
+#engage-content .engage-right p.news-link { padding: 5px 0 2px 0; }
+#engage #engage-content .engage-right p.news-link a
+{
+	color: #C00;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#engage #engage-content .engage-right p.news-link a:hover
+{
+	color: #666;
+	text-decoration: underline;
+}
+
+#engage #engage-content .engage-left
+{
+	width: 592px;
+	padding: 29px 20px;
+}
+#engage #engage-content .engage-right
+{
+	float: right;
+	width: 254px;
+	padding: 29px 20px;
+	text-align: center;
+}
+#engage #engage-content .engage-right p
+{
+	margin: 0px 0px 10px 0px;
+	text-align: left;
+}
+#engage #engage-content .engage-right .client-list
+{
+	padding-top: 10px;
+}
+#engage #engage-content .engage-right a
+{
+	display: inline;
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/* Carousel Tabs */
+#engage-carousel
+{
+	width: 612px;
+	height: 198px;
+	margin: 0 auto;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.jcarousel-container
+{
+	position: relative;
+}
+.jcarousel-clip
+{
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	z-index: 2;
+}
+.jcarousel-list
+{
+	left: 0;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	top: 0;
+	z-index: 1;
+}
+.jcarousel-list li,
+.jcarousel-item
+{
+	float: left;
+	height: 75px;
+	list-style: none;
+	width: 75px;
+}
+.jcarousel-next
+{
+	display: none;
+	z-index: 3;
+}
+.jcarousel-prev
+{
+	display: none;
+	z-index: 3;
+}
+.jcarousel-skin-engage .jcarousel-container-horizontal
+{
+	width: 612px;
+	height: 163px;
+	background-image: none;
+}
+.jcarousel-skin-engage .jcarousel-clip-horizontal
+{
+	width: 612px;
+	height: 163px;
+}
+.jcarousel-skin-engage .jcarousel-item
+{
+	width: 612px;
+	height: 163px;
+}
+.jcarousel-skin-engage .jcarousel-item-horizontal
+{
+	margin-right: 10px;
+}
+.jcarousel-skin-engage .jcarousel-item-vertical
+{
+	margin-bottom: 10px;
+}
+.jcarousel-skin-engage .jcarousel-item-placeholder
+{
+	background: #fff;
+	color: #000;
+}
+.jcarousel-skin-engage .jcarousel-next-horizontal
+{
+	cursor: pointer;
+	height: 32px;
+	position: absolute;
+	right: 5px;
+	top: 43px;
+	width: 32px;
+}
+.jcarousel-skin-engage .jcarousel-next-horizontal:hover
+{
+	background-position: -32px 0;
+}
+.jcarousel-skin-engage .jcarousel-next-horizontal:active
+{
+	background-position: -64px 0;
+}
+.jcarousel-skin-engage .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-engage .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-engage .jcarousel-next-disabled-horizontal:active
+{
+	background-position: -96px 0;
+	cursor: default;
+}
+.jcarousel-skin-engage .jcarousel-prev-horizontal
+{
+	cursor: pointer;
+	height: 32px;
+	left: 5px;
+	position: absolute;
+	top: 43px;
+	width: 32px;
+}
+.jcarousel-skin-engage .jcarousel-prev-horizontal:hover
+{
+	background-position: -32px 0;
+}
+.jcarousel-skin-engage .jcarousel-prev-horizontal:active
+{
+	background-position: -64px 0;
+}
+.jcarousel-skin-engage .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-engage .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-engage .jcarousel-prev-disabled-horizontal:active
+{
+	background-position: -96px 0;
+	cursor: default;
+}
+
+.jcarousel-control
+{
+	float: right;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 72px;
+}
+.jcarousel-control a:focus, .jcarousel-control a:active
+{
+	outline: none;
+}
+.jcarousel-scroll
+{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 540px;
+	text-align: center;
+}
+.jcarousel-scroll form
+{
+	margin: 0;
+	padding: 0;
+}
+.jcarousel-scroll select
+{
+	font-size: 75%;
+}
+.jcarousel-control .btn-num
+{
+	float: left;
+	width: 25px;
+	height: 21px;
+	color: #9C9C9C;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	background: transparent url(/i/innovate/btn_num.png) no-repeat left top;
+	padding-top: 4px;
+	margin-right: 8px;
+}
+.jcarousel-control .btn-num:hover,
+.jcarousel-control .btn-num.on
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	background-position: left -25px;
+}
+
+
+/* Prev Button */
+#engage-carousel-prev
+{
+	width: 36px;
+	height: 25px;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	background: transparent url(/i/innovate/btn_prev.png) no-repeat left top;
+	z-index: 2;
+}
+#engage-carousel-prev:hover
+{
+	background-position: left -25px;
+}
+
+/* Next Button */
+#engage-carousel-next
+{
+	width: 36px;
+	height: 25px;
+	left: 36px;
+	position: absolute;
+	top: 0px;
+	background: transparent url(/i/innovate/btn_next.png) no-repeat left top;
+	z-index: 2;
+}
+#engage-carousel-next:hover
+{
+	background-position: left -25px;
+}
+
+
+
+
+
+/* --- engage-info --- */
+#engage-info
+{
+	font-size: 12px;
+	font-family: Arial;
+}
+#engage-info .info-title
+{
+	color: #010101;
+	font-size: 16px;
+	font-family: "Myriad Pro", Arial;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
+#engage-info p
+{
+	text-align: left;
+	padding: 4px 0px 4px 0px;
+	line-height: 16px;
+}
+#engage-info .info-list-row
+{
+	height: 75px;
+	margin: 10px 0px 25px 0px;
+}
+#engage-info .info-list
+{
+	float: left;
+	width: 290px;
+	padding-left: 10px;
+}
+#engage-info .info-list.left-list
+{
+	float: left;
+	padding-left: 0px;
+}
+#engage-info .info-list img
+{
+	float: left;
+}
+#engage-info .info-list-title
+{
+	font-weight: bold;
+	margin-left: 56px;
+	padding: 0px;
+}
+#engage-info .info-list-desc
+{
+	margin-left: 56px;
+	padding: 0px;
+}
+#engage-info .no-hours
+{
+	padding-top: 15px;
+}
+#engage-info .no-hours img
+{
+	float: left;
+}
+#engage-info .no-hours p
+{
+	padding-top: 21px;
+	margin-left: 155px;
+}
+
+
+
+
+
+/* --- engage-contact --- */
+#engage-contact
+{
+	display: none;
+}
+#engage-contact .contact-title
+{
+	font-size: 12px;
+	font-family: Arial;
+	text-align: center;
+}
+#engage-contact .contact-title img
+{
+	margin: 10px;
+}
+#engage-contact .contact-title .title-info
+{
+	font-size: 14px;
+}
+
+#engage-contact .contact-left
+{
+	width: 265px;
+}
+#engage-contact .contact-right
+{
+	float: right;
+	width: 265px;
+}
+#engage-contact .contact-right div
+{
+	padding-bottom: 11px;
+}
+#engage-contact .contact-right p
+{
+	padding-bottom: 11px;
+}
+#engage-contact .contact-submit
+{
+	text-align: right;	
+}
+#contact-email-table
+{
+	width: 265px;
+}
+#contact-email-table td
+{
+	font-size: 11px;
+	text-align: right;
+	background-color: #FFFFFF;
+	border-width: 0px;
+	padding: 2px 2px;
+
+	white-space: nowrap;
+
+}
+#contact-email-table td .optional
+{
+	font-size: 10px;
+}
+#contact-email-table td .small
+{
+	width: 92px;
+}
+#contact-email-table td .medium
+{
+	width: 160px;
+}
+#contact-email-table td .large
+{
+	width: 260px;
+}
+#contact-email-table td .textarea
+{
+	width: 260px;
+	height: 100px;
+}
+

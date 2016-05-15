@@ -1,0 +1,1127 @@
+@charset "utf-8";
+/* CSS Document */
+/*************************************************/
+/*               TCO10      Stylesheet           */
+/*************************************************/
+/*       Create Date : Jan 15th, 2010            */
+/*************************************************/
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(/i/tournament/tco10/page-bg.gif) repeat-y center top;
+	font-size:62.5%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/**** the outest wrapper - whole web site ****/
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+	padding-bottom:40px;
+}
+/****** header *****/
+#header{   /**** top coder open logo ****/
+	height:183px;
+	width:100%;
+	position:relative;
+}
+        #header .logo{   /**** top coder open logo ****/
+			background:url(/i/tournament/tco10/logo.png) no-repeat left top;
+			width:250px;
+			height:183px;
+			margin:0 auto;
+			cursor:pointer;
+		}
+		#header .topcoderLogo{  /*** top coder logo ***/
+			background:url(/i/tournament/tco10/topcoder-logo.png) no-repeat left top;
+			width:173px;
+			height:26px;
+			position:absolute;
+			top:24px;
+			right:8px;
+			cursor:pointer;
+		}
+		#header .topcoderLogo a,#header .topcoderLogo a:visited{  /***** top coder link button ***/
+			height:25px;
+			display:block;
+			width:173px;
+		}
+		#header .logo a,#header .logo a:visited{  /***** top coder link button ***/
+			height:183px;
+			display:block;
+			width:250px;
+		}
+/**** content ****/
+#content{
+	width:1000px;
+	background:url(/i/tournament/tco10/gray-bg-middle.png) repeat-y left top !important;
+	background:url(/i/tournament/tco10/gray-bg-middle.gif) repeat-y left top;
+	margin-bottom:70px;
+	margin-top:3px;
+}
+        #content .contentInner{   /*** gray frame gradient background ***/
+			background:url(/i/tournament/tco10/gray-bg.gif) repeat-x left top;
+			width:982px;
+			margin:0 auto;
+			position:relative;
+		}
+		#content .contentInner .innerBottom{  /**** gray frame bottom wrapper ***/
+			position:absolute;
+			left:10px;
+			bottom:-39px;
+			width:98%;
+			height:40px;
+			background:url(/i/tournament/tco10/gray-bg-bottom-middle.png) repeat-x left bottom !important;
+			background:url(/i/tournament/tco10/gray-bg-bottom-middle.gif) no-repeat center top;
+		}
+		#content .contentInner .innerBottom .innerLeftBottom{   /****** gray frame left bottom corner **/
+			display:block;
+			position:absolute;
+			background:url(/i/tournament/tco10/gray-bg-left-bottom-corner.png) no-repeat left bottom !important;
+			background:url(/i/tournament/tco10/gray-bg-left-bottom-corner.gif) no-repeat left bottom;
+			width:19px;
+			height:40px;
+			bottom:-1px;
+			left:-19px;
+		}
+		#content .contentInner .innerBottom .innerRightBottom{   /**** gray frame right bottom corner ***/
+			display:block;
+			position:absolute;
+			background:url(/i/tournament/tco10/gray-bg-right-bottom-corner.png) no-repeat right bottom !important;
+			background:url(/i/tournament/tco10/gray-bg-right-bottom-corner.gif) no-repeat right bottom;
+			width:19px;
+			height:40px;
+			bottom:-1px;
+			right:-19px;
+		}
+		#content .register{  /****triangle area***/
+			background:url(/i/tournament/tco10/register.png) no-repeat left top !important;
+			background:url(/i/tournament/tco10/register.gif) no-repeat left top;
+			width:77px;
+			height:73px;
+			position:absolute;
+			z-index:10;
+			right:-2px;
+			top:-16px;
+		}
+				#content .register a,#content .register a:visited{  /****triangle link area***/
+					display:block;
+					width:45px;
+					height:45px;
+					float:right;
+					text-indent:99999px;
+					line-height:20em;  /*** firefox 2.0 ***/
+					position:relative;
+					overflow:hidden;
+				}
+/**** menu ***/
+#menu{
+	height:226px;
+	position:relative;
+	top:0px;
+	z-index:2;
+	background:url(/i/tournament/tco10/gray-head-bg.gif) repeat-x left -5px;
+	padding-left:20px;
+}
+		#menu .backgroundTop{      /*** gray frame top shadow**/
+			background:url(/i/tournament/tco10/gray-bg-top.png) repeat-x left top !important;
+			background:url(/i/tournament/tco10/gray-bg-top.gif) no-repeat center top;
+			margin:0 auto;
+			width:950px;
+			height:30px;
+			position:absolute;
+			top:-24px;
+			left:16px;
+			z-index:0;
+		}
+		#menu .backgroundTop .leftCorner{  /*** gray frame left top corner**/
+			display:block;
+			position:absolute;
+			background:url(/i/tournament/tco10/gray-bg-left-top-corner.png) no-repeat left top !important;
+			background:url(/i/tournament/tco10/gray-bg-left-top-corner.gif) no-repeat left top;
+			width:25px;
+			height:24px;
+			left:-25px;
+		}
+		#menu .backgroundTop .rightCorner{  /*** gray frame right top corner **/
+			display:block;
+			position:absolute;
+			background:url(/i/tournament/tco10/gray-bg-right-top-corner.png) no-repeat left top !important;
+			background:url(/i/tournament/tco10/gray-bg-right-top-corner.gif) no-repeat left top;
+			width:25px;
+			height:24px;
+			right:-25px;
+		}
+		#menu ul{     /***** the main menu ****/
+			position:relative;
+			z-index:20;
+			float:left;
+			top:-15px;
+		}
+				#menu ul li{
+					float:left;
+					background:url(/i/tournament/tco10/main-menu-line.gif) no-repeat left center;
+					width:117px;
+				}
+				#menu ul li.first{
+					background:none;
+				}
+				#menu ul li span.topIcon{   /**** item top sign ***/
+					display:block;
+					background-image:url(/i/tournament/tco10/main-menu-top-state.png)!important;
+					background-image:url(/i/tournament/tco10/main-menu-top-state.gif);
+					background-repeat:no-repeat;
+					background-position:0px 0px;
+					width:90px;
+					height:10px;
+					margin:0 auto;
+				}
+				#menu ul li.last span.topIcon{
+					background-position:0px -30px;
+				}
+				#menu ul li a,#menu ul li a:visited{
+					display:block;
+					width:100%;
+					height:114px;
+					overflow:hidden;
+				}
+						#menu ul li a span.itemIcon{    /**** item photo ***/
+							display:block;
+							background:url(/i/tournament/tco10/main-menu-image.png) no-repeat center top;
+							height:68px;
+							width:78px;
+							margin:0 auto;
+							margin-top:10px;
+							cursor:pointer;
+						}
+						/******** menu image ******/
+						#menu ul li.overview a span.itemIcon{
+							background:url(/i/tournament/tco10/main-menu-overview.png) no-repeat left top;
+						}
+						#menu ul li.algorithm a span.itemIcon{
+							background:url(/i/tournament/tco10/main-menu-Algorithm.png) no-repeat left top;
+						}
+						#menu ul li.design a span.itemIcon{
+							background:url(/i/tournament/tco10/main-menu-Design.png) no-repeat left top;
+						}
+						#menu ul li.development a span.itemIcon{
+							background:url(/i/tournament/tco10/main-menu-Development.png) no-repeat left top;
+						}
+						#menu ul li.marathon a span.itemIcon{
+							background:url(/i/tournament/tco10/main-menu-Marathon.png) no-repeat left top;
+						}
+						#menu ul li.moddash a span.itemIcon{
+							background:url(/i/tournament/tco10/main-menu-ModDash.png) no-repeat left top;
+						}
+						#menu ul li.studio a span.itemIcon{
+							background:url(/i/tournament/tco10/main-menu-Studio.png) no-repeat left top;
+						}
+						#menu ul li.arena a span.itemIcon{
+							background:url(/i/tournament/tco10/main-menu-Arena.png) no-repeat left top;
+						}
+						/******** menu text image *****/
+						#menu ul li a span.itemText{   /**** item text content ****/
+							display:block;
+							width:100%;
+							height:19px;
+							background-image:url(/i/tournament/tco10/main-menu-text.png) !important;
+							background-image:url(/i/tournament/tco10/main-menu-text.gif);
+							background-repeat:no-repeat;
+							margin:0 auto;
+							margin-top:15px;
+							margin-bottom:5px;
+							cursor:pointer;
+						}
+						#menu ul li.overview a span.itemText{
+							background-position:center 0px;
+						}
+						#menu ul li.algorithm a span.itemText{
+							background-position:center -19px;
+						}
+						#menu ul li.design a span.itemText{
+							background-position:center -38px;
+						}
+						#menu ul li.development a span.itemText{
+							background-position:center -57px;
+						}
+						#menu ul li.marathon a span.itemText{
+							background-position:center -76px;
+						}
+						#menu ul li.moddash a span.itemText{
+							background-position:center -114px;
+						}
+						#menu ul li.studio a span.itemText{
+							background-position:center -95px;
+						}
+						#menu ul li.arena a span.itemText{
+							background-position:center -133px;
+						}
+						#menu ul li a:hover span.itemText{
+							background-image:url(/i/tournament/tco10/main-menu-text-color.png) !important;
+							background-image:url(/i/tournament/tco10/main-menu-text-color.gif);
+							background-repeat:no-repeat;
+						}
+						#menu ul li.overview a:hover span.itemText{   /*** when hover, item text change color ***/
+							background-position:center 0px;
+						}
+						#menu ul li.algorithm a:hover span.itemText{
+							background-position:center -19px;
+						}
+						#menu ul li.design a:hover span.itemText{
+							background-position:center -38px;
+						}
+						#menu ul li.development a:hover span.itemText{
+							background-position:center -57px;
+						}
+						#menu ul li.marathon a:hover span.itemText{
+							background-position:center -76px;
+						}
+						#menu ul li.moddash a:hover span.itemText{
+							background-position:center -114px;
+						}
+						#menu ul li.studio a:hover span.itemText{
+							background-position:center -95px;
+						}
+						#menu ul li.arena a:hover span.itemText{
+							background-position:center -133px;
+						}
+						#menu ul li.actived span.green,#menu ul li.hover span.green{    /**** when actived, top sign change color ***/
+							background-position:-90px 0px;
+						}
+						#menu ul li.actived span.blue,#menu ul li.hover span.blue{
+							background-position:-180px 0px;
+						}
+						#menu ul li.actived span.orange,#menu ul li.hover span.orange{
+							background-position:-270px 0px;
+						}
+						#menu ul li.overview a.actived span.itemText{
+							background-image:url(/i/tournament/tco10/main-menu-text-color.png) !important;
+							background-image:url(/i/tournament/tco10/main-menu-text-color.gif);
+							background-position:center 0px;
+						}
+						#menu ul li.algorithm a.actived span.itemText{
+							background-image:url(/i/tournament/tco10/main-menu-text-color.png) !important;
+							background-image:url(/i/tournament/tco10/main-menu-text-color.gif);
+							background-position:center -19px;
+						}
+						#menu ul li.design a.actived span.itemText{
+							background-image:url(/i/tournament/tco10/main-menu-text-color.png) !important;
+							background-image:url(/i/tournament/tco10/main-menu-text-color.gif);
+							background-position:center -38px;
+						}
+						#menu ul li.development a.actived span.itemText{
+							background-image:url(/i/tournament/tco10/main-menu-text-color.png) !important;
+							background-image:url(/i/tournament/tco10/main-menu-text-color.gif);
+							background-position:center -57px;
+						}
+						#menu ul li.marathon a.actived span.itemText{
+							background-image:url(/i/tournament/tco10/main-menu-text-color.png) !important;
+							background-image:url(/i/tournament/tco10/main-menu-text-color.gif);
+							background-position:center -76px;
+						}
+						#menu ul li.moddash a.actived span.itemText{
+							background-image:url(/i/tournament/tco10/main-menu-text-color.png) !important;
+							background-image:url(/i/tournament/tco10/main-menu-text-color.gif);
+							background-position:center -114px;
+						}
+						#menu ul li.studio a.actived span.itemText{
+							background-image:url(/i/tournament/tco10/main-menu-text-color.png) !important;
+							background-image:url(/i/tournament/tco10/main-menu-text-color.gif);
+							background-position:center -95px;
+						}
+						#menu ul li.arena a.actived span.itemText{
+							background-image:url(/i/tournament/tco10/main-menu-text-color.png) !important;
+							background-image:url(/i/tournament/tco10/main-menu-text-color.gif);
+							background-position:center -133px;
+						}
+/**** welcome ***/
+#welcome{
+	width:94%;
+	margin:0 auto;
+	background:url(/i/tournament/tco10/line.gif) repeat-x left top;
+	margin-top:-106px;
+	position:relative;
+	z-index:4;
+}
+.crossButton{   /**** right cross button ***/
+	float:right;
+	background:url(/i/tournament/tco10/cross.png) no-repeat center center;
+	width:270px;
+	height:175px;
+	display:inline;
+	margin-right:15px;
+	margin-top:8px;
+}
+		.crossButton div{   /**** button dive  ***/
+			width:84px;
+			height:84px;
+			float:right;
+			margin-top:4px;
+			margin-left:4px;
+		}
+				.crossButton div a,.crossButton div a:visited{   /**** button link ***/
+					display:block;
+					width:66px;
+					height:65px;
+					margin-top:5px;
+					margin-left:6px;
+				}
+		.crossButton .blog{    /****** blog button *****/
+			background-image:url(/i/tournament/tco10/blog.png) !important;
+			background-image:url(/i/tournament/tco10/blog.gif);
+			background-repeat:no-repeat;
+			background-position:left top;
+		}
+		.crossButton .programe{    /****** programe button ****/
+			background-image:url(/i/tournament/tco10/programe.png) !important;
+			background-image:url(/i/tournament/tco10/programe.gif);
+		}
+		.crossButton .movie{    /****** movie button ****/
+			background-image:url(/i/tournament/tco10/movie.png) !important;
+			background-image:url(/i/tournament/tco10/movie.gif);
+		}
+		.crossButton .photo{   /******* photo button ****/
+			background-image:url(/i/tournament/tco10/photo.png) !important;
+			background-image:url(/i/tournament/tco10/photo.gif);
+		}
+		.crossButton .comics{   /******* photo button ****/
+			background-image:url(/i/tournament/tco10/comics.png) !important;
+			background-image:url(/i/tournament/tco10/comics.gif);
+		}
+		.crossButton .tweet{   /******* photo button ****/
+			background-image:url(/i/tournament/tco10/tweet.png) !important;
+			background-image:url(/i/tournament/tco10/tweet.gif);
+		}
+		.crossButton .hover{
+			background-position:left -84px;
+		}
+/****** left welcome text wrapper *****/
+.welcomeText{
+	width:630px;
+	height:300px;
+}
+		.welcomeText .welcomeTitle{   /******* text title ******/
+			font-family:"MyriadPro-BoldCond","Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size:32px;
+			color:#ffffff;
+			padding-top:16px;
+			margin-bottom:8px;
+		}
+				.welcomeText .welcomeTitle span{
+					color:#0a75b6;
+				}
+		.welcomeText p{
+			color:#969696;
+		}
+		.welcomeText p span.blue{
+			color:#0a75b6;
+			font-weight:bold;
+		}
+/**** content -main body ***/
+#mainbody{
+	width:94%;
+	margin:0 auto;
+	background:#0f0f0f url(/i/tournament/tco10/nav-bg.gif) repeat-x left top;  /***** inner gradient black background ***/
+	position:relative;
+	border-left:1px #141414 solid;
+	border-right:1px #141414 solid;
+	border-bottom:1px solid #3f3f3f;
+	margin-top:15px;
+	z-index:10;
+}
+		#mainbody .leftTop{    /********* inner left top corner ****/
+			display:block;
+			position:absolute;
+			background:url(/i/tournament/tco10/nav-bg-left-top.gif) no-repeat left top;
+			width:7px;
+			height:7px;
+			left:-1px;
+			top:0;
+		}
+		#mainbody .rightTop{   /********* inner right top corner ****/
+			display:block;
+			position:absolute;
+			background:url(/i/tournament/tco10/nav-bg-right-top.gif) no-repeat left top;
+			width:7px;
+			height:7px;
+			right:-1px;
+			top:0;
+		}
+		#wrapper .singleMainBody{   /****** sub page main body ***/
+			margin-top:-100px;
+		}
+		#wrapper .singleMainBody .leftTop{
+			background:url(/i/tournament/tco10/nav-bg-left-top-light.gif) no-repeat left top;
+		}
+		#wrapper .singleMainBody .rightTop{
+			background:url(/i/tournament/tco10/nav-bg-right-top-light.gif) no-repeat left top;
+		}
+		#mainbody .leftBottom{    /****** inner left bottom corner ****/
+			display:block;
+			position:absolute;
+			background:url(/i/tournament/tco10/mian-body-left-bottom.gif) no-repeat left top;
+			width:8px;
+			height:8px;
+			left:-1px;
+			bottom:-1px;
+		}
+		#mainbody .rightBottom{   /****** inner right bottom corner ****/
+			display:block;
+			position:absolute;
+			background:url(/i/tournament/tco10/mian-body-right-bottom.gif) no-repeat left top;
+			width:8px;
+			height:8px;
+			right:-1px;
+			bottom:-1px;
+		}
+
+		#mainbody .legend {
+			text-align:right;
+			position:relative;
+			margin-left:530px;
+			margin-top:-25px;
+		}
+
+			#mainbody .legend p {
+				color:white;
+			}
+
+			#mainbody .legend img {
+				padding:0 5px;
+			}
+
+				#mainbody .legend img.did_not_compete {
+					margin-right:3px;
+				}
+
+/**** footer ***/
+#footer{
+	text-align:center;
+}
+		#footer ul{
+			width:700px;
+			margin:0 auto;
+		}
+		#footer ul.small{
+			width:240px;
+		}
+			#footer ul li{
+				float:left;
+				border-right:1px #969696 solid;
+				padding:0 10px;
+				margin-bottom:10px;
+			}
+			#footer ul li.last{
+				border:none;
+			}
+					#footer ul li a,#footer ul li a:visited{
+						color:#FFF;
+						font-size:1.2em;
+						text-decoration:none;
+					}
+					#footer ul li a:hover{
+						text-decoration:underline;
+					}
+		#footer p{
+			color:#FFF;
+			font-size:1.1em;
+			margin-top:8px;
+		}
+/***** sub Menu ****/
+.subMenu{        /**** secondary navigation and  tertiary navigation ***/
+	width:100%;
+}
+		.subMenu .secondaryNav{    /****  secondary navigation ***/
+			display:inline-block;
+			margin:0 auto;
+			margin-left:10px;
+			margin-top:3px;
+			position:relative;
+			float:left;
+			margin-bottom:-11px;
+			min-height:30px !important;
+			height:30px;
+		}
+				.subMenu .secondaryNav li{
+					float:left;
+					margin-right:40px;
+				}
+						.subMenu .secondaryNav li a,.subMenu .secondaryNav li a:visited{
+							color:#fc7b1f;
+							padding:9px 15px 10px 30px;
+							font-size:1.2em;
+							text-decoration:none;
+							display:block;
+						}
+
+						.subMenu .secondaryNav.overviewNav li a {
+							padding:9px 6px 10px 20px;
+						}
+						.subMenu .secondaryNav li a:hover{
+							color:#FFF;
+						}
+						.subMenu .secondaryNav li.actived a,.subMenu .secondaryNav li.actived a:visited{
+							background:#373737 url(/i/tournament/tco10/secondNav-middle.gif) repeat-x left top;
+							border-left:1px #000 solid;
+							border-right:1px #000 solid;
+							position:relative;
+							color:#FFF;
+							font-weight:bold;
+						}
+
+						.subMenu .secondaryNav.overviewNav li.actived a {
+							padding-right:15px;
+							padding-left:25px;
+						}
+						.subMenu .secondaryNav li.actived a span.left{  /***** a's left corner ****/
+							display:block;
+							background:#262626 url(/i/tournament/tco10/secondNav-left.gif) no-repeat left top;
+							width:20px;
+							height:31px;
+							position:absolute;
+							left:-1px;
+							top:0;
+						}
+						.subMenu .secondaryNav li.actived a span.right{   /***** a's right corner ****/
+							display:block;
+							background:#262626 url(/i/tournament/tco10/secondNav-right.gif) no-repeat left top;
+							width:6px;
+							height:31px;
+							position:absolute;
+							right:-1px;
+							top:0px;
+						}
+		.subMenu .tertiaryNav{  /*** tertiary navigation ****/
+			width:100%;
+			padding-bottom:1px;
+			min-height:31px !important;
+			height:31px;
+			background-color:#373737;
+			margin-top:11px;
+			float: left;
+		}
+		.subMenu .tertiaryNav ul{
+			float:left;
+		}
+				.subMenu .tertiaryNav ul li{
+					float:left;
+					padding:0 45px;
+					margin-right:-20px;
+				}
+						.subMenu .tertiaryNav ul li a,.subMenu .tertiaryNav ul li a:visited{
+							color:#fc7b1f;
+							display:block;
+							text-decoration:none;
+							font-size:1.1em;
+							padding:10px 0;
+						}
+						.subMenu .tertiaryNav ul li a:hover{
+							color:#FFF;
+						}
+						.subMenu .tertiaryNav ul li.actived{
+							   background:#373737 url(/i/tournament/tco10/thirdNav-actived.gif) no-repeat center bottom;
+						}
+						.subMenu .tertiaryNav ul li.hover{
+							   background:#373737 url(/i/tournament/tco10/thirdNav-actived.gif) no-repeat center bottom;
+						}
+						.subMenu .tertiaryNav ul li.actived a,.subMenu .tertiaryNav ul li.actived a:visited{
+							color:#FFF;
+							font-weight:bold;
+							background:none;
+							border:none;
+						}
+/***** home page ***/
+.homepage .bigColumn,.singlePage .bigColumn{
+	margin-right:25px;
+}
+.homepage .smallColumn,.singlePage .smallColumn{
+	margin-top:3px;
+}
+.homepage .homeMainBody{
+	padding-bottom:107px;
+}
+
+.singlePage .singleMainBody{
+	margin-top:-150px;
+}
+/*** colomn ***/
+.bigColumn{
+	width:655px;
+	padding-left:20px;
+	float:left;
+	padding-top:10px;
+}
+.bigColumn .text{
+	padding-left:10px;
+}
+.smallColumn{
+	width:200px;
+	float:left;
+}
+/*** table style ***/
+table{
+	width:98%;
+	margin:0 auto;
+	margin-top:13px;
+	margin-bottom:13px;
+}
+
+table a, table a:visited {
+	cursor: pointer;
+	color: #51abdd;
+	text-decoration:underline;
+}
+
+table a:hover {
+	cursor: pointer;
+	color: #fff;
+	text-decoration:underline;
+}
+
+table.leaderboard  td{
+	text-align:center;
+}
+
+table.leaderboard td.handle {
+	text-align:left;
+	padding-right:37px;
+}
+
+table.leaderboard td.rating {
+	text-align:left;
+	padding-left:15px;
+}
+
+
+table.leaderboard th {
+	text-decoration:underline;
+	padding-top:6px;
+}
+
+table.leaderboard th.last .right {
+	margin-top:-6px !important;
+}
+
+table.leaderboard th.handle .space {
+	width:105px;
+}
+
+table.leaderboard th input {
+	width:55px;
+	height:15px;
+	margin-top:-4px;
+	margin-left:4px;
+	position:absolute;
+
+}
+
+table.leaderboard p {
+	font-size:12px;
+}
+
+table tr th{
+	background:#1e96d8 url(/i/tournament/tco10/table-header-middle.gif) repeat-x left bottom;
+	padding:6px 13px 8px 13px;
+	color:#FFF;
+	font-size:1.2em;
+	font-weight:bold;
+	text-align:left;
+}
+table tr th span.left{    /***** table thead left corner *****/
+	display:inline-block;
+	float:left;
+	margin-left:-13px;
+	margin-top:-6px;
+	background:url(/i/tournament/tco10/left-top-corner-black.png) no-repeat left top !important;
+	background:url(/i/tournament/tco10/left-top-corner-black.gif) no-repeat left top;
+	width:7px;
+	height:5px;
+}
+table tr th span.right{   /***** table thead right corner *****/
+	display:inline-block;
+	float:right;
+	margin-right:-13px;
+	margin-top:-6px;
+	background:url(/i/tournament/tco10/right-top-corner-black.png) no-repeat right top !important;
+	background:url(/i/tournament/tco10/right-top-corner-black.gif) no-repeat right top;
+	width:7px;
+	height:5px;
+}
+table tr td{
+	background:#3c3c3c url(/i/tournament/tco10/table-td-bg.gif) repeat-x left bottom;
+	padding:7px 13px;
+	border-bottom:1px #505050 solid;
+	font-size:1.2em;
+	color:#dddddd;
+	line-height: 1.5em;
+}
+table tr.last td{
+	border-bottom:none;
+}
+table tr td.even{    /***** even tr background ****/
+	background:#282828 url(/i/tournament/tco10/table-td-bg.gif) repeat-x left bottom;
+}
+
+table tr td.round{
+			width:10%;
+			}
+table tr td.time{
+			width:34%;
+			}
+table tr td.number{
+			width:10%;
+			}
+
+/**** paging **/
+.paging {
+	padding:10px;
+	margin-bottom:50px !important;
+}
+
+	.paging .show, .paging .gopage, .paging .nextprev {
+		float:left;
+	}
+
+	.paging .nextprev {
+		float:right;
+	}
+
+	.paging .gopage {
+		margin-left:90px;
+		width:120px;
+
+	}
+
+
+	.paging .gopage input {
+		width:30px;
+		height:15px;
+	}
+
+	.paging .nextprev {
+		margin-left:0px;
+	}
+
+	.paging .nextprev .button2 {
+		padding-top:4px;
+	}
+
+/**** section style **/
+.section{     /***** right photo *****/
+	width:100%;
+	margin-bottom:20px;
+}
+		.section h4.sectionTitle{
+			color:#0a75b6;
+			font-size:1.3em;
+			font-weight:bold;
+			text-align:center;
+			padding:10px 9px;
+			background:url(/i/tournament/tco10/table-td-bg.gif) repeat-x left bottom;
+			border-bottom:1px #3b3b3b solid;
+			margin-bottom:13px;
+		}
+		.section .logo{
+			font-family:Arial, Helvetica, sans-serif;
+			width:170px;
+			height:120px;
+			text-align:center;
+			font-size:2.0em;
+			line-height:5.3em;
+			margin:0 auto;
+			position:relative;
+			border:0px;
+		}
+		.section .logo a {
+			text-decoration: none;
+			cursor:pointer
+		}
+		.section .rules{
+			color:#7d7d7d;
+			font-family:Arial, Helvetica, sans-serif;
+			width:500px;
+			height:120px;
+			background-color:#191919;
+			text-align:left;
+			font-size:12px;
+			line-height:16px;
+			margin:0 auto;
+			border:1px #787878 solid;
+			padding: 15px;
+			float: left;
+		}
+		.section .small{
+			height:70px;
+			font-size:1.8em;
+			line-height:4.0em;
+		}
+
+
+
+/**** page node ***/
+h6.node{
+	background:url(/i/tournament/tco10/table-td-bg.gif) repeat-x left bottom;
+	border-bottom:1px #3b3b3b solid;
+	font-size:13px;
+	font-weight:normal;
+	color:#969696;
+	padding-bottom:9px;
+	padding-top:5px;
+}
+		h6.node span{
+			color:#55b445;
+		}
+h2.pageTitle{
+	color:#FFF;
+	font-size:18px;
+	background:url(/i/tournament/tco10/page-title-icon.gif) no-repeat left 13px;
+	padding:15px 10px 10px 33px;
+}
+h3.subTitle{
+	color:#fc7b1f;
+	font-size:16px;
+	background:url(/i/tournament/tco10/sub-title-icon.gif) no-repeat left 5px;
+	padding-left:10px;
+	margin:15px 0 5px 0;
+}
+/***** p ****/
+p{
+	color:#adadad;
+	font-size:1.2em;
+	line-height:1.5em;
+	margin-bottom:15px;
+}
+		p a,.welcomeText p a:visited{
+			color:#0a75b6;
+		}
+		p a:hover{
+			color:#fff;
+		}
+		p span{
+			font-weight:bold;
+		}
+		p span.orange{
+			color:#fc7b1f;
+		}
+		p span.red{
+			color:#ee0000;
+		}
+		p span.yellow{
+			color:#ddcc00;
+		}
+		p span.purple{
+			color:#6666ff;
+		}
+		p span.green{
+			color:#00a900;
+		}
+		p span.gray{
+			color:#999999;
+		}
+		p span.write{
+			color:#ffffff;
+		}
+
+
+/**** button ***/
+a.textHide,a.textHide:visited{   /***** link text not show ****/
+	display:block;
+	text-indent:99999px;
+	overflow:hidden;
+}
+
+a.button, a.button2 {
+	width:96px;
+	height:20px;
+	background:url(/i/tournament/tco10/button1_on.png) no-repeat;
+	display:block;
+	text-align:center;
+	font-size:11px;
+	font-weight:bold;
+	color:#252525;
+	text-decoration:none;
+	padding-top:3px;
+	float:left;
+	margin-right:6px;
+}
+
+a.button.small {
+	background:url(/i/tournament/tco10/small_button.png) no-repeat;
+	width:36px !important;
+	height:20px;
+	float:none;
+	margin-left:45px;
+	margin-top:-20px;
+	/*padding-top:1px;*/
+}
+
+a.button.off {
+	background:url(/i/tournament/tco10/button1_off.png) no-repeat;
+}
+
+a.button2 {
+	width:56px;
+	background:url(/i/tournament/tco10/button2_on.png) no-repeat;
+}
+
+a.button2.off {
+	background:url(/i/tournament/tco10/button2_off.png) no-repeat;
+}
+
+.buttons_bar {
+	height:30px;
+	width:100%;
+	background-color:#2d2d2d;
+
+}
+
+	.buttons_bar .left {
+		background:url(/i/tournament/tco10/buttons_bar_left.png) no-repeat;
+		height:100%;
+		padding:5px;
+	}
+
+	.buttons_bar .right {
+		background:url(/i/tournament/tco10/buttons_bar_right.png) right 0px no-repeat;
+		height:100%;
+		padding:5px;
+		float:right;
+	}
+
+.left {
+	float:left;
+}
+
+/***** bulleted & numbered lists, not present in original style ****/
+/***** edit this to change the lists within main / copy - EX: Studio Rules ****/
+
+ol.textlist {
+	margin-left:20px;
+	text-indent: 0;
+	list-style-position:iside;
+	list-style:decimal;
+}
+ol.textlist li {
+	margin:0 5px;
+	padding:0;
+	font-size:1.2em;
+	line-height:1.5em;
+	color:#adadad;
+
+}
+ul.textlist {
+	margin-left:20px;
+	text-indent: 0;
+	list-style-position:iside;
+	list-style:disc;
+}
+ul.textlist li {
+	margin:0 5px;
+	padding:0;
+	color:#adadad;
+	font-size:1.2em;
+	line-height:1.5em;
+
+}
+
+.textlist li a, .textlist li a:visited {
+	color:#0a75b6;
+	cursor: pointer;
+	text-decoration:underline;
+}
+
+.textlist li a:hover {
+	color:#fff;
+	cursor: pointer;
+	text-decoration:underline;
+}
+
+/***** 3rd level header, not present in original style ****/
+/***** edit this to change the bold/white text indicating subsection headers - EX: Studio Rules ****/
+
+span.high, p.high{
+	color:#ffffff;
+	font-weight:bold;
+}
+
+/***** table items BOLD and colored, not present in original style ****/
+/***** edit this to change the bold/white text of REGISTER and START in schedule tables - EX: Algorithm schedule table ****/
+
+table tr td span.high {
+	color:#ffffff;
+	font-weight:bold;
+}
+
+/***** Smaller text and italic text paragraphs for notes in content, not present in original style ****/
+/***** edit this to change the smaller or italicized noted text in main / copy  - EX: text below Algorithm schedule table ****/
+
+p.note{
+	font-size:1.1em;
+	padding-top:1em;
+}
+p.imp-note{
+	font-size:1.1em;
+	font-style:oblique;
+	padding-top:1em;
+}
+
+
+/***** other ****/
+.hide{
+	display:none;
+}
+.clear{
+	clear:both;
+}
+
+.coderTextRed, .coderTextYellow, .coderTextBlue, .coderTextGreen, .coderTextGray, .coderTextOrange {
+font-weight: bold;
+background-color: transparent;
+}
+.coderTextRed:link, .coderTextYellow:link, .coderTextBlue:link, .coderTextGreen:link, .coderTextGray:link, .coderTextOrange:link, .coderTextWhite:link, .coderTextBlack:link {
+text-decoration: none;
+}
+.coderTextRed:visited, .coderTextYellow:visited, .coderTextBlue:visited, .coderTextGreen:visited, .coderTextGray:visited, .coderTextOrange:visited, .coderTextWhite:visited, .coderTextBlack:visited {
+text-decoration: none;
+}
+.coderTextRed:hover, .coderTextYellow:hover, .coderTextBlue:hover, .coderTextGreen:hover, .coderTextGray:hover, .coderTextOrange:hover, .coderTextWhite:hover, .coderTextBlack:hover {
+text-decoration: underline;
+}
+.coderTextRed:active, .coderTextYellow:active, .coderTextBlue:active, .coderTextGreen:active, .coderTextGray:active, .coderTextOrange:active, .coderTextWhite:active, .coderTextBlack:active {
+text-decoration: underline;
+}
+
+/* Orange */
+.coderTextOrange, .coderTextOrange:link, .coderTextOrange:visited, .coderTextOrange:hover, .coderTextOrange:active { color: #FF9900; }
+/* Red */
+.coderTextRed, .coderTextRed:link, .coderTextRed:visited, .coderTextRed:hover, .coderTextRed:active { color: #EE0000; }
+/* Yellow */
+.coderTextYellow, .coderTextYellow:link, .coderTextYellow:visited, .coderTextYellow:hover, .coderTextYellow:active { color: #DDCC00; }
+/* Blue */
+.coderTextBlue, .coderTextBlue:link, .coderTextBlue:visited, .coderTextBlue:hover, .coderTextBlue:active { color: #6666FF; }
+/* Green */
+.coderTextGreen, .coderTextGreen:link, .coderTextGreen:visited, .coderTextGreen:hover, .coderTextGreen:active { color: #00A900; }
+/* Gray */
+.coderTextGray, .coderTextGray:link, .coderTextGray:visited, .coderTextGray:hover, .coderTextGray:active { color: #999999; }
+/* White */
+.coderTextWhite, .coderTextWhite:link, .coderTextWhite:visited, .coderTextWhite:hover, .coderTextWhite:active { color: #FFFFFF; }
+/* Black */
+.coderTextBlack, .coderTextBlack:link, .coderTextBlack:visited, .coderTextBlack:hover, .coderTextBlack:active { color: #AA66FF; }
+
+#qualificationLeaderboard  td{
+	text-align:left;
+}
+
+.center {
+    text-align:center;
+}
+
+span.bigGreen {
+    color: #009900;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+span.bigRed {
+    color: #FF0000;
+    font-weight: bold;
+    text-decoration: none;
+}

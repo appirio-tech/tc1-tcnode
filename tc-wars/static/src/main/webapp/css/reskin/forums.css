@@ -1,0 +1,700 @@
+.mainContent {
+    width: 100% !important;
+    margin: 30px 10px !important;
+}
+
+.rtBody {
+    padding-left: 35px !important;
+}
+
+.rtBody table {
+    width: 95%;
+}
+
+.rtBody .pageSubtitle {
+    display: none;
+}
+
+.rtBody #Options {
+    margin-top: 5px;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #777777;
+}
+
+.rtBody .controls {
+    text-align: center;
+}
+
+.rtBody p {
+    color: #666666;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 18px 0;
+}
+
+.rtBody textarea {
+    height: 400px;
+    resize: vertical;
+}
+
+.rtBody input[type=text],
+.rtBody textarea {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    background: #ffffff;
+    border: 1px solid #e7e7e7;
+    padding: 6px 8px;
+    line-height: 20px;
+    border-radius: 4px;
+    color: #0E2233;
+    width: 700px;
+    margin: 3px 0 8px;
+}
+
+.rtBody select {
+    font-weight: normal;
+    color: #0E2233;
+}
+
+.rtBody .info-message td {
+    padding-top: 15px;
+}
+
+/* common
+--------------------*/
+.rtThreadCell,
+.rtThreadCellWrap {
+    font-weight: 400;
+}
+
+a.rtLinkBold, a.rtLinkNew {
+    font-weight: bold !important;
+}
+
+.rtTable .rtThreadCellWrap b,
+.rtTable .rtThreadCellWrap strong {
+    font-weight: bold;
+}
+
+.rtTextCell b, .rtTextCell100 b, .rtTextCell strong, .rtTextCell100 strong {
+    font-weight: bold;
+}
+
+.rtThreadCellWrap a {
+    color: #333333;
+}
+
+.rtThreadCellWrap a:visited {
+    color: #666666;
+}
+
+.rtThreadCellWrap a:hover {
+    color: #0088cc;
+}
+
+.pageTitleTable {
+    font-size: 24px;
+    color: #333333;
+    border-bottom: 1px solid #e7e7e7;
+    line-height: 40px;
+    margin-bottom: 6px;
+}
+
+.thin-sep {
+    display: inline-block;
+    color: #cccccc;
+    margin: 0 8px;
+}
+
+.collapseRead1,
+.collapseRead2 {
+    float: left;
+}
+
+.collapseRead1 {
+    line-height: 34px;
+}
+
+.collapseRead2 {
+    padding-left: 4px;
+    line-height: 15px;
+}
+
+.collapseRead2 span {
+    display: block;
+    color: #aaaaaa;
+    font-size: 12px;
+}
+
+.rtDescIndent {
+    font-size: 12px;
+    color: #666666;
+}
+
+/* rt table
+----------------*/
+.rtTable {
+    border: 1px solid #e7e7e7;
+    border-bottom: 5px solid #e7e7e7;
+    font-size: 14px;
+    color: #0e2233;
+    margin-bottom: 10px;
+}
+
+.rtTable .rtTextCell100 {
+    font-weight: normal;
+    width: 100%;
+    padding: 12px 19px 12px 13px;
+}
+
+.rtTable .rtTextCell100 b {
+    font-weight: bold;
+    display: inline-block;
+    padding: 4px 0 2px;
+}
+
+.rtTable .rtHeader {
+    border-top: 1px solid #e7e7e7;
+    background: #f1f1f1;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.rtTable td {
+    width: auto;
+    padding: 12px 10px 11px;
+    line-height: 17px;
+    border-bottom: 1px solid #e7e7e7;
+    vertical-align: middle;
+}
+
+.rtTable .rtTextCell,
+.rtTable .rtTextCellHlt {
+    width: 100%;
+    vertical-align: top;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.rtTable .rtTextCellHlt {
+    background: #fffdcf;
+    font-size: 14px !important;
+}
+
+.rtTable input,
+.rtTable label {
+    vertical-align: middle;
+}
+
+.rtTable input[type=checkbox], .rtTable input[type=radio] {
+    margin: 3px;
+}
+
+#infoRate {
+    display: block;
+    font-size: 13px;
+    color: #666666;
+    line-height: 20px;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+.rtTable .rtHeader .pointer {
+    color: #666666;
+    cursor: pointer;
+}
+
+.rtTable .rtHeader .pointer:hover {
+    color: #ffb800;
+}
+
+.rtTable .rtHeader a[name] {
+    color: #666666;
+}
+
+/* post table
+----------------------*/
+.rtTablePost {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 10px !important;
+}
+
+.rtTablePost .rtHeader {
+    font-size: 13px;
+    color: #666666;
+}
+
+.rtTablePost .rtHeader a,
+.rtTablePostHistory .rtThreadCellWrap a {
+    color: #0071BC;
+}
+
+.rtTablePost .rtHeader a:hover,
+.rtTablePostHistory .rtThreadCellWrap a:hover {
+    color: #ffb800;
+}
+
+/* rt poster cell
+----------------------*/
+.rtTable .rtPosterCell {
+    background: #f7f7f7;
+    vertical-align: top;
+    padding-top: 15px;
+    font-size: 12px !important;
+}
+
+.rtPosterSpacer > a {
+    font-size: 13px;
+    color: #0071bc;
+}
+
+.rtPosterSpacer .bodyText {
+    font-size: 15px;
+}
+
+.rtPosterSpacer {
+    width: 100px;
+}
+
+/* heading table
+------------------- */
+.rtbcTable {
+    color: #666666;
+}
+
+.rtbcTable .search {
+    vertical-align: top;
+    height: 20px;
+    display: inline-block;
+    background: url(/i/reskin/search-icon-gray.png) no-repeat;
+    padding-left: 25px;
+}
+
+.rtbcTable .singleSearch {
+    float: right;
+}
+
+.rtbcTable .categoriesBox {
+    padding-bottom: 30px;
+}
+
+.rtHeader[align=center] {
+    text-align: left;
+}
+
+.rtbcTable .rss {
+    font-weight: 600;
+    color: #666666;
+    display: inline-block;
+    padding-left: 22px;
+    line-height: 18px;
+    background: url(/i/reskin/rss.png) no-repeat;
+}
+
+.rtbcTable {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+}
+
+.rtbcTable .searchBox {
+    text-align: right;
+    color: #cccccc;
+}
+
+.rtbcTable .rtbc {
+    vertical-align: middle;
+    padding-bottom: 2px;
+}
+
+/* breadcrumbs
+----------------------*/
+.rtBody .breadcrumbs {
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 6px !important;
+    vertical-align: middle;
+    color: #666666;
+}
+
+.rtBody .breadcrumbs b,
+.rtBody .breadcrumbs strong {
+    font-weight: normal;
+}
+
+.rtBody .breadcrumbs img {
+    display: none;
+}
+
+.rtBody .breadcrumbs .rtbcLink {
+    display: inline-block;
+    background: url(/i/reskin/breadcrumb-arrow.png) right center no-repeat;
+    padding-right: 15px;
+    margin-right: 7px;
+}
+
+.rtTable .rtbcLinkNew {
+    font-weight: 600;
+}
+
+.rtHeader .rtbcLink {
+    color: #0071bc;
+}
+
+.rtBody .coderTextBlue,
+.rtBody .coderTextRed,
+.rtBody .coderTextOrange,
+.rtBody .coderTextYellow,
+.rtBody .coderTextGreen,
+.rtBody .coderTextGray,
+.rtBody .coderTextBlack {
+    font-weight: 600;
+}
+
+/* rt search
+-------------------*/
+.rtSearch {
+    border-width: 1px;
+}
+
+.rtSearch tr {
+    height: 45px;
+}
+
+.rtSearch .rtTextCell {
+    width: 140px;
+}
+
+.rtSearch .rtTextCell,
+.rtSearch .rtTextCell100 {
+    vertical-align: middle;
+    border-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.rtSearch .first td {
+    padding-top: 10px;
+    height: 45px;
+}
+
+.rtSearch .last td {
+    padding-bottom: 17px;
+    height: 45px;
+}
+
+.rtSearch input[type=text] {
+    width: 265px;
+    margin-right: 5px;
+}
+
+.rtSearch select {
+    width: 283px;
+    margin-right: 5px;
+}
+
+.rtSearch #resultSize {
+    width: 70px;
+}
+
+.searchControls .btn {
+    width: 80px;
+}
+
+.searchControls .rtLinkOld {
+    font-size: 12px;
+    color: #00aeff;
+}
+
+.rtTableSearchResult {
+    margin-bottom: 0;
+}
+
+.rtTableSearchResult td[align=center] {
+    width: 16%;
+}
+
+.rtBody .paging {
+    padding: 5px 0 7px;
+}
+
+.rtBody .topLinksL {
+    float: left;
+}
+
+.rtBody .topLinksR {
+    color: #666666;
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.rtBody .topLinksR b {
+    font-weight: normal;
+}
+
+.rtBody .rtFooter {
+    padding: 10px 0;
+}
+
+.rtBody .rtFooter .btn {
+    width: auto;
+    margin: 0 2px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.rtBody .bodySubtitle {
+    font-weight: bold;
+    padding: 5px 0;
+    display: inline-block;
+    color: #666666;
+}
+
+/* thread nav
+---------------------*/
+.thread-nav, .view-nav {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.nextThread,
+.prevThread {
+    font-weight: normal;
+    background: url(/i/reskin/thread-icons.png) no-repeat;
+}
+
+.prevThread {
+    padding-left: 16px;
+    background-position: left 3px;
+}
+
+.nextThread {
+    padding-right: 16px;
+    background-position: right -17px;
+}
+
+/* tabs
+---------------------*/
+.rtBody .tabs {
+    padding: 5px 0;
+    height: 20px;
+    line-height: 20px;
+}
+
+.rtBody .tabs li {
+    height: 20px;
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.rtBody .tabs .current a {
+    color: #666666;
+    cursor: default;
+}
+
+.rtBody .tabs .separator {
+    color: #cccccc;
+    margin: 0 10px;
+}
+
+/* Coder colors
+-------------------*/
+.rtBody a.coderTextRed,
+.rtBody a.coderTextRed:hover {
+    color: #ee0000;
+}
+
+.rtBody a.coderTextOrange,
+.rtBody a.coderTextOrange:hover {
+    color: #fc9900;
+}
+
+.rtBody a.coderTextGreen,
+.rtBody a.coderTextGreen:hover {
+    color: #00a95f;
+}
+
+.rtBody a.coderTextYellow,
+.rtBody a.coderTextYellow:hover {
+    color: #e8d700;
+}
+
+.rtBody a.coderTextGray,
+.rtBody a.coderTextGray:hover {
+    color: #999999;
+}
+
+.rtBody a.coderTextBlue,
+.rtBody a.coderTextBlue:hover {
+    color: #6666ff;
+}
+
+.rtBody a.coderTextBlack,
+.rtBody a.coderTextBlack:hover {
+    color: #000000;
+}
+
+.rtBody a.coderTextRed:hover,
+.rtBody a.coderTextOrange:hover,
+.rtBody a.coderTextGreen:hover,
+.rtBody a.coderTextYellow:hover,
+.rtBody a.coderTextGray:hover,
+.rtBody a.coderTextBlue:hover,
+.rtBody a.coderTextBlack:hover {
+    text-decoration: underline;
+}
+
+.rtBody .coderTextBlue, .rtBody .coderTextRed, .rtBody .coderTextOrange, .rtBody .coderTextYellow, .rtBody .coderTextGreen, .rtBody .coderTextGray, .rtBody .coderTextBlack {
+   font-size: 13px !important;
+}
+
+/* paging
+-----------------------*/
+.paging {
+    float: right;
+    padding: 15px 10px;
+}
+
+.paging li {
+    color: #666666;
+    float: left;
+    width: 20px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.paging li a {
+    display: inline-block;
+    height: 16px;
+}
+
+.paging .page-first,
+.paging .page-prev,
+.paging .page-next,
+.paging .page-last {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(/i/reskin/paging-arrows.png) no-repeat;
+}
+
+.paging a.page-first {
+    background-position: 0 2px;
+}
+
+.paging a.page-prev {
+    background-position: -16px 2px;
+}
+
+.paging a.page-next {
+    background-position: -32px 2px;
+}
+
+.paging a.page-last {
+    background-position: -48px 2px;
+}
+
+.paging .page-first {
+    background-position: -64px 2px;
+}
+
+.paging .page-prev {
+    background-position: -80px 2px;
+}
+
+.paging .page-next {
+    background-position: -96px 2px;
+}
+
+.paging .page-last {
+    background-position: -112px 2px;
+}
+
+.rtTableSettings {
+    border-bottom-width: 1px;
+}
+
+.rtTableSettings .rtThreadCell {
+    border-bottom: 0;
+}
+
+.rtTableSettings label {
+    font-size: 15px;
+}
+
+.rtTableSettings .watchEmail {
+    color: #aaaaaa;
+}
+
+.rtTableSettings .rtThreadCellWidth {
+    width: 245px;
+}
+
+.rtTableSettings .rtThreadCellWidth strong {
+    width: 224px;
+    display: block;
+}
+
+span.bigRed a.bigRed {
+    color: #0071bc !important;
+    font-size: 14px;
+}
+
+span.bigRed a.bigRed:hover {
+    color: #0071bc;
+    text-shadow: 0 0 3px #989898;
+}
+
+.attachFilesTable td, .attachFilesTable td input {
+    font-size: 13px;
+    padding-top:5px;
+}
+
+span.notes {
+    color: #666666 !important;
+    font-size: 13px;
+    display: block;
+    margin-top: 3px;
+}
+
+.tabTable {
+    margin-bottom: 10px;
+}
+
+table.mainContent .pageTitleTable {
+    display: block !important;
+}
+
+.tableSubHeader {
+    color:#666666;font-size:14px;
+}
+
+.rtThreadCell {
+    font-size: 13px;
+}
+
+pre { color: #990000; }
+
+.pointer {
+    cursor: pointer;
+}
+
+.rtThreadCell b a.rtLinkNew {
+    font-weight: normal !important;
+}
+
+.rtTable tbody tr td {
+    background-color: #FCFCFC;
+}
+
+
+
+

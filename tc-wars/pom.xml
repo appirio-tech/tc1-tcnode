@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <name>topcoder-war-root</name>
+    <parent>
+        <artifactId>topcoder-parent</artifactId>
+        <groupId>topcoder</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>topcoder-war-root</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>common</module>
+        <module>tc</module>
+        <module>admin</module>
+        <module>query</module>
+        <module>email</module>
+        <module>corp</module>
+        <module>privatelabel</module>
+        <module>reg</module>
+        <module>reg2</module>
+        <module>ep</module>
+        <module>distui</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.1.2</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>taglibs</groupId>
+            <artifactId>standard</artifactId>
+            <version>1.1.2</version>
+            <scope>runtime</scope>
+        </dependency>
+    </dependencies>
+
+</project>

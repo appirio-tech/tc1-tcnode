@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>jboss</groupId>
+  <artifactId>jboss-ejb3-client</artifactId>
+  <versioning>
+    <release>4.0.4.GA</release>
+    <versions>
+      <version>4.0.4.GA</version>
+    </versions>
+    <lastUpdated>20160505101014</lastUpdated>
+  </versioning>
+</metadata>

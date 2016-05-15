@@ -1,0 +1,404 @@
+html{ 
+margin:0px;
+padding:0px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+body, body.textarea{ 
+font-family: Arial, Verdana, Helvetica, sans-serif;
+line-height: normal;
+font-size: 12px;
+color: #666666;
+background: #FFA500;
+margin:0px;
+padding:0px;
+}
+
+body.textarea{
+color: #666666;
+background: #FFFFFF;
+}
+
+img { border: none; }
+
+H1, H2, H3{
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-weight: bold;
+padding: 0px;
+margin: 0px 0px 10px 0px;
+}
+
+H1 { 
+position: relative;
+left: -6px;
+top: 0px;
+clear: both;
+font-size: 125%; 
+color: #FFFFFF;
+background: transparent url(/i/tournament/tco07/h1.png) top center no-repeat;
+padding: 0px;
+margin: 0px;
+width: 737px;
+border-top: 1px solid white;
+border-bottom: 1px solid white;
+}
+
+H1 span {
+display: block;
+margin: 10px 10px 20px 15px;
+}
+
+H2 { font-size: 125%; }
+H3 { font-size: 110%; }
+
+p{
+padding: 0px;
+margin: 0px 0px 10px 0px;
+}
+
+td, th{ 
+line-height: normal;
+font-size: 12px;
+}
+
+A:link, A:visited{
+color: #8B0A50;
+text-decoration: none;
+}
+
+A:hover, A:active{
+color: #FF0000;
+text-decoration: underline;
+}
+
+span.bigRed{ color: #FF0000; font-weight: bold; text-decoration: none; }
+A.bigRed:link, A.bigRed:visited, A.bigRed:active { color: #FF0000; text-decoration: underline; }
+A.bigRed:hover { color: #000000; text-decoration: underline;}
+
+span.bigGreen{ color: #009900; font-weight: bold; text-decoration: none; }
+A.bigGreen:link, A.bigGreen:visited, A.bigGreen:active { color: #009900; text-decoration: underline; }
+A.bigGreen:hover { color: #000000; text-decoration: underline;}
+
+.small{ font-size: 10px; }
+
+p.grayedOut{
+color: #CCCCCC;
+}
+
+a.button, div.button{
+display:block;
+padding: 3px 6px 3px 6px;
+margin: 0px;
+font-size:11px;
+font-weight: bold;
+text-decoration: none;
+text-align: center;
+line-height: normal;
+white-space: nowrap;
+}
+
+a.button:link, a.button:visited{
+background: #d2d2d2 url(/i/interface/buttonBg.png) top center repeat;
+color: #333333;
+border: 1px solid #999999;
+text-decoration: none;
+}
+
+a.button:hover, a.button:active{
+background: #6a6a6a url(/i/interface/buttonBg_on.png) top center repeat;
+color: #FFFFFF;
+border: 1px solid #999999;
+text-decoration: none;
+}
+
+div.button{
+background: #EEEEEE url(/i/interface/buttonBg_off.png) top center repeat;
+color: #BBBBBB;
+border: 1px solid #CCCCCC;
+}
+
+/* HEADER */
+#tourneyLogo{
+position: absolute; 
+left: 24px; 
+top: 16px;
+}
+
+#redBar{
+position: absolute; 
+left: 10px; 
+top: 150px;
+width: 960px;
+background: #8B0A50; 
+color: #FFFFFF;
+font-weight: bold;
+}
+
+#pageBodyN{
+width: 765px;
+height: 15px; 
+position: absolute;
+left: 0px;
+top: -15px;
+background: transparent;
+margin: 0px 0px 0px 183px; 
+padding: 0px; 
+background: transparent url(/i/tournament/tco07/pageBodyN.png) top left no-repeat;
+}
+
+/* NAV */
+/* <li>'s are styled to have the bottom background */
+/* <a>'s are styled to have the top background */
+/* <span>'s are styled to have the menu arrow */
+#nav{
+width: 180px;
+margin: 0px 0px 40px 0px;
+padding: 0px;
+background: #FAEFDA;
+}
+
+#nav a:link, #nav a:visited{
+color: #8D0F52;
+text-decoration: none;
+} 
+
+#nav a:hover, #nav a:active{
+color: #FF0000;
+text-decoration: none;
+} 
+
+#nav ul{
+padding: 0px;
+margin: 0px;
+}
+
+/* PRIMARY */
+#nav li{
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+font-weight: bold;
+font-size: 12px;
+}
+
+#nav a{
+display: block;
+margin: 0px;
+padding: 0px;
+width: 180px;
+}
+
+#nav div{
+padding: 5px 6px 5px 10px;
+background: transparent;
+}
+
+#nav span{
+display: block;
+padding: 5px 6px 5px 10px;
+background: transparent;
+}
+
+#nav li.stop { background: #F4DFB6 url(/i/tournament/tco07/nav1S.png) bottom center no-repeat; }
+#nav li.closed { background: #F4DFB6 url(/i/tournament/tco07/nav1S.png) bottom center no-repeat; }
+#nav li.closed a { background: transparent url(/i/tournament/tco07/nav1N.png) top center no-repeat; }
+#nav li.closed span { background: transparent url(/i/tournament/tco07/closed.png) 1px 50% no-repeat; }
+#nav li.closed ul { display: none; }
+#nav li.open { background: transparent; }
+#nav li.open a {background: transparent; }
+#nav li.open span { background: transparent url(/i/tournament/tco07/open.png) 1px 50% no-repeat; }
+#nav li.open ul { display: block; }
+
+/* SECONDARY */
+
+#nav li li {
+background: #FAEFDA;
+}
+
+#nav li li a {
+margin: 0px 0px 0px 10px;
+width: 170px;
+font-weight: normal;
+font-size: 11px;
+}
+
+#nav li li.stop { background: transparent; }
+#nav li li.stop span { background: transparent; }
+#nav li li.closed { background: transparent; }
+#nav li li.closed span { background: transparent url(/i/tournament/tco07/closed.png) 1px 50% no-repeat; }
+#nav li li.closed ul { display: none; }
+#nav li li.open { background: transparent; }
+#nav li li.open span { background: transparent url(/i/tournament/tco07/open.png) 1px 50% no-repeat; }
+#nav li li.open ul { display: block; }
+
+/* TERTIARY */
+
+#nav li li li {
+background: #FAEFDA;
+}
+
+#nav li li li a {
+margin: 0px 0px 0px 20px;
+width: 160px;
+}
+
+#nav li li li.stop { background: transparent; }
+#nav li li li.stop span { background: transparent; }
+#nav li li li.closed { background: transparent; }
+#nav li li li.closed span { background: transparent url(/i/tournament/tco07/closed.png) 1px 50% no-repeat; }
+#nav li li li.open { background: transparent; }
+#nav li li li.open span { background: transparent url(/i/tournament/tco07/open.png) 1px 50% no-repeat; }
+
+#nav a.navHighlight,
+#nav li a.navHighlight,
+#nav li li a.navHighlight,
+#nav li li li a.navHighlight{
+background: transparent url(/i/tournament/tco07/navHighlight.png) center left no-repeat;
+}
+
+#navSponsors{
+width: 180px;
+margin: 0px 0px 140px 0px;
+padding: 0px;
+background: transparent;
+}
+
+/* CONTENT */
+#content{
+position: relative;
+width: 980px;
+background: #F4DFB6 url(/i/tournament/tco07/content.png) top center repeat-y;
+text-align: left;
+}
+
+#pageBody{
+width: 725px;
+background: #F4DFB6 url(/i/tournament/tco07/pageBody.png) top right repeat-y;
+text-align: left;
+padding: 20px 0px 165px 0px;
+margin: 0px 0px 0px 20px;
+line-height: 1.4;
+}
+
+#spacer{
+margin: 90px 20px 0px 13px;
+width: 945px;
+}
+
+#navSpacer{
+background: #F4DFB6; 
+padding: 0px; 
+vertical-align: top;
+}
+
+#bodySpacer{
+background: #FFFFFF;
+vertical-align: top;
+padding: 0px;
+}
+
+/* FOOTER */
+
+#topcoderLogo{
+position: absolute; 
+left: 190px;
+top: -120px;
+width: 770px;
+z-index: 2;
+}
+
+#footer{
+position: absolute;
+left: 0px;
+top: -118px;
+width: 980px;
+height: 118px;
+background: transparent url(/i/tournament/tco07/footer.png) top center no-repeat;
+z-index: 1;
+}
+
+#footer div.links{
+font-weight: bold;
+color: #FFFFFF;
+margin-top: 55px;
+text-align: center;
+}
+
+#footer div.links A:link, #footer div.links A:visited{
+color: #FFEFCF;
+text-decoration: none;
+}
+
+#footer div.links A:hover, #footer div.links A:active{
+color: #D4B494;
+text-decoration: underline;
+}
+
+#footer div.copyright{
+margin-top: 12px;
+color: #FFFFFF;
+text-align: center;
+}
+
+/* STAT TABLE */
+table.stat {
+border: none;
+padding: 0px;
+}
+
+table.stat td, table.stat th {
+padding: 4px 4px 4px 4px;
+line-height: normal;
+vertical-align: middle;
+}
+
+table.stat th.title, table.stat td.title {
+color: #FF9900;
+background: transparent;
+font-size: 12px;
+font-weight: bold;
+text-decoration: none;
+white-space: nowrap;
+padding: 4px 0px 4px 0px;
+}
+
+table.stat th, table.stat td.header,table.stat td.headerC,table.stat td.headerR {
+color: #FFFFFF;
+background: #E49401 url(/i/tournament/tco07/statHeader.png) top center repeat-x;
+font-size: 12px;
+font-weight: bold;
+text-decoration: none;
+white-space: nowrap;
+}
+
+table.stat td.headerC { text-align: center; }
+
+table.stat td.headerR { text-align: right; }
+
+table.stat tr.light td { background-color: #f7f1e4; }
+
+table.stat tr.dark td { background-color: #efdfbd; }
+
+table.stat td.valueC, table.stat td.valueCE, table.stat td.valueCA { text-align: center; }
+
+table.stat td.valueR, table.stat td.valueRE, table.stat td.valueRA { text-align: right; }
+
+table.stat td.valueE, table.stat td.valueCE, table.stat td.valueRE{
+color: #FF0000;
+font-weight: bold;
+}
+
+table.stat td.valueA, table.stat td.valueCA, table.stat td.valueRA{
+color: #009900;
+font-weight: bold;
+}
+
+table.stat td.field {
+color: #000000;
+font-weight: bold;
+font-size: 12px;
+}
+
+table.stat a:link, table.stat a:visited { text-decoration: none; }
+
+table.stat a:hover, table.stat a:active { text-decoration: underline; }

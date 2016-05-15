@@ -1,0 +1,334 @@
+/*************************************************************/
+/*   TCHS09 Web Site Prototype Stylesheets         	         */
+/*-----------------------------------------------------------*/
+/*   Created Date:     October 17, 2008                      */
+/*   Last Update:      October 24, 2008                      */
+/*************************************************************/
+
+
+/* Undo browser HTML defaults -- */
+	:link,:visited {text-decoration: none;}
+	ul,ol {list-style: none;}
+	ul,ol,dl,li,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {margin: 0; padding: 0;}
+	a img,:link img,:visited img {border: none;}
+	address {font-style: normal;}
+	
+body {
+	font-size: 12px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	background: #313131 url(/i/tchs09/bg.png) repeat-x center top;
+}
+
+/* wrapper */
+#wrapper {
+		width: 1000px;	
+		margin: 0 auto;
+		text-align: left;		
+		position: relative;
+		height: 100%;
+	}
+
+/* Left Container */
+#leftContainer{
+	display:inline /*Fix IE floating margin bug*/; float:left; width:258px; overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;
+	background: #313131 url(/i/tchs09/bg-gradient.png) repeat-x left top;
+}
+	
+	/* TCHS09 Logo */
+	#tchsLogo{margin: 20px 30px 57px 30px; }
+	
+	/* mainNav */
+	#mainNav{
+		float:left;
+		width:100%;
+		background: url(/i/tchs09/bg-nav.png) no-repeat left bottom;
+	}
+	
+	#mainNav ul{
+		float:right;
+		text-align: left;
+		padding: 0 0 17px 0;
+	}
+	
+		#mainNav li {
+			width:198px;
+			padding:8px 0;
+			
+		}
+		
+		#mainNav li.selected {
+			background: url(/i/tchs09/bg-nav-selected.png) no-repeat left top;
+		}
+		
+		#mainNav li.selected a, #mainNav li.selected a:hover {
+			text-decoration: none !important;
+			color: #000000;
+		}
+		
+		#mainNav li a {
+			height: 20px;
+			width:160px;
+			color:#FFFFFF;
+			font-family: "Trebuchet MS";
+			font-size:12px;
+			background: url(/i/tchs09/bullet.png) no-repeat left center;
+			padding: 0 0 0 35px;
+		}
+		
+		#mainNav li a:hover {
+			background: url(/i/tchs09/bullet-hover.gif) no-repeat left center;
+			color: #d5a00f;
+		}
+		
+	/* sponsors */
+	#sponsors {
+		float: right;
+		text-align: left;
+	}
+	
+		#sponsors li {
+			height: 74px;
+			width:197px;
+			<!-- #sponsors -->background: black;
+			<!-- #sponsors -->border-color: #deb341;
+			<!-- #sponsors -->border-style: solid;
+			<!-- #sponsors -->border-width: 1px 0 1px 1px;
+			margin: 24px 0 12px 0;
+		}
+		
+		#sponsors li.last {
+			margin-bottom: 0 !important;
+		}
+
+
+/* Right Container */
+#rightContainer{
+	display:inline; /*Fix IE floating margin bug*/; float:left; overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;
+	width:730px;
+	background: white;
+	border-right: 1px solid #d5a011;
+}
+	
+	/* Masthead */
+	#masthead{
+		float:right;
+		background: url(/i/tchs09/yellow-header.png) no-repeat left top;
+		width:721px;
+		height:147px;
+		margin: 0 0 15px 0;		
+	}
+	
+	/* TC Logo */
+	#tcLogo{
+		float:right;
+		margin: 10px 12px 0 0;
+	}
+	
+	/* Button Register*/
+	.buttonRegister {	
+		float: right;
+		overflow:visible;
+		clear:right;
+		height:32px;
+		padding-left:6px;
+		margin: 78px 5px 0 0;
+		background: url(/i/tchs09/btn-register-left.png) left top no-repeat;					
+		text-decoration:none !important;
+	}
+	
+	.buttonRegister span {													
+		float: left;
+		line-height:32px;
+		padding:0 20px 0 16px;
+		color:#fff;
+		font-size:14px;
+		font-weight:normal !important;
+		cursor: pointer;
+		background: url(/i/tchs09/btn-register-right.png) no-repeat right top;
+	}
+	
+	.buttonRegister:hover {	background-position: left bottom;}
+	.buttonRegister:hover span { background-position: right bottom;}
+	
+	/* Main Content */
+	#mainContent{
+		float:left; width:100%;
+		background: #1a1a1a url(/i/tchs09/bg-inner-content-bottom.png) repeat-y left top;		
+	}
+		/* Left Content */
+		#leftContent{
+			display:inline /*Fix IE floating margin bug*/; float:left; overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;
+			width: 555px;
+			background: url(/i/tchs09/bg-inner-content.png) no-repeat right top;	
+		}
+		
+		#gradientBottom{	
+			width: 527px;
+			height: 35px;
+			margin: 0 0 5px 0;
+			background: url(/i/tchs09/gradient-bottom.png) no-repeat right top;
+		}
+		
+			/* Inner Content */
+			#innerContent{
+				padding: 5px 45px 40px 35px;
+				background: url(/i/tchs09/gradient-top.png) no-repeat 11px top;	
+				
+			}
+				#innerContent p{
+					padding:10px 0;
+				}
+				
+				#innerContent h2{
+					padding:20px 0 0 0;
+					font-size: 14px;
+				}
+				
+				#titleContent{
+					background: url(/i/tchs09/bg-title.png) no-repeat right top;
+					height:41px;
+					margin:15px 0 0 0;
+				}
+					#titleContent h1{
+						font-size: 18px;
+						text-align: center;
+						color: white;
+						font-weight: normal;
+						padding:10px 0 0 0;
+					}
+				
+				#sample_handles { color:#7d7d7d; }
+				
+				/* TABLE */
+
+				#innerContent TABLE { width: 100%; border-collapse: collapse; margin:10px auto; }
+				#innerContent TABLE TH { padding: 7px 8px; }
+				#innerContent TABLE TD { padding: 5px 8px; }
+				#innerContent TABLE TH { background: #000 url(/i/tchs09/bg-TH.png) no-repeat left top; text-align: left; color:#FFFFFF; }
+				#innerContent TABLE TD { background: #d3d3d3; color: #262626; border-bottom:2px solid #fff; }
+				#innerContent TABLE TR.alt TD { background: #f1f1f1; }
+				#innerContent TABLE TR.alt:hover td, #innerContent TABLE tr:hover td { background: #d5a00f; color:#FFFFFF; }
+				
+				/* HANDLE */
+
+				.handle_01 { font-weight: bold; color: #FF9900; }
+				.handle_02 { font-weight: bold; color: #EE0000; }
+				.handle_03 { font-weight: bold; color: #DDCC00; }
+				.handle_04 { font-weight: bold; color: #6666FF; }
+				.handle_05 { font-weight: bold; color: #00A900; }
+				.handle_06 { font-weight: bold; color: #999999; }
+				.handle_07 { font-weight: bold; color: #000000; }
+				.notes{ color: #999999; }
+				
+				.leftSample{ float:left; width:50%;}
+		
+		/* Right Content */
+		#rightContent{
+			display:inline; /*Fix IE floating margin bug*/; float:left; overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;
+			width: 175px;
+			background: #313131;	
+		}
+			
+			#news{
+				background:#d59f10;
+				padding:25px 20px 5px 20px;
+			}
+				#news h2{
+					text-align: center;
+					font-size: 14px;
+					font-weight: normal;
+					padding:5px 0;
+					color: #151515;
+					background: url(/i/tchs09/line-news.png) repeat-x left bottom;
+				}
+				
+				#news p{
+					background:#d59f10;
+					padding:10px 8px;
+				}
+			
+			#importantDates{
+				float:left; width: 100%;
+				background-color: #1a1a1a;
+				background: url(/i/tchs09/bg-dates.png) no-repeat right bottom;
+				min-height:300px;
+				color:#FFFFFF;
+				padding: 0 0 10px 0;
+			}
+			* html #importantDates{ padding: 0 0 0 0;}
+			
+				#importantDates h2{
+					text-align: center;
+					font-weight: normal;
+					font-size: 14px;
+					padding:15px 0;
+					background: url(/i/tchs09/bg-dates-title.png) repeat-x left top;
+				}
+				
+				#importantDates p{
+					padding:11px 0 !important /*Non-IE6*/; padding:10px 0 /*IE6*/;
+					text-align:center;
+				}
+				
+				#importantDates p strong{
+					font-weight: normal !important;
+					color: #d59f0f;
+					width:100%;
+					display:block;
+				}
+	
+	
+	/* Footer */
+	#footer{
+		float:right;
+		width: 720px;
+		margin-right: 11px;
+		display:inline;
+		height: 70px;
+		background: #d59f0f;
+		padding: 10px 5px;
+		border-right: 1px solid #d5a011;
+		
+	}
+		
+		#footer A {
+		color:#262626;
+		font-weight: bold;
+		}
+		
+		#footer A:hover {
+			color: #fff;
+		}
+		
+		#footer P {
+			padding: 5px 0 0 10px;
+		}
+		
+		P#copyright {
+			padding-top: 15px;
+			font-weight: normal;
+			color:#262626;
+		}
+	
+	/* Links */
+	.redLink{
+		font-weight: bold;
+		color: #EE0000;
+		text-decoration: underline;
+	}
+	
+	.whiteLink{
+		font-weight: bold;
+		color: #fff;
+		text-decoration: underline;
+	}
+	
+	.blueLink{
+		font-weight: bold;
+		color: #6666FF;
+		text-decoration: underline;
+	}
+	
+	.redLink:hover, .whiteLink:hover, .blueLink:hover{
+		text-decoration: none !important;
+	}

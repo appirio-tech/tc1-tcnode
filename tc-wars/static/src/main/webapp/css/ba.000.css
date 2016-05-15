@@ -1,0 +1,689 @@
+body {
+	background: #888;
+}
+body, input, button {
+	font-family: 'Actor', sans-serif;
+	font-size: 14px;
+}
+#wrapper {
+	border: 1px solid #666;
+	padding: 15px 20px;
+	width: 1050px;
+	margin: 20px auto;
+	background: #fff;
+}
+#footer {
+	clear: both;
+}
+h1 {
+	font-size: 22px;
+	margin-top: 0;
+}
+h2 {
+	background-color: #d5d2c2;
+	margin: 0;
+	padding: 2px 0px 2px 4px;
+	font-size: 18px;
+}
+
+#memberSearch {
+	margin: 0 0 20px;
+}
+#handleInput {
+	border: 2px solid #bbb;
+	background: #ffd;
+	padding: 3px 5px;
+}
+#handleError {
+	color: #a61212;
+	visibility: hidden;
+}
+
+#badgeEditor {
+	display: none;
+}
+#editorControl {
+	padding-bottom: 20px;
+}
+.memberInfo {
+	font-size: 18px;
+}
+.memberInfo a {
+	font-size: 16px;
+	margin-left: 15px;
+	text-decoration: none;
+	color: #264d79;
+}
+.memberInfo a:hover {
+	background-color: #ffc;
+	color: #792626;
+}
+#handleDisplay {
+	font-weight: bold;
+}
+#leaveButton, #commitButton {
+	font-size: 16px;
+}
+#commitButton {
+	visibility: hidden;
+}
+
+.badgeRow {
+	margin-right: 10px;
+	width: 1050px;
+	float: left;
+}
+.badgeCategory {
+	border: 2px solid #d5d2c2;
+	margin-bottom: 10px;
+	float: left;
+	width: 1050px;
+}
+.singleBadgeWrapper {
+	position: relative;
+	height: 48px;
+	width: 350px;
+	padding: 5px 0px;
+	color: #666;
+	float: left;
+}
+.groupBadgeWrapper {
+	position: relative;
+	height: 60px;
+	width: 520px;
+	color: #666;
+	float: left;
+}
+.groupBadgeWrapper.edited {
+    background-color: #fdfcb6;
+}
+
+.singleBadgeWrapper .selected span, .groupBadgeWrapper .selected span {
+	color: #165e15;
+}
+
+/*
+.singleBadgeWrapper .badge {
+	opacity: .66;
+	filter: alpha(opacity=66);
+}
+.singleBadgeWrapper.selected .badge {
+	opacity: 1.00;
+	filter: alpha(opacity=100);
+}
+*/
+
+.checkbox {
+    position: absolute;
+    left: 10px;
+	top: 20px;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #888;
+	background: #444 url(../i/checkmarks.png?b) no-repeat 0 0;
+}
+.checkbox.nocheck {
+	visibility: hidden;
+}
+.checkbox.editable {
+	border: 1px solid #99a9cf;
+	background-color: #ffd;
+}
+.singleBadgeWrapper.selected .checkbox.editable, .groupBadgeWrapper.selected .checkbox.editable{
+	background-position: -16px 0;
+}
+.singleBadgeWrapper.selected .checkbox, .groupBadgeWrapper.selected .checkbox {
+	background-position: -48px 0;
+}
+
+.subBadgeWrapper.selected .checkbox.editable, .subBadgeWrapper.selected .checkbox.editable{
+	background-position: -16px 0;
+}
+.subBadgeWrapper.selected .checkbox, .subBadgeWrapper.selected .checkbox {
+	background-position: -48px 0;
+}
+
+.checkbox.hover {
+	border-color: #5071bc;
+	background-color: #ffc;
+}
+.singleBadgeWrapper.editAdd {
+	background-color: #d8e7d9;
+	background-color: #e1f1e2;
+}
+.singleBadgeWrapper.editRemove {
+	background-color: #e7d9d9;
+	background-color: #f9e9e9;
+}
+
+.subBadgeWrapper.editAdd, .subBadgeWrapper.editAdd {
+	background-color: #d8e7d9;
+	background-color: #e1f1e2;
+}
+.subBadgeWrapper.editRemove, .subBadgeWrapper.editRemove {
+	background-color: #e7d9d9;
+	background-color: #f9e9e9;
+}
+
+.singleBadgeWrapper .label {
+	position: absolute;
+	left: 96px;
+	top: 20px;
+}
+.subBadgesWrapper .subBadgeWrapper .label {
+    font-size: 14px;
+    top: 5px;
+}
+
+.subBadgesWrapper .subBadgeWrapper .checkbox {
+    top: 5px;
+}
+
+
+.groupBadgeWrapper .label {
+    position: absolute;
+	left: 45px;
+	font-size: 15px;
+	top: 20px;
+}
+
+.subBadgesWrapper {
+    left: 200px;
+    top: 50px;
+    height: 30px;
+    width: 200px;
+    position: absolute;
+}
+
+
+
+.subBadgeWrapper {
+    position: relative;
+    width: 300px;
+    height: 30px;
+}
+
+
+
+.singleBadge {
+	position: absolute;
+	left: 40px;
+	bottom: 5px;
+	height: 48px;
+	width: 48px;
+	background: url(../i/badge.grid.large.png);
+}
+
+.groupBadge {
+    position: absolute;
+	left: 200px;
+	top: 5px;
+	height: 48px;
+	width: 200px;
+	background: url(../i/badgeGroup.grid.png);
+}
+
+.subBadge {
+	height:48px;
+	cursor: pointer;
+    display:inline-block;
+}
+
+.progress-meters .subBadge {
+    cursor: default;
+}
+
+.bigBadge {
+    cursor: default !important;
+}
+
+.subBadge.selected {
+	height:48px;
+    display:inline-block;
+    background: url(../i/badgeGroup.grid.png);
+}
+
+#tooltip {
+    color: black;
+    line-height: 14px;
+    width: 150px;
+    height: 16px;
+    border: 2px solid #545454;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-family: Arial;
+    text-align: center;
+    padding: 5px;
+    display: none;
+}
+		
+/* group badges */	
+.Forum-posts { background-position: 0px 0px; }
+.Passing-submissions { background-position: 0px -48px; }
+.Checkpoint-prizes { background-position: 0px -96px; }
+.Winning-placements { background-position: 0px -144px; }
+.First-place-wins { background-position: 0px -192px; }
+.UI-and-graphic-design { background-position: 0px -240px; }
+.Implementation { background-position: 0px -288px; }
+.Business-analysis {
+background-position: 110px -336px;
+}
+.Analytics {
+background-position: 86px -384px;
+}
+
+.Testing-and-QA {
+background-position: 110px -432px;
+}
+
+
+/* progress meters-development sub badges */
+.forum-posts-1 { 
+    width: 48px;
+    background-position: 0px -769px !important;
+}
+
+.forum-posts-100 { 
+    width: 40px;
+    background-position: -48px -769px !important;
+}
+.forum-posts-500 { 
+    width: 31px;
+    background-position: -88px -769px !important;
+}
+.forum-posts-1000 { 
+    width: 31px;
+    background-position: -119px -769px !important;
+}
+.forum-posts-5000 { 
+    width: 50px;
+    background-position: -150px -769px !important;
+}
+
+
+.passing-submissions-1 { 
+    width: 48px;
+    background-position: 0px -817px !important;
+}
+.passing-submissions-50 { 
+    width: 40px;
+    background-position: -48px -817px !important;
+}
+.passing-submissions-100 { 
+    width: 31px;
+    background-position: -88px -817px !important;
+}
+.passing-submissions-250 { 
+    width: 31px;
+    background-position: -119px -817px !important;
+}
+.passing-submissions-500 { 
+    width: 50px;
+    background-position: -150px -817px !important;
+}
+
+.checkpoint-prizes-1 { 
+    width: 48px;
+    background-position: 0px -865px !important;
+}
+.checkpoint-prizes-50 { 
+    width: 40px;
+    background-position: -48px -865px !important;
+}
+.checkpoint-prizes-100 { 
+    width: 31px;
+    background-position: -88px -865px !important;
+}
+.checkpoint-prizes-250 { 
+    width: 31px;
+    background-position: -119px -865px !important;
+}
+.checkpoint-prizes-500 { 
+    width: 50px;
+    background-position: -150px -865px !important;
+}
+
+.winning-placements-1 { 
+    width: 48px;
+    background-position: 0px -913px !important;
+}
+.winning-placements-25 { 
+    width: 40px;
+    background-position: -48px -913px !important;
+}
+.winning-placements-50 { 
+    width: 31px;
+    background-position: -88px -913px !important;
+}
+.winning-placements-100 { 
+    width: 31px;
+    background-position: -119px -913 !important;
+}
+.winning-placements-250 { 
+    width: 50px;
+    background-position: -150px -913px !important;
+}
+
+.first-place-wins-1 { 
+    width: 48px;
+    background-position: 0px -961px !important;
+}
+.first-place-wins-25 { 
+    width: 40px;
+    background-position: -48px -961px !important;
+}
+.first-place-wins-50 { 
+    width: 31px;
+    background-position: -88px -961px !important;
+}
+.first-place-wins-100 { 
+    width: 31px;
+    background-position: -119px -961px !important;
+}
+.first-place-wins-250 { 
+    width: 50px;
+    background-position: -150px -961px  !important;
+}
+
+/* progress meters-studio sub badges */
+.studio-forum-posts-1 { 
+    width: 48px;
+    background-position: 0px -769px !important;
+}
+
+.studio-forum-posts-100 { 
+    width: 40px;
+    background-position: -48px -769px !important;
+}
+.studio-forum-posts-500 { 
+    width: 31px;
+    background-position: -88px -769px !important;
+}
+.studio-forum-posts-1000 { 
+    width: 31px;
+    background-position: -119px -769px !important;
+}
+.studio-forum-posts-5000 { 
+    width: 50px;
+    background-position: -150px -769px !important;
+}
+
+
+.studio-passing-submissions-1 { 
+    width: 48px;
+    background-position: 0px -817px !important;
+}
+.studio-passing-submissions-50 { 
+    width: 40px;
+    background-position: -48px -817px !important;
+}
+.studio-passing-submissions-100 { 
+    width: 31px;
+    background-position: -88px -817px !important;
+}
+.studio-passing-submissions-250 { 
+    width: 31px;
+    background-position: -119px -817px !important;
+}
+.studio-passing-submissions-500 { 
+    width: 50px;
+    background-position: -150px -817px !important;
+}
+
+.studio-checkpoint-prizes-1 { 
+    width: 48px;
+    background-position: 0px -865px !important;
+}
+.studio-checkpoint-prizes-50 { 
+    width: 40px;
+    background-position: -48px -865px !important;
+}
+.studio-checkpoint-prizes-100 { 
+    width: 31px;
+    background-position: -88px -865px !important;
+}
+.studio-checkpoint-prizes-250 { 
+    width: 31px;
+    background-position: -119px -865px !important;
+}
+.studio-checkpoint-prizes-500 { 
+    width: 50px;
+    background-position: -150px -865px !important;
+}
+
+.studio-winning-placements-1 { 
+    width: 48px;
+    background-position: 0px -913px !important;
+}
+.studio-winning-placements-25 { 
+    width: 40px;
+    background-position: -48px -913px !important;
+}
+.studio-winning-placements-50 { 
+    width: 31px;
+    background-position: -88px -913px !important;
+}
+.studio-winning-placements-100 { 
+    width: 31px;
+    background-position: -119px -913px !important;
+}
+.studio-winning-placements-250 { 
+    width: 50px;
+    background-position: -150px -913px !important;
+}
+
+.studio-first-place-wins-1 { 
+    width: 48px;
+    background-position: 0px -961px !important;
+}
+.studio-first-place-wins-25 { 
+    width: 40px;
+    background-position: -48px -961px !important;
+}
+.studio-first-place-wins-50 { 
+    width: 31px;
+    background-position: -88px -961px !important;
+}
+.studio-first-place-wins-100 { 
+    width: 31px;
+    background-position: -119px -961px !important;
+}
+.studio-first-place-wins-250 { 
+    width: 50px;
+    background-position: -150px -961px  !important;
+}
+
+.Studio-Cup-top-5 { background-position: 0px -240px; }
+.Digital-Run-top-5 { background-position: 0px -288px; }
+.Studio-Cup-winner { background-position: 0px -336px; }
+.Digital-Run-winner { background-position: 0px -384px; }
+.TCO-on-site-competitor { background-position: 0px -432px; }
+.TCO-finalist { background-position: 0px -480px; }
+.TCO-champion { background-position: 0px -528px; }
+.member-of-the-month { background-position: -48px -240px; }
+.TopCoder-event-trip-winner { background-position: -96px -240px; }
+.TCCC-on-site-competitor { background-position: -144px -240px; }
+.TCCC-finalist { background-position: -192px -240px; }
+.TCCC-champion { background-position: -48px -288px; }
+
+.Studio-spec-reviewer { background-position: -96px -288px; }
+.Studio-screener { background-position: -144px -288px; }
+.TopCoder-reviewer { background-position: -192px -288px; }
+
+.Studio-spirit { background-position: -48px -336px; }
+.Studio-mentor { background-position: -96px -336px; }
+.TopCoder-spirit { background-position: -144px -336px; }
+.TopCoder-mentor { background-position: -192px -336px; }
+
+.wireframe {
+    width: 31px;
+    background-position: 0px -1009px !important;
+}
+.desktop-app-UI { 
+    width: 35px;
+    background-position: -31px -1009px !important;
+}
+.mobile-UI { 
+    width: 24px;
+    background-position: -66px -1009px !important;
+}
+.web-UI {
+    width: 32px;
+    background-position: -90px -1009px !important;
+}
+.branding-marketing-presentation { 
+    width: 26px;
+    background-position: -122px -1009px !important;
+}
+.UI-and-graphic-design-group {
+    width: 52px;
+    background-position: -148px -1009px !important;
+}
+
+.UI-development {
+    width: 40px;
+    background-position: 0px -1057px !important;
+}
+.architecture-and-design { 
+    width: 30px;
+    background-position: -40px -1057px !important;
+}
+.component-development { 
+    width: 35px;
+    background-position: -70px -1057px !important;
+}
+.assembly { 
+    width: 40px;
+    background-position: -105px -1057px !important;
+}
+.Implementation-group {
+    width: 55px;
+    background-position: -145px -1057px !important;
+}
+
+
+.idea-generation {
+width: 28px;
+background-position: 110px -1105px !important;
+}
+
+.conceptualization {
+width: 30px;
+background-position: 82px -1105px !important;
+}
+
+.Business-analysis-group {
+width: 52px;
+background-position: 52px -1105px !important;
+}
+
+
+.test-scenarios {
+    width: 29px;
+    background-position: 110px -1201px !important;
+}
+
+
+.bug-hunts {
+    width: 29px;
+    background-position: 82px -1201px !important;
+}
+
+.Testing-and-QA-group {
+    width: 52px;
+    background-position: 52px -1201px !important;
+}
+
+
+.big-data {
+width: 33px;
+background-position: -115px -1153px !important;
+}
+
+.Analytics-group {
+width: 52px;
+background-position: 53px -1153px !important;
+}
+
+
+.error {
+	color: red;
+	display: block;
+	font-size: 10px;
+}
+.hiddenData {
+	display: none;
+}
+
+
+/* HP Badge Level 1 */
+.HP-Badges-Level-1 {
+    height: 49px;
+    background-position: 0px -1538px;
+}
+
+.hpLogo {
+    width: 50px;
+    background-position: 0px -1587px !important;
+}
+
+.Getting-Started {
+    width: 36px;
+    background-position: -50px -1587px !important;
+}
+
+.Novice {
+    width: 32px;
+    background-position: -85px -1587px !important;
+}
+
+.Journeyman {
+    width: 33px;
+    background-position: -116px -1587px !important;
+}
+
+.Expert {
+    width: 46px;
+    background-position: -150px -1587px !important;
+}
+
+.HP-Badges-Level-1-wrapper .bigBadge, .HP-Badges-Level-2-wrapper .bigBadge {
+    display: none;
+}
+
+/* HP Badge Level 2 */
+.HP-Badges-Level-2 {
+    height: 49px;
+    background-position: 0px -1636px;
+}
+
+.Master {
+    width: 36px;
+    background-position: -50px -1685px !important;
+}
+
+.Grand-Master {
+    width: 32px;
+    background-position: -85px -1685px !important;
+}
+
+.Paragon {
+    width: 33px;
+    background-position: -116px -1685px !important;
+}
+
+.Grand-Paragon {
+    width: 46px;
+    background-position: -150px -1685px !important;
+}
+
+/* HP Badge Level 3 */
+.Social-Evangelist {
+    background-position: -192px -624px;
+}
+
+.HP-Badges .singleBadgeWrapper {
+    margin-left: 34px;
+}
+
+

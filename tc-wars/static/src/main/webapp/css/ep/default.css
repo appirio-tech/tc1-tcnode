@@ -1,0 +1,16 @@
+#pageHeader{
+ background: transparent url(/i/ep/headers/default.jpg) center center no-repeat;
+}
+
+#logo{
+ background: transparent url(/i/ep/logos/brackets.png) center center no-repeat;
+}
+
+h1,
+#navigation ul li a.on,
+table.stat th,
+table.stat td.header,
+table.stat td.headerC,
+table.stat td.headerR {
+ background-color: #990000;
+}

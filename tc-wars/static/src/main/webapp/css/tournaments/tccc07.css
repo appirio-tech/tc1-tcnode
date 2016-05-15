@@ -1,0 +1,371 @@
+html{ 
+margin:0px;
+padding:0px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+body, body.textarea{ 
+font-family: Arial, Verdana, Helvetica, sans-serif;
+line-height: normal;
+font-size: 12px;
+color: #ffffff;
+background: #010101 url(/i/tournament/tccc07/background.png) repeat-x;
+margin:0px;
+padding:0px;
+}
+
+img { border: none; }
+
+h1, H2, H3{
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-weight: bold;
+color: #8fa1eb;
+padding: 0px;
+margin: 0px 0px 10px 0px;
+}
+
+/* BOLA'S VERSION
+h1 { 
+position: relative;
+left: -6px;
+top: 0px;
+clear: both;
+font-size:20px;
+background: transparent url(/i/tournament/tccc07/h1.png) top center repeat-y;
+padding: 0px;
+margin: 0px;
+width: 630px;
+height:51px;
+}
+h1 span {
+display: block;
+padding: 10px 10px 20px 5px;
+}
+*/
+
+h1 { 
+display: block;
+position: relative;
+clear: both;
+font-size:20px;
+background: transparent url(/i/tournament/tccc07/h1Bg.png) center left no-repeat;
+border: 1px solid black;
+padding: 0px;
+width: 630px;
+height:51px;
+}
+
+h1 span {
+display: block;
+margin-top: 15px;
+}
+
+#h1Border{
+background: url(/i/tournament/tccc07/h1Border.png) no-repeat transparent;
+width:630px;
+height:3px;
+margin:0px;
+padding:0px;
+}
+
+H2 { font-size: 125%; }
+H3 { font-size: 110%; }
+
+p{
+padding: 0px;
+margin: 0px 0px 10px 0px;
+}
+
+td, th{ 
+line-height: normal;
+font-size: 12px;
+}
+
+a{
+color:#8da0ec;
+text-decoration:none;
+}
+
+a:link{
+color: #8da0ec;
+text-decoration:none;
+}
+
+a:visited{
+color: #858aa7;
+text-decoration: none;
+}
+
+a:hover, a:active{
+color: #8da0ec;
+text-decoration: underline;
+}
+
+span.bigRed{ color: #FF0000; font-weight: bold; text-decoration: none; }
+A.bigRed:link, A.bigRed:visited, A.bigRed:active { color: #FF0000; text-decoration: underline; }
+A.bigRed:hover { color: #000000; text-decoration: underline;}
+
+span.bigGreen{ color: #009900; font-weight: bold; text-decoration: none; }
+A.bigGreen:link, A.bigGreen:visited, A.bigGreen:active { color: #009900; text-decoration: underline; }
+A.bigGreen:hover { color: #000000; text-decoration: underline;}
+
+.small{ font-size: 10px; }
+
+p.grayedOut{
+color: #999999;
+}
+
+a.button, div.button{
+display:block;
+padding: 3px 6px 3px 6px;
+margin: 0px;
+font-size:11px;
+font-weight: bold;
+text-decoration: none;
+text-align: center;
+line-height: normal;
+white-space: nowrap;
+}
+
+a.button:link, a.button:visited{
+background: #d2d2d2 url(/i/interface/buttonBg.png) top center repeat;
+color: #333333;
+border: 1px solid #999999;
+text-decoration: none;
+}
+
+a.button:hover, a.button:active{
+background: #6a6a6a url(/i/interface/buttonBg_on.png) top center repeat;
+color: #8da0ec;
+border: 1px solid #999999;
+text-decoration: none;
+}
+
+div.button{
+background: #EEEEEE url(/i/interface/buttonBg_off.png) top center repeat;
+color: #BBBBBB;
+border: 1px solid #CCCCCC;
+}
+
+#containAll{
+position:relative;
+width:980px;
+}
+
+/* HEADER */
+#tourneyLogo{
+position: absolute; 
+left: 35px; 
+top: 16px;
+}
+
+#tableNhandles, #sponsorNtclogo{
+position:relative; width:100%;
+}
+
+#handleColors{
+position:absolute;
+right:1px;
+top:1px;
+clear:both;
+float:right;
+}
+
+#tclogo{
+position:absolute;
+right:30px;
+top:5px;
+clear:both;
+float:right;
+}
+
+
+/* NAV */
+/* <li>'s are styled to have the bottom background */
+/* <a>'s are styled to have the top background */
+/* <span>'s are styled to have the menu arrow */
+#navText{
+background: #101012 url(/i/tournament/tccc07/navH.png) top center repeat-y;
+width:750px;
+text-align:center;
+}
+
+#navTextB{
+background: url(/i/tournament/tccc07/navHBorder.png) no-repeat;
+margin:0px;
+padding:0px;
+width:675px;
+height:15px;
+}
+
+#secondaryNav a{
+color:#ffffff;
+text-decoration:none;
+font-weight:bold;
+font-size:14px;
+}
+
+#secondaryNav a.on{
+color: #696fe9;
+text-decoration:none;
+font-weight:bold;
+font-size:14px;
+}
+
+#tertiaryNav a{
+font-size:12px;
+color:#ffffff;
+text-decoration:none;
+font-weight:bold;
+}
+
+#tertiaryNav a.on{
+font-size:12px;
+color: #696fe9;
+text-decoration:none;
+font-weight:bold;
+}
+
+#secondaryNav a:hover, #secondaryNav a:active{
+color: #8da0ec;
+text-decoration:underline;
+font-weight:bold;
+} 
+
+#tertiaryNav a:hover, #tertiaryNav a:active{
+color: #8da0ec;
+text-decoration:underline;
+font-weight:bold;
+} 
+
+#navButtons{
+width:625px;
+height:122px;
+}
+
+/* CONTENT */
+#content{
+width: 980px;
+background: #000000 url(/i/tournament/tccc07/content.png) repeat-y;
+text-align: left;
+}
+
+#pageBody{
+width: 670px;
+text-align: left;
+padding: 0px 0px 60px 0px;
+margin: 15px 0px 0px 50px;
+line-height: 1.4;
+border: 1px solid black;
+}
+
+#pageBodyST{
+width: 880px;
+text-align: left;
+padding: 0px 0px 60px 0px;
+margin: 15px 0px 0px 50px;
+line-height: 1.4;
+border: 1px solid black;
+}
+
+/* FOOTER */
+#footer{
+float:right;
+width: 980px;
+height: 107px;
+background: transparent url(/i/tournament/tccc07/footer.png) top center no-repeat;
+z-index: 1;
+/*margin-top:-35px;*/
+padding-bottom:20px;
+}
+
+#footer a:link{
+color:#ffffff;
+}
+
+#footer div.links{
+font-weight: bold;
+color: #ffffff;
+margin-top: 40px;
+text-align: center;
+}
+
+#footer div.links, #footer div.links a:visited{
+color: #858aa7;
+text-decoration: none;
+}
+
+#footer div.links a:hover, #footer div.links a:active{
+color: #8da0ec;
+text-decoration: underline;
+}
+
+#footer div.copyright{
+margin-top: 12px;
+color: #615f60;
+text-align: center;
+}
+
+/* STAT TABLE */
+table.stat {
+border: 3px solid #2b292a;
+padding: 0px;
+}
+
+table.stat td, table.stat th {
+padding: 4px 4px 4px 4px;
+line-height: normal;
+vertical-align: middle;
+}
+
+table.stat th.title, table.stat td.title {
+color: #ffffff;
+/* background: transparent; */
+background: #291f5e url(/i/tournament/tccc07/statHeader.png) top center repeat-x;
+font-size: 12px;
+font-weight: bold;
+text-decoration: none;
+white-space: nowrap;
+padding: 5px;
+}
+
+table.stat th, table.stat td.header,table.stat td.headerC,table.stat td.headerR {
+color: #FFFFFF;
+font-size: 12px;
+font-weight: bold;
+text-decoration: none;
+white-space: nowrap;
+padding: 5px;
+}
+
+table.stat td.headerC { text-align: center; }
+
+table.stat td.headerR { text-align: right; }
+
+table.stat tr.light td { background-color: #2b292a; }
+
+table.stat tr.dark td { background-color: #0d0d0d; }
+
+table.stat td.valueC, table.stat td.valueCE, table.stat td.valueCA { text-align: center; }
+
+table.stat td.valueR, table.stat td.valueRE, table.stat td.valueRA { text-align: right; }
+
+table.stat td.valueE, table.stat td.valueCE, table.stat td.valueRE{
+color: #FF0000;
+font-weight: bold;
+}
+
+table.stat td.valueA, table.stat td.valueCA, table.stat td.valueRA{
+color: #009900;
+font-weight: bold;
+}
+
+table.stat td.field {
+color: #000000;
+font-weight: bold;
+font-size: 12px;
+}
+
+table.stat a:link, table.stat a:visited { text-decoration: none; }
+
+table.stat a:hover, table.stat a:active { text-decoration: underline; }

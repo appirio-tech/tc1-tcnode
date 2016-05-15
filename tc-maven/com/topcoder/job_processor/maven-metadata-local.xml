@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.topcoder</groupId>
+  <artifactId>job_processor</artifactId>
+  <versioning>
+    <release>3.0.1</release>
+    <versions>
+      <version>3.0.1</version>
+    </versions>
+    <lastUpdated>20160430015722</lastUpdated>
+  </versioning>
+</metadata>

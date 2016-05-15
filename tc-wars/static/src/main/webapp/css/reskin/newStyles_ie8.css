@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper {
+	overflow: hidden;
+	}
+
+#navigation{
+	box-shadow: 0 2px 3px #aaa;
+	}

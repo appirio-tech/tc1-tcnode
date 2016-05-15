@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+/** for main nav link **/
+#mainContent #header #mainNav li a{
+	width:auto;
+	height:19px;
+	float:left;
+	display:inline;
+	padding:0 8px;
+	font-size:12px;
+	color:#ffffff;
+	line-height:19px;
+	}
+
+/** member silder user information **/
+#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList .userInfo{
+	width:190px;
+	float:left;
+	display:inline;
+	margin-left:4px;
+	}

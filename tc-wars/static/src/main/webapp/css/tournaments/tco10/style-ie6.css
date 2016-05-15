@@ -1,0 +1,16 @@
+.buttons_bar {
+	height:17px;
+	
+}
+
+.buttons_bar a {	
+	height:17px;
+}
+
+.buttons_bar a.button.off {
+	background:url(/i/tournament/tco10/button1_off.png) no-repeat !important;
+}
+
+table.leaderboard tr th span.right{
+	display:none;
+}

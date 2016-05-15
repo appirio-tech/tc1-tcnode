@@ -1,0 +1,28 @@
+        .codeTextArea, .messageTextArea,
+        {
+            font-family: Courier;
+            font-size: 12px;
+        }
+
+        .codeTextArea {
+            width: 880px;
+        }
+
+        .messageTextArea {
+            color: FF0000;
+            width: 880px;
+        }
+        .CodeMirror {
+            border: 1px solid black;
+            width: 880px;
+        }
+        
+        #codeMirrorContainer .CodeMirror {
+            width: auto;
+            height: auto;
+        }
+        
+        #codeMirrorContainer .CodeMirror-scroll {
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <name>topcoder-wiki</name>
+    <parent>
+        <artifactId>topcoder-parent</artifactId>
+        <groupId>topcoder</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>topcoder-wiki</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>topcoder</groupId>
+            <artifactId>topcoder-shared</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>topcoder</groupId>
+            <artifactId>topcoder-main</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>opensymphony</groupId>
+            <artifactId>xwork</artifactId>
+            <version>1.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.hibernate</groupId>
+            <artifactId>hibernate</artifactId>
+            <version>2.1.8</version>
+        </dependency>
+
+        <!-- Local dependencies for third-party libraries-->
+        <dependency>
+            <groupId>com.atlassian.bandana</groupId>
+            <artifactId>com.atlassian.bandana</artifactId>
+            <version>0.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.confluence</groupId>
+            <artifactId>com.atlassian.confluence</artifactId>
+            <version>2.7</version>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.seraph</groupId>
+            <artifactId>com.atlassian.seraph</artifactId>
+            <version>0.30</version>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.user</groupId>
+            <artifactId>com.atlassian.user</artifactId>
+            <version>1.21</version>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.core</groupId>
+            <artifactId>com.atlassian.core</artifactId>
+            <version>3.5</version>
+        </dependency>
+        <dependency>
+            <groupId>bucket.user</groupId>
+            <artifactId>bucket.user</artifactId>
+            <version>0.18</version>
+        </dependency>
+    </dependencies>
+
+</project>

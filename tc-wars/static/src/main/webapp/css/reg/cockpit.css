@@ -1,0 +1,190 @@
+/* GLOBAL TAGS */
+p{
+ padding: 0;
+ margin: 10px;
+}
+html{
+ background: #ffffff url(/i/registration/cockpitPageBG.png) top center no-repeat;
+}
+body{
+ background: #ffffff url(/i/registration/cockpitPageBG.png) top center no-repeat;
+ border-top: 1px solid #ffffff;
+ height: 101%;
+}
+iframe{
+ width: 520px;
+ height: 200px;
+}
+input{
+ margin: 0;
+ padding: 0;
+}
+/*----------*/
+
+
+/* TABLES */
+table.regFields{
+ margin: 0 1px 1px 1px;
+ width: 528px;
+}
+table.regFields tr.odd td{
+ background: #f2f2f2;
+}
+table.regFields tr.even td{
+ background: #ffffff;
+}
+table.regFields tr.error td{
+ color: #ff0000;
+ padding-left: 185px;
+ font-size: 12px;
+ font-weight: bold;
+ text-decoration: none;
+ text-align: left;
+}
+table.regFields td.field, table.regFields td.value{
+ color: #3c3c3c;
+ font-size: 12px;
+ font-style: normal;
+}
+table.regFields tr.odd td.field, table.regFields tr.even td.field
+{
+ padding: 4px;
+ text-align: right;
+ width: 120px;
+ vertical-align: top;
+ font-weight: bold;
+ width: 175px;
+}
+table.regFields tr.odd td.value, table.regFields tr.even td.value {
+ padding: 4px;
+ font-weight: bold;
+}
+table.whatToDo{
+ margin: 0 40px;
+}
+table.whatToDo td
+{
+ vertical-align: top;
+ border-top: 1px solid #999999;
+}
+table.whatToDo td.image
+{
+ padding-bottom: 10px;
+}
+table.whatToDo td.text
+{
+ padding: 10px 0px 10px 10px;
+}
+table.loginFields {
+ margin: 10px 0;
+}
+table.loginFields td{
+ padding: 2px 4px;
+}
+table.loginFields td.field{
+ text-align: right;
+}
+/*----------*/
+
+
+/* PAGE LAYOUT */
+#pageAligner{
+}
+#pageSpacer{
+ margin: 70px 10px 40px 10px;
+ padding: 0;
+ width: 530px;
+ text-align: left;
+ border: 1px solid #cccccc;
+ background: #ffffff;
+}
+#schoolPageAligner{
+}
+#schoolPageSpacer{
+ width: 500px;
+ margin: 15px;
+ padding: 0;
+ border: 1px solid #cccccc;
+ background: #ffffff;
+ text-align: left;
+}
+#pageBranding{
+ display: none;
+ padding:6px 0px 6px; 0px;
+}
+#pageBranding a{
+ display: block;
+ width: 190px;
+ height: 28px;
+ background: transparent url(/i/registration/tc_logo.gif) center center no-repeat;
+}
+#pageBranding a:link, #pageBranding a:visited, #pageBranding a:hover, #pageBranding a:active {
+ text-decoration: none;
+}
+#pageTitle{
+ height: 28px;
+ background: #595959 url(/i/registration/cockpitPageTitleBG.png) left bottom repeat-x;
+ margin: 1px 1px 0 1px;
+ padding: 0 0 0 11px;
+}
+#pageTitle div{
+ height: 28px;
+ width: 56px;
+ margin: 0px;
+ padding: 0px;
+ background: transparent url(/i/registration/cockpitPageTitle.png) left center no-repeat;
+}
+#topMessage{
+ margin: 10px;
+}
+#legend{
+ padding: 10px;
+}
+#submitContainer{
+ padding: 10px;
+}
+#regSelection div.regOption {
+ margin: 30px 20px;
+}
+#logoutLink{
+ text-align: right;
+ margin: 4px 4px 0 4px;
+}
+#confirmWarning{
+ text-align: center;
+}
+#successMessage{
+ margin: 0 40px;
+ text-align: center;
+}
+div.regSection{
+ text-align: center;
+ padding: 10px 0 6px 0;
+ font-weight: bold;
+ text-transform: uppercase;
+ color: #000000;
+}
+.justUS{ }
+.global{ display: none; }
+#regBcContainer, #handleWarning, #secretWarning
+{
+ display: none;
+}
+div.regHead
+{
+ background: #595959 url(/i/registration/cockpitPageTitleBG.png) left bottom repeat-x;
+ color: #FFFFFF;
+ font-weight: bold;
+ padding: 6px 10px;
+ margin: 0 40px;
+}
+div.error{
+ color: #ff0000;
+ font-size: 12px;
+ font-weight: bold;
+ text-decoration: none;
+ padding: 4px;
+}
+/*----------*/
+
+

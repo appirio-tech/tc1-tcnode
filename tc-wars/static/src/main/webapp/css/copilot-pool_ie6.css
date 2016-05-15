@@ -1,0 +1,15 @@
+/* CSS hack code for IE6 */
+/* sets min-width for IE6 */
+.copilot-pool {
+   width: expression( (document.documentElement.clientWidth || document.body.clientWidth) <930 ? "750px" : "auto" );
+}
+.copilot-pool .charts .palisade-control{
+   width: expression( this.offsetWidth > 500 ? "500px" : "100%" ); 
+} 
+.copilot-pool .charts table.details-chart-container td.details table{
+      width: 300px;
+}
+
+.copilot-pool .grid-copilots .copilot{
+    margin-bottom:30px;
+}

@@ -1,0 +1,14 @@
+/* IE6 Specific CSS Document */
+#content_right {
+	display: inline;
+}
+
+#client-content {
+	margin-right: 30px;
+}
+#compete h2 {
+	margin: 0px 0px 0px 5px;
+}
+#compete div {
+	margin: 0px 0px 0px 5px;
+}

@@ -1,0 +1,490 @@
+/* CSS Document */
+
+BODY{
+	margin: 0;
+	padding: 0;
+	background: #bababb url(/i/home/bg.png) repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*-------------
+	WRAPPER
+-------------*/
+
+#wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 80px;
+}
+
+.wrapperContent{
+	background-color: #FFF;
+} 
+
+.wrapperLeft{
+	background: url(/i/home/wrapper_left.png) repeat-y left;
+}
+
+.wrapperRight{
+	background: url(/i/home/wrapper_right.png) repeat-y right;
+}
+
+.wrapperBottom{
+	background: url(/i/home/wrapper_bottom.png) repeat-x bottom;
+}
+
+.wrapperTopLeft{
+	background: url(/i/home/wrapper_top_left.png) no-repeat top left;
+}
+
+.wrapperTopRight{
+	background: url(/i/home/wrapper_top_right.png) no-repeat top right;
+}
+
+.wrapperBottomLeft{
+	background: url(/i/home/wrapper_bottom_left.png) no-repeat bottom left;
+}
+
+.wrapperBottomRight{
+	background: url(/i/home/wrapper_bottom_right.png) no-repeat bottom right;
+}
+
+
+/*------------
+	MAIN CONTENT
+--------------*/
+
+#mainContent{
+	padding: 0 5px 5px 5px; 
+}
+
+
+/*--- HEADER ---*/
+
+#header{
+	position: relative;
+	height: 412px;
+	background: url(/i/home/header_bg.png) no-repeat bottom;
+}
+
+	#header .logo{
+		position: absolute;
+		top: 22px;
+		right: 31px;
+	}
+	
+	#header H2.mainTitle{  
+		color: #333333;  
+		position: relative;  
+		display: block;  
+		margin: 0;  
+		padding: 0 0 6px 0;  
+		top: 95px;
+		font-weight: bold;  
+		font-size: 30px;  
+		text-align: center; 
+		font-family: "MyriadPro-Semibold", Arial, sans-serif; 
+	}
+	
+		#header H2.mainTitle STRONG{
+			color: #cc0000;
+		}
+
+	#header H2.title2{ 
+		position: relative; 
+		display: block; 
+		margin: 0; 
+		padding: 0; 
+		background: url(/i/home/our_clients_are_finding_out_every_day.png) no-repeat; 
+		width: 418px; 
+		height: 28px; 
+		top: 330px; 
+		margin: 0 auto; 
+	}
+
+/*--- Popup ---*/
+
+	#header .popup{
+		display: none;
+		position: absolute;
+	}
+	
+		.popup .popupContent{
+			color: #FFF;
+			font-size: 16px;
+			font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			background: #ff1a00 url(/i/home/popup_bg.png) repeat-x bottom;
+			padding: 20px;
+		}
+		
+		.popup P{
+			margin: 0;
+			padding: 0;
+		}
+		
+		/* Bottom Shade effect for the popup */
+		.popup .popupBottom{
+			background: url(/i/home/popup_bottom_bg.png) repeat-x top;
+			padding-left: 15px;
+		}
+		
+		
+		.popup .popupArrow{
+			background: url(/i/home/popup_arrow.png)  no-repeat;
+			width: 32px;
+			height: 22px;
+		}
+
+/*-- People icons --*/
+	
+	/* The class personGroup1 concern links with the classes person1, person2 or person3 */	
+	
+	#header .personGroup1{
+		position: absolute;
+		background: url(/i/home/person1.png) no-repeat;
+		width: 47px;
+		height: 107px;
+	}
+	
+	#header .person1{
+		left: 66px;
+		top: 243px;
+	}
+	
+	#header .person2{
+		left: 426px;
+		top: 245px;
+	}
+	
+	#header .person3{
+		left: 788px;
+		top: 243px;
+	}
+	
+	/* The class personGroup2 concern links with the classes person4,5... or person10 */	
+	
+	#header .personGroup2{
+		position: absolute;
+		background: url(/i/home/person2.png) no-repeat;
+		width: 41px;
+		height: 91px;
+	}
+	
+	#header .person4{
+		left: 235px;
+		top: 256px;
+	}
+	
+	#header .person5{
+		left: 596px;
+		top: 256px;
+	}
+	
+	#header .person6{
+		left: 150px;
+		top: 248px;
+	}
+	
+	#header .person7{
+		left: 716px;
+		top: 248px;
+	}
+	
+	#header .person8{
+		left: 873px;
+		top: 248px;
+	}
+	
+	#header .person9{
+		left: 353px;
+		top: 248px;
+	}
+	
+	#header .person10{
+		left: 510px;
+		top: 248px;
+	}
+	
+	/* The class personGroup3 concern links with the classes person11,12... or person15 */
+	
+	#header .personGroup3{
+		position: absolute;
+		background: url(/i/home/person3.png) no-repeat;
+		width: 32px;
+		height: 72px;
+	}
+	
+	#header .person11{
+		left: 192px;
+		top: 208px;
+	}
+	
+	#header .person12{
+		left: 475px;
+		top: 210px;
+	}
+	
+	#header .person13{
+		left: 837px;
+		top: 210px;
+	}
+	
+	#header .person14{
+		left: 280px;
+		top: 220px;
+	}
+	
+	#header .person15{
+		left: 640px;
+		top: 220px;
+	}
+		
+	#header A.person:hover{
+		background-position: bottom;		
+	}
+	
+/*-- Content --*/
+
+.clientArea{
+	background: #0e0e0e url(/i/home/content_top_bg.png) repeat-x top;
+	padding: 10px 0 20px 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+	.clientArea .description{
+		background: transparent;
+		color: #FFF;
+		float: left;
+		width: 440px;
+	}
+	
+		.clientArea .description h2{
+			font-size: 18px;
+			padding: 0;
+			margin: 20px 0 10px 0;
+		}
+		
+		.clientArea .description  P{
+			font-size: 14px;
+			line-height: 18px;
+		}
+
+.buttonArea{
+	float: left;
+	width: 520px;
+	margin-top: 30px;
+}
+.buttonArea div{
+    float:left;
+    width:240px;
+}
+.buttonArea div p{
+    color:#333;
+    margin:10px 22px 0 22px !important;
+}
+
+.contentBg2{
+    padding:17px 0 !important;
+	background: #dedede url(/i/home/content_top_bg2.png) repeat-x top;
+}
+	
+	contentBg2 .description {
+		color: #333;
+		display: inline;
+		position: relative;
+		width: 100%;
+	}
+	
+	.contentBg2 .description H2{
+		color: #333;
+		display: block;
+	}
+	
+	.contentBg2 .description P{
+        margin-top: 10px !important;
+		color: #333;
+		text-align: center;
+	}
+	
+	.description P STRONG{
+		color: #cc0000;
+		font-weight: normal;
+	}
+	
+.buttonArea2 {
+	width: 100%;
+	margin-top: 20px !important;
+}
+.buttonArea2 .studio {
+    float:left;
+    width:50%;
+}
+.buttonArea2 .dev {
+    float:right;
+    width:50%;
+}
+.buttonArea2 p {
+    color:#333;
+    font-size: 12px;
+}
+.buttonArea2 .studio p {
+	text-align: right;
+	margin:5px 25px 0 0px !important;
+}
+.buttonArea2 .dev p {
+	text-align: left;
+	margin:5px 0px 0 8px !important;
+}
+
+.competeText {
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 28px;
+}
+
+.competeText strong {
+	color: #cc0000;
+}
+
+.competeText .action { 
+	font-size: 25px; 
+	font-weight: bold; 
+	color: #000000; 
+	font-family: "MyriadPro-Semibold", Arial, sans-serif;
+}
+
+
+
+/*-- Carousel --*/
+
+.carouselContainer{
+	height: 100%;
+	overflow: hidden;
+	padding: 5px 0;
+	position: relative;
+}
+
+/* Vertical line behind the left button of the carousel */
+.carouselBorderLeft{
+	position: absolute;
+	background: url(/i/home/carousel_left_right_bg.png) no-repeat;
+	width: 1px;
+	height: 152px;
+	left: 69px;
+}
+
+/* Vertical line behind the right button of the carousel */
+.carouselBorderRight{
+	position: absolute;
+	background: url(/i/home/carousel_left_right_bg.png) no-repeat;
+	width: 1px;
+	height: 152px;
+	left: 921px;
+}
+
+.carouselImage{
+	width: 415px;
+	height: 152px;
+	float: left;
+	display: block;
+}
+
+	.carouselImage A{
+		float: left;
+		text-align: center;
+	}
+	
+/* This will contain the text inside the carousel */
+.carouselContent{
+}
+
+	.carouselContent P{
+		font-size: 16px;
+		vertical-align: center;
+		padding: 0;
+	}
+	
+
+/*--------------
+	FOOTER
+---------------*/
+
+
+#footer{
+	background-color: #FFFFFF;  
+	text-align: center;  
+	font-size: 12px;  
+	color: #666666;  
+	padding: 10px 0 5px 0;
+}
+
+#footer P{  
+	margin: 0; 
+	font-size: 11px;  
+	line-height: 18px;
+}
+
+#footer p a{
+	color: #666666;
+	text-decoration: underline;
+}
+
+#footer p a:hover{
+	color: #FF0000;
+}
+
+
+/*--- Buttons ---*/
+
+A.getStarted{
+	display: block;
+	background: url(/i/home/get_started_button.png) no-repeat;
+	width: 271px;
+	height: 47px;
+	margin: 40px auto;
+}
+
+	A.getStarted:hover{
+		background-position: bottom;
+	}
+	
+A.developNow{
+	display: block;
+	background: url(/i/home/develop_button.png) no-repeat top left;
+	width: 215px;
+	height: 50px;
+	margin: 0 auto 0 10px;
+}
+
+	A.developNow:hover{
+		background-position: bottom;
+	}
+
+A.designNow{
+	display: block;
+	background: url(/i/home/design_button.png) no-repeat top right;
+	width: 201px;
+	height: 50px;
+	margin: 0 10px 0 auto;
+}
+
+	A.designNow:hover{
+		background-position: bottom;
+	}
+/*-- IMG --*/
+
+IMG{
+	border: none;
+}
+
+/*-- MISC --*/
+
+.hide{
+	display: none;
+}

@@ -1,0 +1,179 @@
+h2 {
+ color: #d92228;
+ margin: 10px 0;
+}
+.c {
+ text-align: center;
+}
+.r {
+ text-align: right;
+}
+#pageSpacer {
+ position: relative;
+ width: 780px;
+ margin: 15px 0 40px 0;
+ text-align: left;
+ background: transparent;
+}
+#eventLogo {
+ position: absolute;
+ top: 0px;
+ right: 30px;
+ width: 200px;
+ height: 105px;
+}
+#eventBannerBox {
+ width: 535px;
+ height: 150px;
+ vertical-align: middle;
+}
+#eventBannerBox img{
+ vertical-align: middle;
+}
+#eventDescBox {
+ background: transparent url(/i/digital_run/eventDescBoxBG.png) top center no-repeat;
+ height: 150px;
+ margin-bottom: 35px; /* that's how far the nav box sticks out the bottom */
+ color: #ffffff;
+}
+#eventDescBox div.spacer{
+ padding: 45px 250px 20px 20px;
+}
+#eventDescBox a {
+ color: #ffffff;
+}
+#eventDescBox a:link, #eventDescBox a:visited {
+ color: #ffffff;
+ text-decoration: underline;
+}
+#eventDescBox a:hover, #eventDescBox a:active {
+ color: #eeeeee;
+ text-decoration: none;
+}
+#navBox{
+ display: table-cell;
+ list-style-type: none;
+ position: absolute;
+ top: 116px;
+ right: 20px;
+ width: 220px;
+ background: transparent url(/i/digital_run/navBoxBG.png) top center no-repeat;
+ margin: 0px;
+ /* (height - #tabs x 32) / 2 */
+ padding: 26px 0;
+}
+#navBox li {
+ display: block;
+ margin: 4px;
+ text-align: center;
+}
+#navBox li a, #navBox li a:link, #navBox li a:visited {
+ display: block;
+ line-height: 24px;
+ background: transparent url(/i/digital_run/navBoxLinkBG.png) top center no-repeat;
+ color: #000000;
+ font-weight: bold;
+ text-decoration: none;
+}
+#navBox li a:hover, #navBox li a:active {
+ background: transparent url(/i/digital_run/navBoxLinkBG.png) bottom center no-repeat;
+ color: #ffffff;
+ font-weight: bold;
+ text-decoration: none;
+}
+#contestTypes {
+/* START this is need to properly contain floats visually */
+ overflow:auto;
+ width: 100%;
+/* END this is need to properly contain floats visually */
+}
+#contestTypes div.designColumn, #contestTypes div.developmentColumn, #contestTypes div.studioColumn{
+ float: left;
+ width: 230px;
+ margin: 0 0 0 22px;
+ text-align: center;
+}
+#contestTypes a {
+ font-weight: bold;
+}
+
+#contestTypes div.designColumn{
+}
+#contestTypes div.developmentColumn{
+}
+#contestTypes div.studioColumn{
+}
+#tallyBox{
+ margin: 10px 0;
+ height: 50px;
+ background: #ffffdd;
+}
+#leaderboards{
+/* START this is need to properly contain floats visually */
+ overflow:auto;
+ width: 100%;
+/* END this is need to properly contain floats visually */
+}
+#leaderboards div.designColumn, #leaderboards div.developmentColumn, #leaderboards div.studioColumn{
+ float: left;
+ width: 230px;
+ margin: 0 0 0 22px;
+}
+div.prizeLine{
+ color: #d92228;
+ font-weight: bold;
+ padding: 10px 0;
+}
+div.prizeLine span.money{
+ display: block;
+ font-size: 3em;
+ line-height: normal;
+}
+div.prizeLine span.month{
+ display: block;
+ line-height: normal;
+}
+div.prizeGuarantee{
+ color: #333333;
+ font-weight: bold;
+ padding: 10px 0;
+}
+div.prizeGuarantee span.money{
+ display: block;
+ font-size: 1.5em;
+ line-height: normal;
+}
+div.prizeGuarantee span.month{
+ display: block;
+ line-height: normal;
+}
+table.drStat{
+ border: 1px solid #999999;
+}
+table.drStat th{
+ padding: 2px 4px 2px 4px;
+ line-height: normal;
+ color: #000000;
+ font-size: 11px;
+ font-weight: bold;
+ background-color: #e5e5e5;
+}
+table.drStat th.title{
+ background: #3d3d3d url(/i/digital_run/drStatTitleBG.png) top center repeat-x;
+ font-size: 1.5em;
+ line-height: 1.5em;
+ color: #ffffff;
+}
+table.drStat tr.odd td{
+ background-color: #f5f5f5;
+}
+table.drStat tr.even td{
+ background-color: #efefef;
+}
+table.drStat td{
+ padding: 2px 4px 2px 4px;
+ line-height: normal;
+ color: #000000;
+ font-size: 11px;
+ border-top: 1px solid #FFFFFF;
+}

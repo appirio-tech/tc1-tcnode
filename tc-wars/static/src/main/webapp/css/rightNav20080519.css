@@ -1,0 +1,76 @@
+div.rightNav {
+ width: 180px; 
+ background: #353E44 url(/i/interface/rightNav.png) top left repeat-y;
+ color: #ffffff;
+}
+
+div.rightNav div.setWidth {
+ margin: 0px 0px 0px 10px;
+}
+
+div.rightNav div.contain {
+ margin: 0px;
+ position: relative;
+ width: 100%;
+}
+
+div.rightNav div.section {
+ font-weight: bold;
+ background: #ff0000;
+ padding-left: 4px;
+}
+
+#defaultLinkBox{
+ margin-top: 6px;
+ color: #ffffff;
+}
+
+/* RIGHT NAV TABLE */
+table.rightNav {
+ border: none;
+ vertical-align: top;
+ padding: 0px;
+ background: transparent;
+}
+table.rightNav td, table.rightNav th {
+ padding: 2px 4px 2px 4px;
+ line-height: normal;
+ background: transparent;
+ color: #ffffff;
+}
+table.rightNav td.title, table.rightNav td.titleC, table.rightNav td.titleR {
+ font-size: 12px;
+ font-weight: bold;
+ text-decoration: none;
+ white-space: nowrap;
+ background: #555555;
+}
+table.rightNav th, table.rightNav td.header,table.rightNav td.headerC,table.rightNav td.headerR {
+ font-size: 11px;
+ font-weight: bold;
+ vertical-align: middle;
+ background: #4e4e4e url(/i/interface/grayHeaderDk.png) top center repeat-x;
+}
+table.rightNav td.titleC, table.rightNav td.headerC, table.rightNav td.valueC { text-align: center; }
+table.rightNav td.titleR, table.rightNav td.headerR, table.rightNav td.valueR { text-align: right; }
+table.rightNav tr.light td { background-color: #262a2c }
+table.rightNav tr.dark td { background-color: #333333 }
+table.rightNav td.value, table.rightNav td.valueC, table.rightNav td.valueR, table.rightNav td.field
+{
+ font-size: 11px;
+ vertical-align: top;
+}
+table.rightNav td.field {
+ font-weight: bold;
+}
+table.rightNav a:link, table.rightNav a:visited { text-decoration: none; }
+table.rightNav a:hover, table.rightNav a:active { text-decoration: underline; }
+table.rightNav  tbody.show{
+ display: table-row-group;
+}
+table.rightNav tbody.hide{
+ display: none;
+}
+table.rightNav div.prizes{
+ float: right;
+}

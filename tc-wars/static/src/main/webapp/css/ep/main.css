@@ -1,0 +1,382 @@
+body{ 
+ font-family: Arial, Verdana, Helvetica, sans-serif;
+ line-height: normal;
+ font-size: 12px;
+ color: #333333;
+ padding: 10px;
+ margin: 0;
+ background: #333333 url(/i/ep/bodyBG.png) top center;
+}
+
+img{
+ border: none;
+}
+
+p, h1, h2, h3, table {
+padding: 0;
+margin: 0 0 10px 0;
+}
+
+table { border-collapse: collapse; }
+
+h1 {
+ height: 26px;
+ background-image: url(/i/ep/titleW.png);
+ background-position: center left;
+ background-repeat: no-repeat;
+}
+
+h1 span.bg {
+ display: block;
+ height: 26px;
+ margin: 0;
+ background: transparent url(/i/ep/titleE.png) center right no-repeat;
+}
+
+h1 span.spacer{
+ display: block;
+ padding: 5px 0 0 10px;
+ margin: 0;
+ color: #ffffff;
+ font-size: 12px;
+ font-weight: bold;
+}
+
+h2 {
+ font-size: 150%;
+}
+
+a:link{
+ color: #a00000;
+ text-decoration: underline;
+}
+
+a:visited{
+ color: #810101;
+ text-decoration: underline;
+}
+
+a:hover, a:active{
+ color: #ff0000;
+ text-decoration: underline;
+}
+
+.bigRed{ color: #FF0000; font-size: 12px; font-weight: bold; text-decoration: none; }
+A.bigRed:link, A.bigRed:visited, A.bigRed:active { color: #FF0000; text-decoration: underline; }
+A.bigRed:hover { color: #000000; text-decoration: underline;}
+.bigGreen{ color: #009900; font-size: 12px; font-weight: bold; text-decoration: none; }
+A.bigGreen:link, A.bigGreen:visited, A.bigGreen:active { color: #009900; text-decoration: underline; }
+A.bigGreen:hover { color: #000000; text-decoration: underline;}
+.grayedOut{ color: #999999; }
+.small{ font-size: 10px; }
+
+div.popper {
+ cursor: default;
+ float: left;
+}
+
+div.popUp {
+ display: none;
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ z-index: 100;
+}
+
+div.popUp div {
+ float: left;
+ line-height: normal;
+ font-weight: normal;
+ font-size: 11px;
+ background: #FFFFCC;
+ border: 1px solid #999999;
+ padding: 4px 6px 4px 6px;
+ white-space: nowrap;
+}
+
+#widther{
+ margin: 0px;
+ width: 780px;
+}
+
+#pageFrame{
+ padding: 0px 10px;
+ background: #969696;
+}
+
+#pageHeader{
+ height: 150px;
+ margin: 0 0 10px 0;
+ padding: 0;
+ position: relative;
+}
+
+#logo{
+ display: block;
+ width: 120px;
+ height: 120px;
+ position: absolute;
+ top: 14px;
+ left: 18px;
+}
+
+#logo:link, #logo:visited{
+ text-decoration: none;
+}
+
+#pageHeader div.schoolName{
+ color: #ffffff;
+ font-size: 24px;
+ font-weight: normal;
+ text-align: right;
+ padding: 15px 20px 0 160px;
+}
+
+#pageHeader div.schoolName a{
+ font-size: 32px;
+ font-weight: bold;
+}
+
+#pageHeader div.schoolName a:link, #pageHeader div.schoolName a:visited {
+ color: #ffffff;
+ text-decoration: none;
+}
+
+#pageHeader div.schoolName a:hover, #pageHeader div.schoolName a:active {
+ color: #dddddd;
+ text-decoration: none;
+}
+
+#pageHeader div.login {
+ position: absolute;
+ bottom: -10px;
+ left: 540px;
+ width: 200px;
+ height: 24px;
+ background: #ffffff;
+ border: 3px solid #969696;
+ border-bottom: none;
+}
+
+#pageHeader div.login span{
+ display: block;
+ padding-top: 5px;
+}
+
+#navigation {
+ height: 40px;
+ padding: 0;
+ margin-bottom: 10px;
+ background: transparent url(/i/ep/topNavBG.png) top center no-repeat;
+}
+#navigation div{
+ padding-top: 13px;
+}
+
+#navigation ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ text-align: center;
+ color: #ffffff;
+}
+
+#navigation ul li {
+ display: inline;
+ position: relative;
+ margin: 0 5px;
+}
+
+#navigation li a {
+ padding: 5px 1em;
+}
+
+#navigation ul li a {
+ background: transparent;
+ color: #ffffff;
+ font-size: 12px;
+ font-weight: bold;
+ padding: 6px 0;
+ text-decoration: none;
+}
+
+#navigation ul li a span {
+ background: transparent;
+ padding: 6px 1em;
+}
+
+#navigation ul li a:hover span {
+ color: #ffffff;
+ text-decoration: underline;
+}
+
+#navigation ul li a.on {
+ background-image: url(/i/ep/topNavOnE.png);
+ background-position: 100% 0;
+ background-repeat: no-repeat;
+}
+
+#navigation ul li a.on span {
+ background: transparent url(/i/ep/topNavOnW.png) no-repeat;
+}
+
+/* IE Hack: only happens in IE*/
+#navigation ul li a {
+ *padding:0;
+}
+/**/
+
+#pageContent{
+ position: relative;
+ /* "Holly Hack": required for bottom rounded corners*/
+ height: 1%;
+ background: #cdcdcd url(/i/ep/contentBGGrfx.png) top center repeat-x;
+}
+
+#pageContent div.N, #pageContent div.S {
+ height: 10px;
+ margin: 0;
+ padding: 0;
+ clear: both;
+ background: transparent;
+}
+
+#pageContent img.NW, #pageContent img.SW {
+ float: left;
+}
+
+#pageContent img.NE, #pageContent img.SE{
+ float: right;
+}
+
+#pageContent div.spacer{
+ padding: 10px 10px 0px 10px;
+ background: transparent;
+}
+
+div.window{
+ height: 1%;
+ background: #ffffff;
+ border: 1px solid #969696;
+ margin-bottom: 10px;
+}
+
+#pageContent div.window div.spacer{
+ padding: 10px 10px;
+}
+
+div.classroomListing{
+ float: left;
+ margin: 10px 20px 40px 0px;
+ height: 100px;
+}
+
+div.classroomListing div.name{
+ margin-bottom: 10px;
+}
+
+div.classroomListing div.name a{
+ font-weight: bold;
+}
+
+div.classroomListing div.button, div.classroomListing div.message{
+ margin-bottom: 4px;
+}
+
+div.submissionContainer{
+ margin: 10px;
+ padding: 10px;
+ background: #ffffff;
+}
+/* STAT TABLE */
+table.stat {
+ vertical-align: top;
+ padding: 0px;
+ margin-bottom: 10px;
+ border-collapse: collapse;
+}
+table.stat td, table.stat th {
+ padding: 2px 4px 2px 4px;
+ line-height: normal;
+}
+table.stat th.title, table.stat td.title {
+ text-align: left;
+ background: #ffffff;
+ font-size: 12px;
+ font-weight: bold;
+ text-decoration: none;
+ white-space: nowrap;
+ padding: 6px 4px 6px 4px;
+}
+
+table.stat th, table.stat td.header,table.stat td.headerC,table.stat td.headerR {
+ color: #ffffff;
+ font-size: 11px;
+ font-weight: bold;
+ vertical-align: middle;
+ border: 1px solid #959595;
+}
+
+table.stat td.header a:link,table.stat td.headerC a:link,table.stat td.headerR a:link,
+table.stat td.header a:visited,table.stat td.headerC a:visited,table.stat td.headerR a:visited {
+ color: #ffffff;
+ text-decoration: underline;
+}
+table.stat td.header a:hover,table.stat td.headerC a:hover,table.stat td.headerR a:hover,
+table.stat td.header a:active,table.stat td.headerC a:active,table.stat td.headerR a:active {
+ color: #ff0000;
+ text-decoration: underline;
+}
+
+table.stat tr.light td.value { background: #ffffff }
+table.stat tr.dark td.value { background: #eeeeee }
+table.stat tr.light td.highlight { background: #ffffcc }
+table.stat tr.dark td.highlight { background: #eeeebb }
+
+table.stat td.value, table.stat td.valueC, table.stat td.valueR, table.stat td.field, table.stat td.highlight
+{
+ font-size: 11px;
+ vertical-align: top;
+ border: 1px solid #959595;
+}
+table.stat td.C { text-align: center; }
+table.stat td.R { text-align: right; }
+table.stat td.field {
+ color: #000000;
+ font-weight: bold;
+}
+table.stat a:link, table.stat a:visited { text-decoration: none; }
+table.stat a:hover, table.stat a:active { text-decoration: underline; }
+table.stat td.B {
+ border-right: 1px solid #999999;
+}
+table.stat td.NW {
+ white-space: nowrap;
+}
+table.stat tbody.show{
+ display: table-row-group;
+}
+table.stat tbody.hide{
+ display: none;
+}
+
+#pageFooter{
+ height: 50px;
+ margin-top: 10px;
+ background: transparent url(/i/ep/footerBG.png) top center;
+ color: #ffffff;
+}
+
+#pageFooter div.spacer{
+ padding-top: 14px;
+}
+
+#pageFooter a:link, #pageFooter a:visited {
+ color: #ffffff;
+ text-decoration: underline;
+}
+
+#pageFooter a:hover, #pageFooter a:active {
+ color: #ff0000;
+ text-decoration: none;
+}

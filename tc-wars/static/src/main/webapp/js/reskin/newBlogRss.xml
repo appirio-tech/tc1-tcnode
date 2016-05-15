@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>topcoder&#187;</title>
+	<atom:link href="http://www.topcoder.com/feed/?post_type=blog" rel="self" type="application/rss+xml" />
+	<link>http://www.topcoder.com</link>
+	<description>let&#039;s build it</description>
+	<lastBuildDate>Wed, 23 Apr 2014 18:16:51 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>New Look and Feel for /tc</title>
+		<link>http://www.topcoder.com/blog/new-look-and-feel-for-tc/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=new-look-and-feel-for-tc</link>
+		<comments>http://www.topcoder.com/blog/new-look-and-feel-for-tc/#comments</comments>
+		<pubDate>Wed, 23 Apr 2014 18:16:51 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Hicks]]></dc:creator>
+				<category><![CDATA[Platform]]></category>
+		<category><![CDATA[topcoders]]></category>
+		<category><![CDATA[/tc]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[demo]]></category>
+		<category><![CDATA[environment]]></category>
+		<category><![CDATA[facade]]></category>
+		<category><![CDATA[forums]]></category>
+		<category><![CDATA[game of thrones]]></category>
+		<category><![CDATA[ned stark]]></category>
+		<category><![CDATA[reskinned]]></category>
+		<category><![CDATA[winter is coming]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14620</guid>
+		<description><![CDATA[@timmhicks &#8211; Tim Hicks Happy Hump Day topcoders! We are excited to announce that we will be releasing a new look for the very popular /tc by...<br/><a href="http://www.topcoder.com/blog/new-look-and-feel-for-tc/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/Ned-Stark-Meme-Full.jpg"><img style="float: left; margin-right: 1em" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/Ned-Stark-Full.jpg"></a>
+
+<p style="padding-bottom: 5px"> <i><a href="http://twitter.com/timmhicks"> @timmhicks </a> &#8211; Tim Hicks</i></p>
+
+<p style="padding-bottom: 5px"> Happy <a href="https://www.youtube.com/watch?v=kWBhP0EQ1lA">Hump Day</a> topcoders!</p>
+
+<p style="padding-bottom: 5px"> We are excited to announce that we will be releasing a new look for the very popular /tc by the end of this month. You can view a demo environment of the newly <a href="http://preview.topcoder.com/tc">reskinned /tc here.</a> We are pretty thrilled about bringing a new clean look and feel to /tc that will be easier for new members to find things they are looking for, as well as look the part for fitting in with the site as a whole while we continue to build new community pages with great features that will ultimately replace /tc. We&#8217;ll be reaching out to you for feedback on what you&#8217;d like to see soon!.</p>
+
+<p style="padding-bottom: 5px">In addition, we have reskinned the <a href="http://preview.topcoder.com/forums?module=ThreadList&#038;forumID=244237&#038;mc=47426">old forums</a> to also match the new look and feel of the overall site and the new /tc. The old forums will continue to operate under this new facade in the interim until we are officially ready to move over to the discourse forums, permanently.</p>
+
+<p style="padding-bottom: 5px">If you have any feedback on the new /tc, <a href="https://talk.topcoder.com/category/bugs-feedback">please let us know</a>.</p>
+
+]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/new-look-and-feel-for-tc/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Space, The Final Email Frontier</title>
+		<link>http://www.topcoder.com/blog/space-the-final-email-frontier/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=space-the-final-email-frontier</link>
+		<comments>http://www.topcoder.com/blog/space-the-final-email-frontier/#comments</comments>
+		<pubDate>Wed, 23 Apr 2014 13:02:16 +0000</pubDate>
+		<dc:creator><![CDATA[Rashid Sial]]></dc:creator>
+				<category><![CDATA[Challenges]]></category>
+		<category><![CDATA[Data Science]]></category>
+		<category><![CDATA[algorithm]]></category>
+		<category><![CDATA[asteroid hunters]]></category>
+		<category><![CDATA[data science]]></category>
+		<category><![CDATA[marathon match]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[star trek]]></category>
+		<category><![CDATA[star wars]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14618</guid>
+		<description><![CDATA[Do you ever find yourself hitting “send” on an email and wondering if it’ll arrive in the recipient&#8217;s inbox? Sending email has become so ubiquitous, simple and...<br/><a href="http://www.topcoder.com/blog/space-the-final-email-frontier/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<img style="width:100%; margin-bottom: 1em" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-15-at-1.40.57-PM.png">
+
+<p style="padding-bottom: 5px">Do you ever find yourself hitting “send” on an email and wondering if it’ll arrive in the recipient&#8217;s inbox?</p>
+
+<p style="padding-bottom: 5px">Sending email has become so ubiquitous, simple and nearly instantaneous that we may take it for granted.</p>
+
+<p style="padding-bottom: 5px">In reality, sending an email is a very complex process.</p>
+
+<figure>
+<center><img style="margin-top: 0em; margin-bottom: 0em;" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/How-Email-Works.png"> 
+
+<figcaption>Does the diagram above give you a headache? Yeah, me too.</figcaption>
+</figure></center></p>
+
+<p style="padding-bottom: 5px">Now imagine how much more complex it would be if you’re sending an email from Earth to the <a href="http://www.nasa.gov/mission_pages/station/main/index.html">International Space Station (ISS)</a>.</p>
+
+<p style="padding-bottom: 5px">The ISS orbits the Earth at a height of 230 miles (370 km) at a speed of 4.791 miles per second (7.71 km/s).</p>
+
+<p style="padding-bottom: 5px">It’s moving fast, like really fast.</p>
+
+<figure>
+<center><img style="margin-top: 0em; margin-bottom: 0em;" alt="Astronauts, Cosmonauts and Space Cadets (ok, we made the last one up) need email too." src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-15-at-1.44.00-PM.png">
+<figcaption>Astronauts, Cosmonauts and Space Cadets (ok, we made the last one up) need email too.</figcaption>
+</figure> </center></p>
+
+<p style=" padding-top: 0px; padding-bottom: 5px">Currently the ISS has email &#8211; but there are some challenges. The current system operates over TCP/IP (regular old internet) on links that are time delayed and frequently disrupted due to the structure of the ISS blocking the transmission of data or by the handover of communication between the various ground installations to communication satellites (Tracking and Data Relay Satellite System: TDRSS) and eventually on to the ISS. </p>
+
+<p style="padding-bottom: 5px">The combination of delay and disruptions causes Microsoft Outlook to frequently have problems and become unusable, particularly when sending emails with large attachments, such as pictures or videos.  </p>
+
+<p style="padding-bottom: 5px">Here’s how NASA needs your help &#8211; we need to integrate the <a href="http://sourceforge.net/projects/ion-dtn/">ION Disruption Tolerant Networking (DTN) implementation of Bundle Protocol (BP)</a> with Microsoft Outlook and Microsoft Exchange Server to support the transfer of astronaut email to/from the International Space Station (ISS).  </p> 
+
+<p style="padding-bottom: 5px">Are you up for the challenge? Our first contest <a href="http://www.topcoder.com/challenge-details/30041729/#.U1bEB-ZdXYd">opens for registration today</a>. To learn more about this project, please visit <a href="http://topcoder.com/dtn">topcoder.com/DTN</a></p>
+
+<p style="padding-bottom: 5px">Live long and prosper,<br />
+<i><a href="http://twitter.com/rsial">@rsial</a> &#8211; Rashid Sial</i></p>
+
+<p style="padding-bottom: 5px">P.S. Did you know the ISS has an observation deck called the cupola? It bears a strikingly awesome resemblance to the cockpit of the Millenium Falcon.</p>
+
+<p style="padding-bottom: 5px">P.P.S. I know mixing Star Trek &#038; Star Wars is a geek faux pas. Apologies. </p>
+
+<img style="width: 100%;" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-15-at-2.00.49-PM.png">]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/space-the-final-email-frontier/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>When Beginning in Crowdsourcing and Open Innovation Can Be as Easy as Playing Board Games</title>
+		<link>http://www.topcoder.com/blog/when-beginning-in-crowdsourcing-and-open-innovation-can-be-as-easy-as-playing-board-games/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=when-beginning-in-crowdsourcing-and-open-innovation-can-be-as-easy-as-playing-board-games</link>
+		<comments>http://www.topcoder.com/blog/when-beginning-in-crowdsourcing-and-open-innovation-can-be-as-easy-as-playing-board-games/#comments</comments>
+		<pubDate>Tue, 22 Apr 2014 12:37:58 +0000</pubDate>
+		<dc:creator><![CDATA[Clinton Bonner]]></dc:creator>
+				<category><![CDATA[Challenges]]></category>
+		<category><![CDATA[Design]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[board games]]></category>
+		<category><![CDATA[despicable me]]></category>
+		<category><![CDATA[event]]></category>
+		<category><![CDATA[live]]></category>
+		<category><![CDATA[LUX]]></category>
+		<category><![CDATA[minions]]></category>
+		<category><![CDATA[monopoly]]></category>
+		<category><![CDATA[User experience]]></category>
+		<category><![CDATA[wireframes]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14638</guid>
+		<description><![CDATA[@ClintonBon &#8211; Clinton Bonner We know what you’re thinking. Great, another ‘puff piece’ on the ‘wisdom of crowds’ and how all we need to do is post...<br/><a href="http://www.topcoder.com/blog/when-beginning-in-crowdsourcing-and-open-innovation-can-be-as-easy-as-playing-board-games/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<img style="float: left; margin-right: 1em; margin-bottom: .5em; width: 150px" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/WRH_Game_Night_4x3_300x225.jpg">
+
+<p style="padding-bottom: 5px"> 
+	<i><a href="http://www.twitter.com/clintonbon"> @ClintonBon</a> &#8211; Clinton Bonner </i>
+</p>
+ 
+<p style="padding-bottom: 5px">
+	We know what you’re thinking. Great, another ‘puff piece’ on the ‘wisdom of crowds’ and how all we need to do is post our toughest problem, put up a million bucks, and voila, some genius will heroically swoop from the outskirts of an ‘amalgamous’ community and deliver to us a genius solution that forever changes the trajectory of our enterprise!!!
+</p>
+ 
+<p style="padding-bottom: 5px">
+	Yeah, it most often doesn’t work that way, and crowdsourcing certainly does not scale that way for the enterprise. It’s actually much less ‘daring’ than the faux example given above. It’s more about predictability than anything else actually. When you have enough, hyper-specifically talented individuals around a certain task, or component of work <b><i>and</b></i> you know their reliability as it pertains to their likelihood to compete based on their historical record; it’s then that you find yourself in the position to take more risk and try more brazen ‘things’ through crowdsourcing. What types of things might you ask?
+</p>
+ 
+<p style="padding-bottom: 5px">
+	In late March we introduced the concept of a 24hr LUX or Live UX design challenge where we would gather inputs live on-stage and launch a challenge there and then; with the purpose of showcasing the outputs 24 hours later. <i><a href="http://www.topcoder.com/blog/our-exponential-futures-unveiled-23-hours-of-innovation-design/">Please, take a moment and view the stunning results of this first LUX challenge.</a></i> Our team wanted to take this to another level, so at the recent Marcus Evans Open Innovation forum, we hosted a 2-hour workshop on Day 1 and decided in order to make this fun for the participants, we’d play games, classic games of skill, luck, and knowledge!
+</p>
+ 
+<p style="padding-bottom: 5px">
+	All in all, we played 4 different classic games (or perhaps better stated, truncated versions of games we all know). We started with a Pictionary tournament, rolled into a racing game played on the iconic backdrop of the Monopoly board, then had some fun with Balderdash (the “lying” game that uses creative wit, deception, and guessing!), and wrapped things up with a fast Jeopardy-like trivia game.
+</p>
+
+<img style="width: 100%; margin-bottom: 2em;" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-21-at-10.04.48-AM.png">
+
+<p style="padding-bottom: 5px">
+	The outputs from the games, became the inputs to what would be a 24 hour LUX (Live UX) mobile design challenge we would put to our [topcoder] Studio Design community.
+</p>
+
+<p style="padding-bottom: 5px">
+	<img style="float: right; margin-bottom: 0em; margin-left: 1em; width: 33%" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-21-at-10.05.08-AM.png">
+	The ‘winning’ Pictionary drawing would be the inspiration for the logo the community was asked to create as part of this mobile UX design challenge. This ‘thing of beauty’ was the actual input :)
+</p>
+
+<p style="padding-bottom: 5px">
+	The Wheelbarrow took home the Monopoly ‘race’ and that meant we’d be telling our community that the app we’d like them to design to would be an augmented reality gardening application. Something that easily allowed a homeowner to drag and drop in various plants, trees and more to build out their projects and virtually landscape with ease.
+</p>
+
+	<img style="float: left; margin-right: 1em; width: 45%" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-21-at-10.05.18-AM.png">
+
+<p style="padding-bottom: 5px">
+	The game of Balderdash helped us decide the color scheme for the app. The green team dominated the ‘creative lying’ exercise so green became the predominant color scheme the designers would need to use in their app design. This was actually quite serendipitous considering the app was to be a gardening app. Chock that one up to good luck! 
+</p>
+
+<p style="padding-bottom: 5px">
+	Finally, our teams played a good old game of movie trivia that had a “Final Jeopardy” like conclusion. Since it was movie trivia, we asked each team to pick a movie that best represented their group. The winners of this round were inspired by none other than Despicable Me! So, that meant our designers needed to find a creative way to incorporate the movie characters into the fabric of the designed application. 
+</p>
+
+<center>
+	<img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-21-at-10.05.38-AM.png">
+</center>
+
+<p style="padding-bottom: 5px">
+	With these non-traditionally gathered inputs, we then live-launched our mobile UX design challenge. So what did our community come up with in 24 hours time? Have a look:
+</p>
+
+<ol>
+	<li>
+		<h3>1st place &#8211; <a href="http://studio.topcoder.com/?module=ViewMemberProfile&#038;ha=gh3ablo">gh3ablo</a></h3>
+		<iframe class="imgur-album" width="100%" height="400" frameborder="0" src="http://imgur.com/a/SozUF/embed"></iframe>
+	</li>
+</ol>
+
+<br />
+
+<ol>
+	<li>
+		<h3>2nd place &#8211; <a href="http://studio.topcoder.com/?module=ViewMemberProfile&#038;ha=iamtong"> iamtong </a></h3>
+		<iframe class="imgur-album" width="100%" height="400" frameborder="0" src="http://imgur.com/a/aKbX2/embed"></iframe>
+	</li>
+</ol>
+
+<br />
+
+<ol>
+	<li>
+		<h3>3rd place &#8211; <a href="http://studio.topcoder.com/?module=ViewMemberProfile&#038;ha=yoki"> yoki</a></h3>
+		<iframe class="imgur-album" width="100%" height="400" frameborder="0" src="http://imgur.com/a/A5n0d/embed"></iframe>
+	</li>
+</ol>
+
+<br />
+
+<ol>
+	<li>
+		<h3>4th place &#8211; <a href="http://studio.topcoder.com/?module=ViewMemberProfile&#038;ha=oninkxronda"> oninkxronda</a> </h3>
+		<iframe class="imgur-album" width="100%" height="400" frameborder="0" src="http://imgur.com/a/u9KIN/embed"></iframe>
+	</li>
+</ol>
+
+<br />
+
+<ol>
+	<li>
+		<h3>5th place &#8211; <a href="http://studio.topcoder.com/?module=ViewMemberProfile&#038;ha=idblack">idblack</a></h3>
+		<iframe class="imgur-album" width="100%" height="400" frameborder="0" src="http://imgur.com/a/XWPGg/embed"></iframe>
+	</li>
+</ol>
+
+<br />
+
+<ol>
+	<li>
+		<h3>6th place &#8211; <a href="http://studio.topcoder.com/?module=ViewMemberProfile&#038;ha=ujazz"> ujazz </a> </h3>
+		<iframe class="imgur-album" width="100%" height="400" frameborder="0" src="http://imgur.com/a/mP6tC/embed"></iframe>
+	</li>
+</ol>
+
+<br />
+
+<p style="padding-bottom: 5px">
+	One of our goals in continually showcasing the uses of crowdsourcing and open innovation is to demystify the notion that getting going is some major task unto itself. Yes, of course, preparing your internal teams for success and getting them ramped and educated on how to use a community like [topcoder] does take forethought. But as this demonstration showcased, you do not have to know beforehand every detail you want to see created in order to get some amazing looks and feels going right now. When speed is part of the objective, we encourage you to get going and allow the [topcoder] community members to surprise you with their ideas and submissions. <i>Now, does that mean you too should play board games in order to figure out the inputs?…</i> Hey, we’ll leave that up to you. 
+</p>]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/when-beginning-in-crowdsourcing-and-open-innovation-can-be-as-easy-as-playing-board-games/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Platform Update &#8211; April 18 Release</title>
+		<link>http://www.topcoder.com/blog/platform-update-april-18-release/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=platform-update-april-18-release</link>
+		<comments>http://www.topcoder.com/blog/platform-update-april-18-release/#comments</comments>
+		<pubDate>Fri, 18 Apr 2014 19:09:58 +0000</pubDate>
+		<dc:creator><![CDATA[Jeff Douglas]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Platform]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14630</guid>
+		<description><![CDATA[@jeffdonthemic – Jeff Douglas Perhaps the biggest change to the [topcoder] platform this week is that submissions for development challenges and registration for design challenges no longer...<br/><a href="http://www.topcoder.com/blog/platform-update-april-18-release/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<p style="padding-bottom:0px"><a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/change-cat.jpg"><img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/change-cat.jpg" alt="change-cat" width="236" height="236" class="alignleft size-full wp-image-14631" /></a><i><a href="twitter.com/jeffdonthemic">@jeffdonthemic</a> – Jeff Douglas</i></p>
+
+<p style="padding-bottom:0px">Perhaps the biggest change to the [topcoder] platform this week is that submissions for development challenges and registration for design challenges no longer force you back to the old site. We are working to unify the UI with this section by section process so stay tuned for more changes. We also rolled out the same UI experience for /direct users as well.</p>
+
+<p style="padding-bottom:0px">Per our <a href="http://www.topcoder.com/blog/good-bye-bug-races-hello-first2finish/">announcement a couple of weeks ago</a>, we&#8217;ve also deprecated &#8220;bug races&#8221; in favor of &#8220;First2Finish&#8221; challenges. We are no longer launching First2Finish challenges from Jira and they have the same process flow as regular challenges. Did you hear that we are also <a href="http://www.topcoder.com/blog/double-the-points-double-the-fun/">offering double the TCO14 points for First2First challenges</a> till 4/22?</p>
+
+<p style="padding-bottom:0px">We also implemented a number of fixes for site performance, login and challenge registration and submission processes. More changes coming to a browser near you!</p>]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/platform-update-april-18-release/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Double the points. Double the fun.</title>
+		<link>http://www.topcoder.com/blog/double-the-points-double-the-fun/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=double-the-points-double-the-fun</link>
+		<comments>http://www.topcoder.com/blog/double-the-points-double-the-fun/#comments</comments>
+		<pubDate>Fri, 18 Apr 2014 14:25:15 +0000</pubDate>
+		<dc:creator><![CDATA[Jeff Douglas]]></dc:creator>
+				<category><![CDATA[Competition News]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[bug races]]></category>
+		<category><![CDATA[double]]></category>
+		<category><![CDATA[double mint twins]]></category>
+		<category><![CDATA[f2f]]></category>
+		<category><![CDATA[fun]]></category>
+		<category><![CDATA[points]]></category>
+		<category><![CDATA[TCO]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14624</guid>
+		<description><![CDATA[@jeffdonthemic – Jeff Douglas Raise your hand if you like double the TCO points for the same amount of effort&#8230;. OK&#8230; so that&#8217;s everyone. Starting today at...<br/><a href="http://www.topcoder.com/blog/double-the-points-double-the-fun/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<p style="padding-bottom:0px"><a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/doublemint.jpg"><img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/doublemint-270x300.jpg" alt="WRIGLEY&#039;S DOUBLEMINT TWINS NOMINATED AS AMERICA&#039;S FAVORITE ICONS" width="270" height="300" class="alignleft size-medium wp-image-14625" /></a><i><a href="http://www.twitter.com/jeffdonthemic">@jeffdonthemic</a> – Jeff Douglas</i></p>
+
+<p style="padding-bottom:0px">Raise your hand if you like double the TCO points for the same amount of effort&#8230;. OK&#8230; so that&#8217;s everyone. </p>
+
+<p>Starting today at 12pm EST, any and all First2Finish challenges earn <b><i>double points</b></i> for <a href="http://community.topcoder.com/tco14/">TCO14</a> when submitted by 4/22 at 11:59pm EST. Double points will be reflected upon completion of a passing scorecard. You are welcome.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/double-the-points-double-the-fun/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[topcoder] Testimony &#8211; How Prizes Drive Innovation</title>
+		<link>http://www.topcoder.com/blog/topcoder-testimony-how-prizes-drive-innovation/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=topcoder-testimony-how-prizes-drive-innovation</link>
+		<comments>http://www.topcoder.com/blog/topcoder-testimony-how-prizes-drive-innovation/#comments</comments>
+		<pubDate>Fri, 11 Apr 2014 19:29:19 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Hicks]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[topcoders]]></category>
+		<category><![CDATA[Appirio]]></category>
+		<category><![CDATA[congress]]></category>
+		<category><![CDATA[crowdsourcing]]></category>
+		<category><![CDATA[expert]]></category>
+		<category><![CDATA[google glass]]></category>
+		<category><![CDATA[innovation]]></category>
+		<category><![CDATA[senate]]></category>
+		<category><![CDATA[technology]]></category>
+		<category><![CDATA[testimony]]></category>
+		<category><![CDATA[washington dc]]></category>
+		<category><![CDATA[white house]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14609</guid>
+		<description><![CDATA[@timhicks24 &#8211; Tim Hicks On Wednesday morning, [topcoder] President Narinder Singh had the great honor of testifying to a congressional subcommittee, as an expert witness on how...<br/><a href="http://www.topcoder.com/blog/topcoder-testimony-how-prizes-drive-innovation/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<img style="margin-bottom: 1em;" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/singh_congress_crowdsourcing3.png" width="100%" />
+
+<p style="padding-bottom: 5px"><i><a href="http://twitter.com/timhicks24"> @timhicks24</a> &#8211; Tim Hicks</i></p>
+
+<p style="padding-bottom: 5px">On Wednesday morning, [topcoder] President <a href="http://twitter.com/singhns">Narinder Singh</a> had the great honor of testifying to a congressional subcommittee, as an expert witness on how prize competitions drive innovation. Aside from being the first time [topcoder] was asked to be represented, it was also the first time Google Glass were worn in a hearing. Very fitting that the two went hand in hand. </p>
+
+<p style="padding-bottom: 5px">Due to our extreme excitement over this, we wanted to open up Narinder&#8217;s transcript of his testimony for all to see and share our sense of pride in the great [topcoder] community. In addition to the the written testimony, we uploaded the following three videos of the day&#8217;s events: </p>
+
+<ul>
+	<li> <a href="https://www.youtube.com/watch?v=s3jEkR0bnF8 ">Narinder&#8217;s Opening Testimony</a></li>
+<li> <a href="https://www.youtube.com/watch?v=byKMi_W2wrA">Full Hearing Recording</a></li>
+	<li> <a href="https://www.youtube.com/watch?v=lC7zffLa3ws ">Footage From Narinder&#8217;s Google Glass</a></li>
+</ul>
+
+<p style="padding-bottom: 5px"> Without further ado, check out the written testimony from Narinder below and keep an eye out for more mentions of [topcoder] in the news! </p>
+
+<hr />
+
+<font color="gray"><p style="padding-bottom: 3px"><b>Written Testimony of Narinder Singh</p>
+
+<p style="padding-bottom: 3px">President [topcoder], Co-founder and Chief Strategy Officer, Appirio</b></p>
+
+<p style="padding-bottom: 3px">Before the Subcommittee on Research and Technology</p>
+
+<p style="padding-bottom: 3px">Hearing – Prizes to Spur Innovation and Technology Breakthroughs </p>
+
+<p style="padding-bottom: 3px">US House of Representatives</p>
+
+<p style="padding-bottom: 5px">April 9, 2014 </p>
+
+<p style="padding-bottom: 5px">Chairman, Ranking Member, and Members of the Subcommittee, my name is Narinder Singh, and I am the co-founder and Chief Strategy Officer of Appirio, and the President of it’s [topcoder] division. I appreciate the invitation to speak before this esteemed body to address these exciting topics.  We believe crowdsourcing–and specifically community-based development incented by prizes–can lead to dramatic innovation, substantially increase efficiency (reduce cost) and produce much higher quality levels of technology development for both the private and public sectors.</p>
+
+<p style="padding-bottom: 5px">We started Appirio in 2006.  Today, it employs over 900 people with headquarters in San Francisco and Indianapolis.  We have routinely been named on “Best Places to Work” lists in the San Francisco area and in Indiana, have received numerous innovation awards, and in 2012 were named a World Economic Forum Technology Pioneer.</p>
+
+<p style="padding-bottom: 5px">Our [topcoder] community consists of over 600,000 designers, developers, and data scientists.  Through [topcoder] we have taken hundreds of projects for our clients and crowdsourced them through the community.  This involves breaking down complex projects into smaller components and using prizes – challenge based competitions – to complete them.  As a result we run five to ten thousand competitive challenges (prizes) each year through the [topcoder] community.   Our average amount for each of these prizes ranges from a few hundred to few thousand dollars.</p>
+
+<p style="padding-bottom: 5px">This approach has helped leading private sector and government agencies to achieve amazing results in technology that impact science and technology.  In 2013 <a href="http://hms.harvard.edu/news/solving-big-data-bottleneck-2-7-13"> Harvard Medical School </a> and the February edition of Nature Biotechnology (“Prize-based contests can provide solutions to computational biology problems”) described how the [topcoder] community helped Harvard Medical School improve NIH BLAST, an algorithm that aids in genetic research, by 1000x in just two weeks.  The challenge received 122 different submissions and awarded a total of  $6,000 in prizes.</p>
+
+<p style="padding-bottom: 5px">More recently with [topcoder], Appirio helped the research organization of a large pharmaceutical firm improve the performance of software that runs Genome Wide Association Studies (GWAS) – an approach to rapidly scan markers across complete sets of DNA.  We reduced the run-time from approximately ten hours to less than thirty seconds.  This advancement is soon to be shared with the scientific community and will change the way research is conducted. Remarkably, the core of this advancement was driven by a series of less than a dozen contests with approximately $50,000 in prizes.</p>
+
+<p style="padding-bottom: 5px">In government, NASA has partnered with Harvard Business School and [topcoder] to create the Harvard NASA Tournament Lab (NTL). This lab focuses on creating cutting edge insights on the optimal design of contests and ways in which the federal government can be more effective in the use of prize-based competitions.  Together we have repeatedly used the concept of connecting a string of smaller prizes together to achieve large scale success.</p>
+
+<p style="padding-bottom: 5px">For example:</p>
+
+<ul>
+	<li>NASA used a set of challenges to reduce the time for an algorithm to optimize medical supplies on space excursions from three hours to less than thirty seconds (completed).</li>
+</ul>
+
+<ul>
+	<li>The ISS FIT application, a mobile application to help astronauts track nutrition and health on the International Space Station, was developed through 18 challenges on [topcoder] for less than $60,000 in prizes (in final testing).</li>
+</ul>
+
+<ul>
+	<li>Currently, the NASA Asteroid Grand Challenge series is running on [topcoder] with a partnership between NASA and Planetary Resources Inc. (PRI)  to improve the ability to detect asteroids.  It consists of a series of ten interconnected challenges and we hope for a similar leap forward in capability (as we have seen in other challenges) for well under one hundred thousand dollars (recently initiated).</li>
+</ul>
+
+<p style="padding-bottom: 5px">In addition, under NASA’s leadership with their Center of Excellence for Collaborative Innovation (CoECI), the NTL and [topcoder] have worked with several other government agencies including the Center of Medicare and Medicaid Services.  A project to modernize CMS infrastructure so that health care providers can easily register (while at the same time states can be proactive in limiting access to bad actors) was developed for the state of Minnesota through a series of challenges. Over eleven months over 140 challenges were executed to complete the project.  The total cost of labor and challenge funds was approximately $1.5 million. Forthcoming research from the NTL indicates that done through traditional models, the initiative would have cost the government nearly $7.5 million.</p>
+
+<p style="padding-bottom: 5px">Predominantly, our business is with private sector companies.  Organizations like Comcast and Ferguson have successfully used [topcoder] by breaking large software development projects into smaller competitive prizes. Breaking down large problems into smaller ones offers several key benefits for both projects and prizes.</p>
+
+<ul>
+	<li>It creates more competitive markets. By breaking down prizes you increase the number of companies or individuals who can compete in the market.  For example there are only a few firms in the world that can compete for a $700M project, but there are tens of thousands of firms that can compete for a $7M one  &#8211; and hundreds of millions of individuals who could potentially compete in a $7000 challenge.</li>
+</ul>
+
+<ul>
+	<li>It de-risks work through specialization.  Crowdsourcing works in part because it allows organizations to tap into a much broader set of talent than otherwise possible.  It also allows organizations to use markets to match the best supply (talent) to the demand of the individual task.  With market volume, community members start to specialize in the areas they are best qualified to deliver outstanding results in.  Quite simply, people can work at what they are best at. When every task in a larger initiative is done in this manner, dramatic results become the norm.</li>
+</ul>
+
+<ul>
+	<li>It increases participation and education.  While somewhat counter-intuitive, a smaller number of connected prizes can actually increase participation.  Participants in prize challenges certainly compete for the chance to be rewarded.  But with micro competitions, learning is often also a significant objective.  The community of participants shares knowledge extensively and broadly after each competition – creating amongst the best on the job training available.</li>
+</ul>
+
+<ul>
+	<li>It creates objective measures of skill.  Each competition contributes to a skill rating for the participant.  With a volume of competitions you can objectively see the ratings of an individual and the community improve.  At [topcoder] we will often run a series of challenges to create an output (like the ones described above) but also to educate a community on a new technology or product.   As a result, we know our community is better skilled to take on the next set of challenges in that domain.</ul>
+	</li>
+
+<p style="padding-bottom: 5px">We believe in large prizes and their capability to create entire markets as proven again and again by my esteemed colleagues from xPrize.  But we also believe micro challenges allow the concept of prizes to be applied to a much larger category of work. By breaking innovative or even common problems down, exponential innovation can occur inside of existing markets.</p>
+
+<p style="padding-bottom: 5px"><b>The rationale for government involvement in prize competitions</b></p>
+
+<p style="padding-bottom: 5px">We all recognize the importance of scientific and technological advancements in spurring growth.  Traditionally, the government’s role in this has been to subsidize research and development of novel ideas and technologies, in the hope that these will produce fruitful advancements. This remains a critical function.</p>
+
+<p style="padding-bottom: 5px">Note that prize-based competitions constitute a novel complement to this strategy. They differ from this traditional approach in two fundamental ways. First, prizes are paid not based on potential, but rather upon the delivery of results. Practical application and performance is therefore tied to disbursement of funds. Second, they don’t require taking a guess on who will produce the sought-after solution. They leverage competitive forces to reward the individual who delivers best solution. Thus, as demonstrated by the examples above, prizes use government funds judiciously–ensuring practical application and rewarding performance.</p>
+
+<p style="padding-bottom: 5px"><b>Commentary on the FIRST Act as related to prize competitions</b></p>
+
+<p style="padding-bottom: 5px">We applaud the desire to include prizes and competitions in the FIRST act, but also have concerns around unintended consequences for micro challenges and connected initiatives.</p>
+
+<p style="padding-bottom: 5px">The FIRST Act currently states that even for private sector judges, “All judges shall be required to disclose all personal financial interests.”  It’s not immediately clear if this refers to all interests related to the prize they are administering, or simply all their financial interests.  In the case of the latter, for challenges of a few hundred to a few thousand dollars, it’s an onerous burden and counterproductive to the Act’s intent.</p>
+
+<p style="padding-bottom: 5px">For example, often at [topcoder] we use certified, non competing, community members to judge competitions.  In these cases their scorecards and evaluations are open and subject to public peer review.  In other cases, the formal judge may only enforce high level guidelines and settle disputes because the competition itself is judged and evaluated by a computer program that scores each entry.  The intent in the FIRST Act in these regards is appropriate – to create transparency and fairness in oversight.  But the current language could instead hinder adoption of prizes inside the government.</p>
+
+<p style="padding-bottom: 5px"><b>Broader view on making government more tech savvy</b></p>
+
+<p style="padding-bottom: 5px">More broadly, applying this market-based approach of a large volume of micro-prizes in government requires a reduction in bureaucracy and friction of engagement.  More directly, it would be unlikely [topcoder] or similar communities would choose to greatly expand presence in government sectors if requirements of audit and financial reporting remain hardwired for legacy approaches to government contracting.  It’s just too hard to do business with the government.  Even in submitting this written testimony it was required that forty five hard copies be hand delivered in advance – an approach to information sharing that exists only with the government.</p>
+
+<p style="padding-bottom: 5px">All of this in combination can leave firms like mine with few practical options beyond either working with niche groups in the government who are willing to invest significant resources in helping navigate its complicated waters (like NASA);  or through third party firms that specialize predominantly in government work.  Ultimately, rather than government guidelines that attempt to enforce fairness in every scenario, a more competitive market is what will most help government operate more efficiently and be exposed to the tools and techniques that advance innovation.</p>
+
+<p style="padding-bottom: 5px"><b>Creating conditions for success in competitions</b></p>
+
+<p style="padding-bottom: 5px">Research by Professor Karim Lakhani at Harvard and his colleagues* has shown that contests bring into play three distinct mechanisms:</p>
+
+<ul>
+	<li>They enable many independent “shots on goal” so that the likelihood of finding the best solution increases substantially;</li>
+</ul>
+
+<ul>
+	<li>Open entry in contests means that people outside of the traditional siloed knowledge domains of the problem can now have the chance to propose unconventional and radical solutions;</li>
+</ul>
+
+<ul>
+	<li>People are self-motivated – a variety of reasons drive participation in contests including winning the cash prize, demonstrating expertise to potential employers or their peers or just plain having fun.</li>
+</ul>
+
+<p style="padding-bottom: 5px">All of these mechanisms have been shown to be important to successful contest execution.  For government it is important to pair this with a clear sense of the objective of the prize.  In some cases large cash prizes are used to draw attention to a problem area and spur private investment to advance or even create an industry.  In other cases, many of which have been cited here, prizes provide an opportunity to exponentially advance an area, remove a constraint or just build more effectively.</p>
+
+<p style="padding-bottom: 5px">In all cases it is important to create a clear sets of criteria for participants.  What does it take to ‘win’, how will entries be scored, what timelines will be adhered to, etc.  Idea generation will have very different dynamics than executing on very specific tasks.  Large prizes will have more scrutiny than smaller ones, but the need for clarity and transparency transcend all categories. You will ultimately get what your rules incent.</p>
+
+<p style="padding-bottom: 5px"><b>Conclusion:  the pace of change will not slow down</b></p>
+
+<p style="padding-bottom: 5px">The rate of technology advancement will not slow down.  Over the past decade we’ve seen our lives transformed into a world of constant connectivity.  In addition to this new global platform of information exchange, we are seeing dramatic advancements in 3D printing, robotics, bio technologies, artificial intelligence, wearable computing and many other domains.  More than ever, we will need the ability to quickly and efficiently tap into the right skills instantaneously.  Even in traditional domains, like creating web based solutions for government, the scale of adoption and need to evolve quickly require a new pace and capability.</p>
+
+<p style="padding-bottom: 5px">The nature of our economic system is built upon the free market and for good reason – in most cases it’s the most efficient system.  Crowdsourcing taps into the power of markets but also democratizes participation beyond select firms to anyone who has the capabilities to contribute.</p>
+
+<p style="padding-bottom: 5px">I thank the Committee for the opportunity to share my perspectives and would be happy to respond to any questions you may have on these topics.</p> 
+<hr />
+
+<i><p style="padding-bottom: 5px">* Boudreau, Kevin J., Nicola Lacetera, and Karim R. Lakhani. “Incentives and Problem Uncertainty in Innovation Contests: An Empirical Analysis.” Management Science 57, no. 5 (May 2011): 843–863.</p>
+
+<p style="padding-bottom: 5px">Jeppesen, Lars Bo, and Karim R. Lakhani. “Marginality and Problem-Solving Effectiveness in Broadcast Search.” Organization Science 21 (September–October 2010): 1016–1033.</p>
+
+<p style="padding-bottom: 5px">King, Andrew, and Karim R. Lakhani. “Using Open Innovation to Identify the Best Ideas.” MIT Sloan Management Review 55, no. 1 (Fall 2013): 41–48.</p>
+
+<p style="padding-bottom: 5px">Boudreau, Kevin J., and Karim R. Lakhani. “Using the Crowd as an Innovation Partner.” Harvard Business Review 91, no. 4 (April 2013): 61–69.</p>
+
+<p style="padding-bottom: 5px">Guinan, Eva C., Kevin J. Boudreau, and Karim R. Lakhani. “Experiments in Open Innovation at Harvard Medical School.” Art. 3. MIT Sloan Management Review 54, no. 3 (Spring, 2013): 45–52 </p></i></font>]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/topcoder-testimony-how-prizes-drive-innovation/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>&#8220;FeedTheHack&#8221; Builds Super Cool Apps</title>
+		<link>http://www.topcoder.com/blog/feedthehack-hackathon/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=feedthehack-hackathon</link>
+		<comments>http://www.topcoder.com/blog/feedthehack-hackathon/#comments</comments>
+		<pubDate>Thu, 10 Apr 2014 16:01:23 +0000</pubDate>
+		<dc:creator><![CDATA[Jeff Douglas]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[In the News]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14607</guid>
+		<description><![CDATA[@jeffdonthemic – Jeff Douglas My buddy Tim Hicks and I helped out over the weekend with the &#34;FeedtheHack&#34; hackathon in Indianapolis sponsored by Appirio. The theme of...<br/><a href="http://www.topcoder.com/blog/feedthehack-hackathon/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<p style="padding-bottom:0px"><a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/feed-the-hack-tc.jpg"><img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/feed-the-hack-tc.jpg" alt="feed-the-hack-tc" width="150" height="96" class="alignleft size-full wp-image-14608" /></a><a href="http://www.twitter.com/jeffdonthemic">@jeffdonthemic</a> – Jeff Douglas</p>
+
+<p style="padding-bottom:0px">My buddy <a href="https://twitter.com/timhicks24">Tim Hicks</a> and I helped out over the weekend with the &quot;FeedtheHack&quot; hackathon in Indianapolis sponsored by <a href="http://www.appirio.com">Appirio</a>. The theme of the hackathon was to build mobile apps for the local food truck industry. Essentially an app to be able to find food to eat or make it easier for customers to eat your food. A fun concept and a lot of really cool apps were produced over the 10 hours of the event by 12 teams.</p>
+
+<p style="padding-bottom:0px">Participants randomly selected an API that that they were required to use in their app (AWS, Twitter, Google, Yelp, Facebook or &quot;Any of the Above&quot;) but could take their pick of any publicly available API(s) as well. Most of the apps implemented Twitter is some fashion. Either for a truck owner to tweet out their location, offer specials or incentivize people to find and visit their truck or by allowing consumers to tap into trucks&#39; Twitter feeds and find where they were at and what was on the menu that day. Most of the apps were JavaScript and HTML5 but a few were hybrid apps with frameworks like Ionic and a couple were native apps using a BaaS to get things up and running quickly.</p>
+
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/eKFk9/embed"></iframe>
+
+<p style="padding-bottom:0px;padding-top:10px"><a href="http://fox.io/">Foxio</a> produced an app for both segments and implemented a calendar for both truck owners and an easy way for hungry customers to find trucks by the day of the week. A one-man team punted when he had some issues with Yelp and instead created a Dogecoin -&gt; Bitcoin to -&gt; USD converter so that trucks could easily accept cryptocurrency. Super cool and super geeky!</p>
+
+<p style="padding-bottom:0px">The third place winners, Andy McConnell and Corinna Cohn, developed a mobile app were customers could spin a slot machine and land on coupons for certain vendors and which were redeemable with their mobile devices. With only a certain number of spins a day there was a gamification aspect to determine whether to keep a coupon or try for a more valuable one. </p>
+
+<p style="padding-bottom:0px">The second place winners, SJ and Manpreet Singh, produced a native iOS app that allowed consumers to bookmark favorite trucks, get their location and directions and manage different trucks and tweets. Really nice work as they initially ran into some API issues.</p>
+
+<p style="padding-bottom:0px">The overall winner was the one man team of <a href="http://www.twitter.com/mafellows">Michael Fellows</a> who told me at the beginning of the hackathon that <em>&quot;&#8230;I&#39;m not here to have fun, I&#39;m here to win.. &quot;</em> and win he did. When I kicked off the event that morning, I talked about how at hackathons the hardest part is the concept of your app. The concept makes or breaks an app. I gave the audience some ideas of what I thought would be cool features for a mobile app. Well, Michael took one of my ideas which blew the judges away. His native iOS app was super slick and the app looked and functioned beautifully. He implemented both sides of the spectrum by adding new trucks and also being able as a consumer to find trucks by location. What really set him apart was the idea that he implemented from my opening talk. All of the other apps manually inputed each truck and their current locations so that they could be &quot;found&quot; by consumers. Michael used my idea of getting the long/lat from the truck owners&#39; tweets to determine where they were currently located. A much more scalable solution!</p>
+
+<p style="padding-bottom:0px">Overall I think the event turned out great. We developed a lot of cool apps, had a great time and learned some new technologies and APIs during the day. We all hung around after the awards for pizza and beer and everyone chatted and seemed to get along great. I met one guy at the after party and he told me that he was a .NET developer by trade and this was his first native iOS app! </p>]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/feedthehack-hackathon/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The Evolution of the [topcoder] Open</title>
+		<link>http://www.topcoder.com/blog/the-evolution-of-the-topcoder-open/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-evolution-of-the-topcoder-open</link>
+		<comments>http://www.topcoder.com/blog/the-evolution-of-the-topcoder-open/#comments</comments>
+		<pubDate>Tue, 08 Apr 2014 19:46:35 +0000</pubDate>
+		<dc:creator><![CDATA[Jessie D'Amato Ford]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[topcoders]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[conference]]></category>
+		<category><![CDATA[developers]]></category>
+		<category><![CDATA[history]]></category>
+		<category><![CDATA[san francisco]]></category>
+		<category><![CDATA[tco14]]></category>
+		<category><![CDATA[TopCoder Open]]></category>
+		<category><![CDATA[tournament]]></category>
+		<category><![CDATA[vegas]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14586</guid>
+		<description><![CDATA[@jmpld40 &#8211; Jessie D&#8217;Amato Ford Back in 2005 when I was first hired at [topcoder], to me, java meant coffee, C++ was a high C grade in...<br/><a href="http://www.topcoder.com/blog/the-evolution-of-the-topcoder-open/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<p style="padding-bottom: 5px;"><img style="float: left; margin-right: 1em;" alt=" " src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/evolution.png" width="“150px&quot;" />
+
+<i><a href="https://twitter.com/jmpld40">@jmpld40</a> &#8211; Jessie D&#8217;Amato Ford</i></p> 
+<p style="padding-bottom: 5px;">Back in 2005 when I was first hired at [topcoder], to me, java meant coffee, C++ was a high C grade in school, and software was just something technical I knew nothing about! To say I was naive and inexperienced would have been an understatement… But the folks at [topcoder] took a chance on me and I was officially in charge of making the [topcoder] Open run. My first TCO was in Santa Clara, California and I really had no idea what to expect. Thankfully I had people like <a class="tc_coder coder" href="http://www.topcoder.com/member-profile/mbnd96" style="">mbnd96</a>, <a href="https://www.flickr.com/photos/53993064@N03/5068043821/in/photolist-8GDFRo-aqSnVg-aqSiAT-8HR3Ex-8HR3RT-aqrUT7-aqFgSC">mike</a> &amp; <a class="tc_coder coder" href="http://www.topcoder.com/member-profile/thx1138" style="">thx1138</a>, and <a href="https://www.flickr.com/photos/53993064@N03/6184044675/in/set-72157627629684119"><a class="tc_coder coder" href="http://www.topcoder.com/member-profile/gt494" style="">gt494</a></a> (on the right) plus many others to help guide me through it.</p>
+<p style="padding-bottom: 5px;">I was so nervous for my first event. I had never been to a TCO before and I was a newbie just out of college. I spent many a days before arriving studying member profile photos because I wanted to know the members and recognize them. If only I had known that most of the time member profile photos really don’t look like the members at all! For example:</p>
+
+<center><img style="margin-bottom: 1em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/argolite.jpg" width="70%" /></center>
+<p style="padding-bottom: 5px;">Needless to say, I barely recognized anyone!</p>
+<p style="padding-bottom: 5px;"><a href="http://community.topcoder.com/tc?module=Static&amp;d1=tournaments&amp;d2=tco05&amp;d3=photos">Upon walking into the competition Arena at the TCO05</a>, you were instantly quiet. Back in the day, the TCO Competition Arena was hush hush. People whispered, no flashy lights or loud games of any kind.</p>
+<p style="padding-bottom: 5px;">This was also the first TCO we ran a logo contest on [topcoder] prior to the start of Studio. <a href="http://community.topcoder.com/tc?module=Static&amp;d1=tournaments&amp;d2=tco05&amp;d3=logo_winner">Winning logo designer was [kristofferrouge]</a> who still competes today!</p>
+<p style="padding-bottom: 5px;">After TCO05, I recommended we get out of the Santa Clara because after a couple of years it was kind of boring. I threw Las Vegas out there just for kicks and the team went gaga over that thought&#8230;So began five consecutive years of TCO in Sin City.</p>
+<iframe style="float: left; margin-right: 1em; margin-bottom: .5em; margin-top: .5em;" src="//www.youtube.com/embed/t-BEULwGLYg" height="218" width="290" allowfullscreen="" frameborder="0"></iframe>
+<p style="padding-bottom: 5px;">TCO06 was so much fun. The room was a bit smaller but the whole event looked bigger. Plus it was less quiet. Every year TCO got louder and louder &#8211; making that part of the bigger competition. Could you code, fast, and in a loud room?! TCO06 got featured on CNBC.</p>
+<p style="padding-bottom: 5px;">TCO07 brought us to the first of many events at the Mirage in Las Vegas. It was our <a href="http://community.topcoder.com/tc?module=Static&amp;d1=tournaments&amp;d2=tco07&amp;d3=movies">first TCO with a online webcast</a> featuring <a href="http://en.wikipedia.org/wiki/Jeremy_Schaap">Jeremy Schaap</a> following our very successful Collegiate Challenge the year before. This tournament also featured the first-ever Studio Design Competition and Marathon Match Competition. We closed this event out in style with a luau and surf simulator party.<a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/tco07.jpg"><img style="float: right; margin-left: 1em; margin-bottom: 1em; margin-top: 1em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/tco07.jpg" width="48%" /></a></p>
+<p style="padding-bottom: 5px;">In 2008, we returned to Las Vegas and added some excitement to the onsite competitions. With <a href="http://community.topcoder.com/tc?module=Static&amp;d1=tournaments&amp;d2=tco08&amp;d3=component&amp;d4=devSummary">Component Development</a>, <a href="http://community.topcoder.com/tc?module=Static&amp;d1=tournaments&amp;d2=tco08&amp;d3=component&amp;d4=desSummary">Component Design</a>, and <a href="http://community.topcoder.com/tc?module=Static&amp;d1=tournaments&amp;d2=tco08&amp;d3=studio&amp;d4=summary">Studio Design</a>, the finalists created an actual widget in three days that we demoed on the final day of the event courtesy of our very own Chief Community Officer, Dave Messinger [<a href="http://community.topcoder.com/tc?module=MemberProfile&amp;cr=305384">mess</a>]. We also made a <a href="http://community.topcoder.com/tc?module=Static&amp;d1=tournaments&amp;d2=tco08&amp;d3=movieStream&amp;clip=arena&amp;title=How%20to%20build%20an%20arena%20">pretty sweet TCO08 set up video</a> from an empty room to a Competition Arena in just under three minutes.</p>
+<p style="padding-bottom: 5px;">As the TCO got bigger and better so did the competitions. It was time rework the competitions and TCO09 was the first and only year we ran nine competition tracks: <a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/tco09.png"><img style="float: left; margin-right: 1em; margin-bottom: 1em; margin-top: 1em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/tco09.png" width="42%" /></a> Algorithm, Architecture, Assembly, Component Design, Component Development, Marathon, Mod Dash, Specification, and Studio. I always had to refer to them in alphabetical order or I’d forget one. Some lucky members will always hold the one and only award for Architecture Champion &#8211; [standlove], Assembly Competition &#8211; [pulky], Specification Champion &#8211; [AleaActaEst].</p>
+<p style="padding-bottom: 5px;">TCO09 was also the first tournament Facebook started sponsoring and they have been part of the event ever since &#8211; our longest consecutive sponsor.</p>
+<p style="padding-bottom: 5px;">I loved TCO10. It was one of my favorite tournaments. The graphics and colors for this event were really cool and definitely impressive. We had some <a href="http://topcoder.com/home/tco10/movies/">fun video shorts</a>, <a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/margarita.jpg"><img style="float: right; margin-left: 1em; margin-bottom: 1em; margin-top: 1em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/margarita.jpg" width="30%" /></a> <a href="http://topcoder.com/home/tco10/comics/"> comics</a>, and <a href="https://www.flickr.com/photos/53993064@N03/5077682982/in/set-72157625031026589">minute to win it games</a>. TCO10 was the first and only tournament so far to crown a female champion, [Margarita], Mod Dash Champion.</p>
+<p style="padding-bottom: 5px;">TCO10 competition tracks became what they are today &#8211; six tracks and TCO10 was our last year in Vegas.</p>
+<p style="padding-bottom: 5px;">Everyone (staff-wise) thought Vegas was a great venue and I was afraid we’d never get out of there. I was grateful when we moved to the east coast. To me, Las Vegas had served it’s purpose and I didn’t want it to be the only city our members visited year after year. To be fair, Las Vegas is not the best representation of the USA for members visiting from abroad. It was time to show them some more wholesome places!</p>
+<p style="padding-bottom: 5px;">When I first stepped into the Diplomat Resort in Hollywood, Florida and they hired an airplane to drive across the beach with a “Welcome TopCoder” sign, I was sold. TCO11 was the tournament we introduced a new scoreboard wall, new viewing stations, and new computers. We also had our <a href="https://www.flickr.com/photos/53993064@N03/6183793567/in/set-72157627629684119">first official MC, Jared Ford</a>.</p>
+<a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/speaking-monitor.jpg"><img style="float: left; margin-right: 1em; margin-bottom: 0em; margin-top: 0em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/speaking-monitor.jpg" width="48.5%" /></a>
+
+<a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/monitor-kiosks.jpg"><img alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/monitor-kiosks.jpg" width="48.5%" /></a>
+<p style="padding-bottom: 5px;">I loved all the new and felt we were on our way to really making TCO the awesome, techie event it always should have been.</p>
+<p style="padding-bottom: 5px;">We stayed in Florida for TCO12 but this time, Orlando. TCO12 was all-around, hands-down one of the most successful events we ever pulled off (despite the fact that we pretty much blew out the <a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/waving-guy.jpg"><img style="float: left; margin-right: 1em; margin-bottom: 1em; margin-top: 1em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/waving-guy.jpg" width="40%" /> </a>speakers at the hotel!). Things just clicked for us and it showed. The red carpet was laid down, <a href="https://www.flickr.com/photos/53993064@N03/8050804147/in/set-72157631683929164">literally</a>, we had a few awesome first-time sponsors like Google, Two Sigma, and Pocket Gems, and the atmosphere in the Arena was fun and uplifting. [Chokudai] definitely helped with that with his <a href="https://www.youtube.com/watch?v=SsDcAbolCtE">introduction flip</a>.</p>
+<p style="padding-bottom: 5px;">Which brings me to TCO13. Our first [topcoder] Open after the acquisition. TCO13 is obviously the most fresh in my mind since it just happened but even if it hadn’t, TCO13 was the best event yet. You would think the monotony of the same competitions, same set, etc would wear on an event but we were able take what we had, add some pizzazz, and make TCO13 so very memorable. From the lights to the music to the <a href="https://www.youtube.com/playlist?list=PLqS78gzu3s5bk1u0KUQmpOguekaY354qm">awesome videos</a>, TCO13 had it all.</p>
+<a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/fisheye.jpg"><img style="float: right; margin-left: 1em; margin-bottom: .5em; margin-top: 1em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/fisheye.jpg" width="65%" /></a>
+<p style="padding-bottom: 5px;">We were able to take a hotel ballroom that was really old fashioned looking and make it look like the tech event the TCO was. But not only did the TCO competitions go well but we also hosted an insightful <a href="http://www.topcoder.com/innovation-summit/">Innovation Summit</a>, a successful Mashathon, and a <a href="http://community.topcoder.com/tco13/overview/win-tco-trips/poster-design/">Poster Design Contest for Girls in STEM</a>.</p>
+<p style="padding-bottom: 5px;">All around it was pretty flawless thanks to the help our amazing [topcoder] staff, new staff from Appirio, [topcoder] members who helped us, <a href="http://animusstudios.com/">the video team</a>, and <a href="https://www.flickr.com/photos/53993064@N03/10844178135/in/set-72157637643849364">our official MC</a> and <a href="https://www.flickr.com/photos/53993064@N03/10842936126/in/set-72157637643849364">DJ</a>. I couldn’t have asked for a better team. TCO is not an easy task to pull together but with the right group of people we do it each year.</p>
+<p style="padding-bottom: 5px;">TCO14 is already in high gear; we’ve started the last period of competition, the Algorithm and Marathon rounds are beginning, and we are in the ultimate planning mode to outdo ourselves. And by hosting TCO14 in San Francisco at Pier 48 we are already on our way there. I also want to show off our redesigned TCO14 logo that fits more with the new [topcoder] branding.</p>
+<img style="margin-bottom: 1em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/NewLogo_onwhite1.jpg" width="100%" />
+<p style="padding-bottom: 5px;">Year after year, we aim to host the best programming competition we possibly can with integrity, excitement, and fun. But most importantly, our goal is to make TCO all about our community; the heart and soul of what we do every day. The TCO is for the community and it always will be; crowning new champions, dishing out new trophies, and awarding prize money and prestige to the developer world.</p>
+<p style="padding-bottom: 5px;">So no matter how big TCO gets, how much pizzazz goes into the event, or how we change it, in the end, one thing will always remain constant &#8211; this is an event for our community first and foremost.</p>
+<p style="padding-bottom: 5px;">Okay, maybe there is another constant… [Rustyoldman] or Chuck Grant. Each and every TCO since I started at [topcoder] Chuck has been there. Not as a competitor but as a spectator and then later on a blogger. TCO would not be the same without his enthusiasm and dedication to the community.</p>
+<img style="float: right; margin-left: 1em; margin-bottom: 1em; margin-top: 0em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/rustyold.png" width="100%" />
+<p style="padding-bottom: 5px;">So thank you for walking down memory lane with me and my TCOs. I look forward to making more TCO memories in the years to come.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/the-evolution-of-the-topcoder-open/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Platform Update &#8211; March 27 Release</title>
+		<link>http://www.topcoder.com/blog/platform-update-3-27/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=platform-update-3-27</link>
+		<comments>http://www.topcoder.com/blog/platform-update-3-27/#comments</comments>
+		<pubDate>Mon, 07 Apr 2014 16:44:32 +0000</pubDate>
+		<dc:creator><![CDATA[Jeff Douglas]]></dc:creator>
+				<category><![CDATA[Platform]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[platform]]></category>
+		<category><![CDATA[release]]></category>
+		<category><![CDATA[technology]]></category>
+		<category><![CDATA[update]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14581</guid>
+		<description><![CDATA[@jeffdonthemic – Jeff Douglas Last week we released some new platform features plus implemented a number of fixes. In no particular order here&#8217;s a brief overview of...<br/><a href="http://www.topcoder.com/blog/platform-update-3-27/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<p style="padding-bottom:0px"><i><a href="twitter.com/jeffdonthemic">@jeffdonthemic</a> – Jeff Douglas</i></p>
+
+<p style="padding-bottom:0px">Last week we released some new platform features plus implemented a number of fixes. In no particular order here&#8217;s a brief overview of what was implemented.</p>
+
+<p style="padding-bottom:0px">Perhaps the biggest change is that the challenge registration process for Design and Development challenges no longer forces you back to the old site which results in a much better user experience. We are working on getting this functionality in place for Data Science challenges in the near future.</p>
+
+<p style="padding-bottom:0px">Public profiles are now available for Data and Development tracks and look super slick!</p>
+
+<p style="padding-bottom:0px"><a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/profile1.png"><img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/profile1.png" alt="member profile" width="500" height="308" class="alignnone size-full wp-image-14583" /></a></p>
+
+
+
+<p style="padding-bottom:0px">We also started a beta of our new Forums with SSO. The forums, <a href="https://talk.topcoder.com/t/welcome-to-the-new-topcoder-forums/27">http://talk.topcoder.com</a>, are a work in progress but we&#8217;d love your <a href="https://talk.topcoder.com/category/bugs-feedback">feedback</a>.</p>
+
+<p style="padding-bottom:0px">We squashed a number of small UI and functionality bug and also fixed some intermittent 404 errors associated with WordPress. This was a little trickier than we expected since we had to deal with our provider and their resources.</p>
+
+<p style="padding-bottom:0px">We also worked on streamling and enhancing the registration process and participation for challenges in general. We fixed some issue pertaining to the current state of the registration button based upon the status of the current user, agreeing to the terms of service and being redirected to the correct pages after various actions. We have more streamlining to do but this is a good start.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/platform-update-3-27/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Our Exponential Futures Unveiled: 23 Hours of Innovation &amp; Design</title>
+		<link>http://www.topcoder.com/blog/our-exponential-futures-unveiled-23-hours-of-innovation-design/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=our-exponential-futures-unveiled-23-hours-of-innovation-design</link>
+		<comments>http://www.topcoder.com/blog/our-exponential-futures-unveiled-23-hours-of-innovation-design/#comments</comments>
+		<pubDate>Mon, 07 Apr 2014 14:00:15 +0000</pubDate>
+		<dc:creator><![CDATA[Clinton Bonner]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Challenges]]></category>
+		<category><![CDATA[topcoders]]></category>
+		<category><![CDATA[Wins]]></category>
+		<category><![CDATA[buzzwords]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[crowdsourcing]]></category>
+		<category><![CDATA[event]]></category>
+		<category><![CDATA[exponential]]></category>
+		<category><![CDATA[fortune 200]]></category>
+		<category><![CDATA[future]]></category>
+		<category><![CDATA[innovation]]></category>
+		<category><![CDATA[IPP]]></category>
+		<category><![CDATA[live challenge]]></category>
+		<category><![CDATA[LUX]]></category>
+		<category><![CDATA[robotics]]></category>
+		<category><![CDATA[Singularity University]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[User experience]]></category>
+		<category><![CDATA[User Interface]]></category>
+		<category><![CDATA[UX]]></category>
+		<category><![CDATA[XPRIZE]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14571</guid>
+		<description><![CDATA[@clintonbon &#8211; Clinton Bonner 0, 1, 2, 4, 8, 16, 32 … We are all in the era of exponential innovation, the only question is, what point...<br/><a href="http://www.topcoder.com/blog/our-exponential-futures-unveiled-23-hours-of-innovation-design/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<p style="padding-bottom:5px"> <img style="float: left; margin-right: 1em; margin-bottom: 2.5em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-07-at-8.12.54-AM.png" width="100%" /> </p>
+
+<p style="padding-bottom:5px"> <i><a href="http://twitter.com/clintonbon">@clintonbon</a> &#8211; Clinton Bonner</i> </p>
+
+<p style="padding-bottom:5px">0, 1, 2, 4, 8, 16, 32 … We are all in the era of exponential innovation, the only question is, what point of the curve are we truly on? Sometimes, during the varied monotony that life can throw our way, we lose sight and forget the blistering pace of change that is our exponential reality. We are living in a world where a crowdfunded, virtual gaming project can be created, accelerated, and acquired for $2 Billion dollars in the span of 18 months. We’re experiencing a reckoning to traditional education due to the fact that within the most advanced technological topics one could study, an advanced degree, such as a Master’s, is literally outdated by the time it is attained. This is an era where a shared-economy application, that launched a few short years ago, is scheduled to become the largest hotelier on the planet within the next year and a half. Sometimes, it may not feel like much is changing, but our shared reality is wildly different. </p>
+
+<p style="padding-bottom:5px">Last week, out in Mountain View, CA, we had the privilege of attending and presenting at the <a href="http://ipp.biz/">Innovation Partnership Program</a> (IPP) event, delivered by XPRIZE and Singularity University. Amazing presentations and conversations that help shape, illuminate, and define burgeoning industries, such as advanced autonomous robotics, AI, synthetic biology, 3D Printing, wearable technology and even quantum computing were delivered to the eager audience of Fortune 200 executives; often led by the pioneering innovators of their respective fields. IPP is truly a futurist gathering; but the important part to recognize is that this is not some distant, far-off future. Rather the focus at IPP is to showcase what is actually our radically different near-future, that is as close &#8211; time wise &#8211; as 24 short months away, and certainly within the coming decade. </p>
+
+<p style="padding-bottom:5px; text-align:center;"><b>Interested in learning more about IPP? Visit <a href="http://ipp.biz/">www.ipp.biz</a></b></p>
+
+<p style="padding-bottom:5px">Even with this incessant drum beaten throughout the program &#8211; that objects in our future are closer than they appear &#8211; we still felt that the [topcoder] community could help encapsulate much of the sentiment shared on the IPP stage and present it in a different, and very tangible way. As the leaders in crowdsourcing and open innovation for enterprise digital asset creation, we had been asked &#8211; and humbly accepted &#8211; to present to this executive audience on the very topic of our expertise. It was our goal to not only discuss who comprises our 620,000+ member [topcoder] community and what type of work &#038; innovation we routinely help our clients accomplish; but rather to take it a step further and showcase on-stage just what our community is capable of, and to do so in less than 24 hours. If Missouri is the “Show Me” State, then it was our goal to make this the “Show Me” session at IPP. </p>
+
+<p style="padding-bottom:5px"><b>The 23 Hour LUX (Live UX) Mobile Design Challenge</b></p>
+
+<img style="margin-bottom: 2em;" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-07-at-8.13.12-AM.png" width="100%" />
+
+<p style="padding-bottom:5px">To demonstrate what the [topcoder] community could do <b><i>and</b></i> to make it a fun experience for the live audience, we knew we had to make it an interactive one. So we decided that during <a href="https://twitter.com/singhns">@singhns</a> on-stage interview with business model innovation pioneer and founder of XPRIZE <a href="https://twitter.com/PeterDiamandis">@peterdiamandis</a>, we were going to ask the audience three seemingly non-related questions, which were:</p>
+
+<center><img style="margin-bottom: 1em;" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-07-at-8.13.22-AM.png" width="80%" />
+<br />
+<img style="margin-bottom: 1em;" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-07-at-8.13.39-AM.png" width="80%" />
+<br />
+<img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-07-at-8.13.49-AM.png" width="80%" />
+<br /><br /></center>
+<p style="padding-bottom:5px">These 3 questions, and their respective answers were then immediately used as inputs into what was a 23 hour UX mobile design challenge. </p>
+
+<p style="padding-bottom:5px">Question 1, and the most popular answer of <b><i>“Get in a good workout”</i></b> told us that we were going to ask the community to design the UX for a mobile fitness application! </p>
+
+<p style="padding-bottom:5px">Question 2, and the winning answer of <b><i>“Daft Punk”</i></b> meant we would be instructing our community that the designs and elements within should be super clean, with perhaps a bit of sheen, and the thoughtful incorporation of white space (or solid colors) in the design.</p>
+
+<p style="padding-bottom:5px">Finally, question 3, and the Bat-man’s often hobbit-like alter ego <b><i>“Bruce Wayne”</i></b> took top place, which resulted in us communicating to our [topcoder] designers that the typical user of this app would be short on-time (a true weekend warrior), and have a strong desire to compete and to win at everything he or she did.</p>
+
+<img style="margin-bottom: 2em;" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-07-at-8.14.02-AM.png" width="100%" />
+
+
+<p style="padding-bottom:5px">With our Director of Creative Services dialed in via Skype, we explained to the audience that they had just participated in a requirements gathering exercise and that this design challenge had just been launched, live on-stage. With nothing left to do but trust the [topcoder] community to deliver, we fielded several questions about [topcoder] on stage, and left the innovative limelight for now, a bit satisfied and also a bit nervous, unsure what tomorrow would bring.</p> 
+
+<p style="padding-bottom:5px"><b>23 Hours of Innovation &#038; Design Later… Ding!</b> </p>
+
+<p style="padding-bottom:5px">By the time <a href="https://twitter.com/singhns">@singhns</a> took the stage the next day at IPP, it was approximately 26 hours after we pushed the challenge live. The UX design challenge had ended a few hours previous and behind the scenes our team was pouring over the submissions and deciding which variety of outputs to showcase to the audience. Below are just some of the amazing UX design concepts we decided to share live.</p>
+
+<p style="padding-bottom:5px">Before viewing some of the outputs, let’s take a moment to look at the contributions from our amazing [topcoder] community. </p>
+
+<ul>
+<li>83 registered members</li>
+<li>42 submissions</li>
+<li>32 unique submitters</li>
+<li>18 countries represented</li>
+<li> < 24 hours time</li>
+</ul>
+
+<p style="padding-bottom:5px">What an amazing event! It was very hard to select and rank the designs, but we owe a huge congratulations to our 7 prize winners (listed in order below). It also comes with great pleasure to announce a <a href="http://studio.topcoder.com/forums?module=Thread&#038;threadID=22375&#038;start=0">second LUX challenge, launching today, April 7th!</a> Fresh off the heels of such a successful first round, we couldn’t wait to do it again. <a href="http://studio.topcoder.com/forums?module=Thread&#038;threadID=22375&#038;start=0">Check out the newest edition of LUX</a>, and enjoy the amazing results from Round 1.</p>
+
+<ol>
+<li><h3>1st Place: <a href="http://studio.topcoder.com/?module=ViewMemberProfile&#038;ha=yoki">yoki</a></h3>
+<iframe class="imgur-album" width="100%" height="350" frameborder="0" src="http://imgur.com/a/AJ7zV/embed"></iframe>
+</li>
+</ol>
+<br />
+<ol>
+<li><h3>2nd Place: <a href="http://studio.topcoder.com/?module=ViewMemberProfile&#038;ha=iamtong">iamtong</a> </h3>
+<iframe class="imgur-album" width="100%" height="350" frameborder="0" src="http://imgur.com/a/lztl0/embed"></iframe>
+</li> 
+</ol><br />
+<ol>
+<li><h3>3rd Place: <a href="http://studio.topcoder.com/?module=ViewMemberProfile&#038;ha=ujazz">ujazz</a> </h3>
+<iframe class="imgur-album" width="100%" height="350" frameborder="0" src="http://imgur.com/a/ryxhn/embed"></iframe>
+</li>
+</ol><br />
+<ol>
+<li><h3>4th Place: <a href="http://studio.topcoder.com/?module=ViewMemberProfile&#038;ha=coralblue">CoralBlue</a> </h3>
+<iframe class="imgur-album" width="100%" height="350" frameborder="0" src="http://imgur.com/a/au5qD/embed"></iframe>
+</li>
+</ol><br />
+<ol>
+<li><h3>5th Place: <a href="http://studio.topcoder.com/?module=ViewMemberProfile&#038;ha=kelvinwebdesign">kelvinwebdesign</a> </h3>
+<iframe class="imgur-album" width="100%" height="350" frameborder="0" src="http://imgur.com/a/wGbzr/embed"></iframe>
+</li>
+</ol><br />
+<ol>
+<li><h3>6th Place: <a href="http://studio.topcoder.com/?module=ViewMemberProfile&#038;ha=gh3ablo">gh3ablo</a> </h3>
+<iframe class="imgur-album" width="100%" height="350" frameborder="0" src="http://imgur.com/a/gY9yO/embed"></iframe>
+</li>
+</ol><br />
+<ol>
+<li><h3>7th Place: <a href="http://studio.topcoder.com/?module=ViewMemberProfile&#038;ha=oninkxronda">oninkxronda</a> </h3>
+<iframe class="imgur-album" width="100%" height="350" frameborder="0" src="http://imgur.com/a/i647z/embed"></iframe>
+</li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/our-exponential-futures-unveiled-23-hours-of-innovation-design/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

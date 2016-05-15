@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <name>topcoder-war-distui</name>
+    <parent>
+        <artifactId>topcoder-parent</artifactId>
+        <groupId>topcoder</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <artifactId>topcoder-war-distui</artifactId>
+    <packaging>war</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>topcoder</groupId>
+            <artifactId>topcoder-shared</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>topcoder</groupId>
+            <artifactId>topcoder-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>topcoder</groupId>
+            <artifactId>topcoder-war-common</artifactId>
+            <type>war</type>
+            <version>1.0-SNAPSHOT</version>
+            <scope>runtime</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-war-plugin</artifactId>
+                    <version>2.4</version>
+                    <configuration>
+                        <overlays>
+                            <overlay>
+                                <groupId>topcoder</groupId>
+                                <artifactId>topcoder-war-common</artifactId>
+                                <includes>
+                                    <include>WEB-INF/nav.tld</include>
+                                    <include>WEB-INF/tc-webtags.tld</include>
+                                </includes>
+                            </overlay>
+                        </overlays>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

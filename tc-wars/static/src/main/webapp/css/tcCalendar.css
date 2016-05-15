@@ -1,0 +1,86 @@
+/* CALENDAR TABLE */
+table.calendar {
+border-collapse: collapse !important;
+border: 1px solid #999999;
+background: #FFFFFF;
+vertical-align: top;
+padding: 0px;
+}
+table.stat td.title {
+text-align: left;
+background-color: #999999;
+background-image: url(/i/stats/headerBG.gif);
+border-bottom: 1px solid #999999; 
+font-size: 12px;
+font-weight: bold;
+text-decoration: none;
+padding: 3px 5px 3px 5px;
+white-space: nowrap;
+}
+table.calendar td.header,table.calendar td.headerC,table.calendar td.headerR {
+color: #FFF;
+font-size: 11px;
+font-weight: bold;
+vertical-align: middle;
+background: #666666 url(/i/graybv_xlite_bg.gif);
+border: 1px solid #999999;
+padding:4px;
+}
+table.calendar td.headerC { text-align: center }
+table.calendar td.headerR { text-align: right }
+
+table.calendar td.empty { background: #FFFFFF url(/i/calendar_bg.gif) top center repeat; border: 1px solid #999999;}
+
+table.calendar td.value, table.calendar td.valueC, table.calendar td.valueR{
+color: #000000;
+font-size: 11px;
+font-weight: bold;
+text-align: left;
+vertical-align: top;
+background-color: #EEEEEE;
+padding: 4px 4px 8px 4px;
+border: 1px solid #999999;
+}
+
+table.calendar td.valueC { text-align: center; }
+table.calendar td.valueR { text-align: right; }
+
+table.calendar div{
+color: #FFFFFF;
+border: 1px solid #999999;
+padding: 2px 4px 2px 4px;
+margin-top: 4px;
+font-weight: normal;
+}
+table.calendar div a:link { color: #FFFFFF; text-decoration: underline; }
+table.calendar div a:visited { color: #FFFFFF; text-decoration: underline; }
+table.calendar div a:hover { color: #000000; text-decoration: underline; }
+table.calendar div a:active { color: #FFFFFF; text-decoration: underline; }
+
+table.calendar div.emblem { 
+float: right;
+padding: 0px;
+margin: 0px 0px 5px 5px;
+border: none;
+}
+table.calendar div.srm { background: #0163be; }
+table.calendar div.hs { background: #666633; }
+table.calendar div.des_dev { background: #009900; }
+table.calendar div.long { background: #990000; }
+table.calendar div.tcHoliday {background: #f7efef; color: #666666; }
+table.calendar div.tccc06 { background: #093B3B url(/i/tournament/tccc06/calendar_bg.gif) top center repeat-x; }
+table.calendar div.tccc07 { background: #5e6787 url(/i/tournament/tccc07/calendarBg.png) top center repeat-x; }
+table.calendar div.tco06 { background: #0F4377 url(/i/bg_calcell_tco06_gradient.gif) top center repeat-x; }
+table.calendar div.tco07 { background: #be7a01 url(/i/tournament/tco07/calendarBg.png) top center repeat-x;}
+table.calendar div.tco08 { background: #ed1c24 url(/i/tournament/tco08/calendarBg.png) top center repeat-x;}
+table.calendar div.tco09 { background: #64a6c2 url(/i/tournament/tco09/calendarBg.png) top center repeat-x;}
+table.calendar div.tco10 { background: #47c44c url(/i/tournament/tco10/calendarBg.png) top center repeat-x;}
+table.calendar div.tco11 { background: #ffcb05 url(/i/tournament/tco11/calendarBg.png) top center repeat-x;}
+table.calendar div.tchs09 { background: #ed1c24 url(/i/tournament/tco08/calendarBg.png) top center repeat-x;}
+table.calendar div.chat { background: #B3B313; }
+table.calendar div.tchs07 { background: #FF9900 url(/i/tournament/tchs07/calendar_bg.png) top center; }
+table.calendar div.tchs08 { background: #d1b54a url(/i/tournament/tchs08/calendarBg.png) top center repeat-x; }
+table.calendar div.tchs10 { background: #5c9741 }
+
+table.calendar div.amd { background: #00a76f; }
+table.calendar div.predictive { background: #a201fe; }

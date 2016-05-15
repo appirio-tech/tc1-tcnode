@@ -1,0 +1,42 @@
+/* CSS Document */
+
+
+#mainNav UL.nav{
+	list-style: none;
+	overflow: hidden;
+	width: 696px;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+}
+
+.topArea {height:150px;}
+
+#content .contentTopLeft{
+	background: url(/i/tco09/content_topLeft_bg_ie6.png) no-repeat top left;
+	padding-left: 19px;
+}
+	
+#content .contentBottomLeft{
+	background: url(/i/tco09/content_bottomLeft_bg_ie6.png) no-repeat bottom left;
+	padding-left: 19px;
+}
+	
+#content .contentTopRight{
+	background: url(/i/tco09/content_topRight_bg_ie6.png) no-repeat top right;
+	padding-right: 19px;
+}
+	
+#content .contentBottomRight{
+	background: url(/i/tco09/content_bottomRight_bg_ie6.png) no-repeat bottom right;
+	padding-right: 19px;
+}
+	
+#content .contentInner,
+#content .contentTopInner{
+	filter : alpha(opacity=30);
+}
+
+#contentInnerInner{
+	position: absolute;	
+}
+

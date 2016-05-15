@@ -1,0 +1,109 @@
+#privacyPolicyBtn {
+	text-decoration:none;
+	color:#0090FF;
+}
+/*
+MODAL POPUP
+*/
+#modalBackground {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	display: none;
+	background: transparent url(../i/bg-modal.png) repeat;
+}
+
+.modal {
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 10001;
+	display: none;
+	padding: 22px;
+	background: #fff;
+	width: 511px;
+	color: #333;
+	vertical-align: middle;
+}
+
+.modal a.btnClose {
+	position: absolute;
+	top: 11px;
+	right: 11px;
+	display: block;
+	width: 11px;
+	height: 11px;
+	background: transparent url( ../i/btnClose.png) no-repeat;
+	z-index: 10001
+}
+
+.modal a.btnClose:hover {
+	background-position: 0 -11px;
+}
+
+.modal .section {
+	padding: 13px 14px;
+	border-top: solid 1px #e5e5e5;
+}
+
+.modal .columnLeft {
+	width: 260px;
+	float: left;
+}
+
+.modal .columnLeft p {
+	width: 100%;
+	line-height: 25px;
+}
+
+.modal .columnRight {
+	width: 214px;
+	float: right;
+}
+
+.modal h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.modal label span {
+	padding: 0 25px 0 10px;
+	vertical-align: middle;
+}
+
+.modal img {
+	margin: 0 10px 10px 5px;
+	vertical-align: middle;
+}
+
+.modal p {
+	width: 460px;
+}
+
+.modal p.twoLines {
+	line-height: 40px;
+}
+
+.modal p.importantNote {
+	color: #f00000;
+}
+
+.modal input.text {
+	width: 194px;
+}
+
+.modal .dl {
+	margin-bottom: 10px;
+}
+
+.modal a.submit {
+	margin-top: 10px;
+}
+
+.modal a.done {
+	margin-top: 5px;
+}

@@ -1,0 +1,13 @@
+.loginAreaBox .loginRightSide .loginFormWrapper form dl dd input{
+	height:26px;
+	float:left;
+}
+.loginAreaBox .loginRightSide .loginFormWrapper form .formCommand{
+	width:288px;
+}
+.loginAreaBox .loginRightSide .loginFormWrapper form .forgotPasswordSection{
+	width:288px;
+}
+.loginAreaBox .loginRightSide .loginFormWrapper .loginCheck {
+	width:288px;
+}

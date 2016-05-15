@@ -1,0 +1,172 @@
+/* GENERAL SITE STYLES */
+div{ }
+td{ }
+iframe{
+ width: 100%;
+ height: 200px;
+}
+#pageAligner{
+}
+#pageSpacer{
+ margin: 0 10px 40px 10px;
+ width: 600px;
+ text-align: left;
+}
+#schoolPageAligner{
+}
+#schoolPageSpacer{
+ margin: 15px;
+ width: 500px;
+ text-align: left;
+}
+#pageBranding{
+ padding:6px 0px 6px; 0px;
+}
+#pageBranding a{
+ display: block;
+ width: 190px;
+ height: 28px;
+ background: transparent url(/i/registration/tc_logo.gif) center center no-repeat;
+}
+#pageBranding a:link, #pageBranding a:visited, #pageBranding a:hover, #pageBranding a:active {
+ text-decoration: none;
+}
+#pageTitle{
+ height: 26px;
+ background: transparent url(/i/header_registration_w.gif) left center no-repeat;
+ border-bottom: 1px solid #999999;
+ margin-bottom: 10px;
+}
+#pageTitle div{
+ margin: 0px;
+ padding: 0px;
+}
+#topMessage{
+ padding-bottom: 6px;
+}
+div.regSection{
+ text-align: left;
+ padding: 10px 0;
+ font-weight: bold;
+}
+.justUS{ display: none; }
+.global{ }
+#regBcContainer {
+ float: right;
+ clear: right;
+ position:relative;
+}
+#handleWarning, #secretWarning{
+}
+div.regBc
+{
+ position:absolute;
+ left:-155px;
+ width:155px;
+}
+div.regBc div.title
+{
+ padding:3px;
+ background:#FFFFFF;
+ color:#666666;
+ font-weight:normal;
+ text-align:right;
+}
+div.regBc div.off
+{
+ padding:3px;
+ background:#FFFFFF;
+ color:#666666;
+ font-weight:bold;
+}
+div.regBc div.on
+{
+ padding: 3px 3px 3px 10px;
+ background:#999999;
+ color:#FFFFFF;
+ font-weight:bold;
+}
+table.regFields tr.odd td{
+}
+table.regFields tr.even td{
+}
+table.regFields tr.error td{
+ color: #ff0000;
+ font-size: 12px;
+ font-weight: bold;
+ text-decoration: none;
+}
+table.regFields td.field, table.regFields td.value
+{
+ color: #333333;
+ font-size: 12px;
+ font-weight: normal;
+ font-style: normal;
+}
+table.regFields tr.odd td.field, table.regFields tr.even td.field
+{
+ padding: 4px;
+ text-align: right;
+ width: 160px;
+ vertical-align: top;
+ background-color: #eeeeee;
+ border-top: 1px solid #FFFFFF;
+}
+table.regFields tr.odd td.value, table.regFields tr.even td.value {
+ padding: 4px 0px 4px 4px;
+}
+table.whatToDo{
+ width: 400px; 
+}
+table.whatToDo td
+{
+ vertical-align: top;
+ border-top: 1px solid #999999;
+}
+table.whatToDo td.image
+{
+ padding-bottom: 10px;
+}
+table.whatToDo td.text
+{
+ padding: 10px 0px 10px 10px;
+}
+div.regHead
+{
+ background: #FFFFFF url(/i/registration/head_bg.jpg) center left repeat-y;
+ color: #FFFFFF;
+ font-weight: bold;
+ padding: 6px 10px 6px 10px;
+}
+#regSelection div.regOption {
+ margin: 40px 20px;
+}
+#logoutLink{
+ float: right;
+}
+table.loginFields {
+ margin: 10px 0;
+}
+table.loginFields td{
+ padding: 2px 4px;
+}
+table.loginFields td.field{
+ text-align: right;
+}
+div.error{
+ color: #ff0000;
+ font-size: 12px;
+ font-weight: bold;
+ text-decoration: none;
+ padding: 4px;
+}
+#legend{
+ text-align: left;
+}
+#submitContainer{
+ padding: 10px 0;
+}
+#successMessage{
+ width:400px;
+ margin-right: 200px;
+}

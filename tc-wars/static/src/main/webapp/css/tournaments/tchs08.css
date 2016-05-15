@@ -1,0 +1,498 @@
+@charset "UTF-8";
+/* -----------------------------------------------------------------------
+ * TCHS08 Website Stylesheet
+ * Created: November 22, 2007
+ * Last Modified: November 23, 2007
+ * Uploaded to the Studio: November 23, 2007 - November 26, 2007
+ * 
+ * This website storyboard designed in Venezuela, coded in Indonesia, and 
+ * published and maintained by TopCoder, Inc., based on Connecticut, U.S.A.
+ * --------------------------------------------------------------------- */
+
+/* ------------------
+GENERAL RULES
+------------------- */
+
+/* General elements reset to reduce cross-browser bugs */
+BODY, H1, H2, H3, H4, H5, H6, FORM, UL, OL, LI, P, DL, DT, DD, IMG  { 
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+BODY { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+}
+
+A {
+    color: #d2b54a;
+}
+
+A:hover {
+    color: #9a4c00;
+}
+
+span.bigRed{ color: #FF0000; font-weight: bold; text-decoration: none; }
+A.bigRed:link, A.bigRed:visited, A.bigRed:active { color: #FF0000; text-decoration: underline; }
+A.bigRed:hover { color: #000000; text-decoration: underline;}
+
+span.bigGreen{ color: #009900; font-weight: bold; text-decoration: none; }
+A.bigGreen:link, A.bigGreen:visited, A.bigGreen:active { color: #009900; text-decoration: underline; }
+A.bigGreen:hover { color: #000000; text-decoration: underline;}
+
+/* item list resetted with special unordered item background */
+
+#content UL {
+    margin: 0 0 1em 0;
+    list-style-type: none;
+}
+
+#content OL {
+    margin: 0 0 1em 2em;
+}
+
+#content UL LI {
+    padding: 0 0 0 1.5em;
+    background: url(/i/tournament/tchs08/ul_li.gif) no-repeat 0 5px;
+}
+
+#content OL LI {
+    margin: 0 0 0 auto;
+}
+
+/* ------------------
+LAYOUT
+------------------- */
+#wrapper { 
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/* ------------------
+HEADER
+------------------- */
+
+#header {
+    position: relative;
+    height: 238px;
+    background: url(/i/tournament/tchs08/bg_header.jpg) no-repeat center top;
+}
+
+#powered {
+    position: absolute;
+    left: 749px;
+    top: 15px;
+}
+
+H1 {
+    position: absolute;
+    left: 100px;
+    top: 11px;
+}
+
+#header div.message {
+ position: absolute;
+ top: 60px;
+ left: 400px;
+ font-weight: bold;
+ font-size: 24px;
+}
+
+#header div.message a:link, #header div.message a:visited {
+ color: #ffffff;
+ text-decoration: none;
+}
+
+#header div.message a:hover, #header div.message a:active {
+ color: #f8dc72;
+ text-decoration: none;
+}
+
+
+/* -- MENU -- */
+
+UL#nav {
+    list-style-type: none;
+}
+
+#nav LI {
+    display: inline;
+}
+
+#nav A {
+    position: absolute;
+    text-indent: -99999px;
+    top: 155px;
+    height: 53px;
+}
+
+#nav A:hover {
+    background-position: 0 -53px;
+}
+
+#nav A.active, #nav A.active:hover {
+    background-position: 0 -106px;
+}
+
+/* -- nav items -- */
+#nav_overview A {
+    width: 70px;
+    left: 100px;
+    background: url(/i/tournament/tchs08/nav/overview.png) no-repeat left top;
+}
+
+#nav_program A {
+    width: 141px;
+    left: 170px; 
+    background: url(/i/tournament/tchs08/nav/program.png) no-repeat left top;
+}
+
+#nav_online A {
+    width: 109px;
+    left: 311px;
+    background: url(/i/tournament/tchs08/nav/online.png) no-repeat left top;
+}
+
+#nav_onsite A { 
+    width: 111px;
+    left: 420px;
+    background: url(/i/tournament/tchs08/nav/onsite.png) no-repeat left top;
+}
+
+#nav_rules A {
+    width: 58px;
+    left: 531px;
+    background: url(/i/tournament/tchs08/nav/rules.png) no-repeat left top; 
+}
+
+#nav_visa A {
+    width: 100px;
+    left: 589px;
+    background: url(/i/tournament/tchs08/nav/visa.png) no-repeat left top;
+}
+
+#nav_individual A {
+    width: 67px;
+    left: 689px;
+    background: url(/i/tournament/tchs08/nav/individual.png) no-repeat left top; 
+}
+
+#nav_registrants A {
+    width: 90px;
+    left: 756px;
+    background: url(/i/tournament/tchs08/nav/registrants.png) no-repeat left top;
+}
+
+#nav_purdue A {
+    width: 65px;
+    left: 846px;
+    background: url(/i/tournament/tchs08/nav/purdue.png) no-repeat left top; 
+}
+
+
+/* ------------------
+MAIN
+------------------- */
+
+/* -- CONTENT LAYOUT -- */
+#main {
+    background: url(/i/tournament/tchs08/bg_content.jpg) no-repeat center top;
+}
+
+#mainwrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#sponsors {
+    float: right;
+    width: 180px;
+    text-align: right;
+}
+
+#sponsors IMG {
+    border: 1px dashed #FFF;
+}
+
+#impDates {
+    float: right;
+    width: 180px;
+    text-align: center;
+    border: 2px solid #1b1b1b;
+    background: #242424;
+    margin: 10px;
+}
+
+#impDates H2 {
+    margin: 10px 0px 15px 0px;
+    font-size: 22px;
+    font-weight: normal;
+    color: #FFF;
+}
+
+#impDates P {
+    margin: 0px 5px 0px 5px;
+    color: #b3b3b3;
+}
+
+#impDates STRONG {
+    color: #FFF;
+}
+
+#content {
+    float: left;
+    /* CONTENT WIDTH RESIZE
+    
+    To resize the width of the content area, change this width number. Maximum value 
+    which having proportional sizing to the design is 580px. To preserve the 
+    original width size, change it back to 515px. 
+    
+    If you need some extra wide layout, please follow the instruction on readme.txt file.
+    */
+    width: 515px;
+    text-align: left;
+    margin: 10px 0 1em 10px;
+    color: #b3b3b3;
+}
+
+/* -- CONTENT FORMATTING -- */
+
+#title {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    height: 29px;
+    padding-top: 7px;
+    background: url(/i/tournament/tchs08/title_arrow_left.gif) no-repeat 10px 50%;
+    text-align: left;
+}
+
+#title H2 {
+    display: inline;
+    margin: 0;
+    padding: 0 20px 0 40px;
+    font-size: 22px;
+    font-weight: normal;
+    color: #FFF;
+    vertical-align: middle;
+    background: url(/i/tournament/tchs08/title_arrow_right.gif) no-repeat right 50%;
+}
+
+#content P {
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+#content H3 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+/* sample layout */
+
+#sample_table {
+    width: 515px;
+}
+
+#sample_handles { 
+    width: 120px;
+    float: right;
+}
+
+#sample_handles H4 {
+    margin-top: 3em;
+    font-weight: bold;
+    font-size: 12px;
+    color: #7d7d7d;
+}
+
+/* -- STAT TABLE -- */
+
+TABLE.stat { 
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    font-size: 12px;        /* font size redeclaring for IE6 compatibility */
+    border: 1px solid #232323;
+}
+
+TABLE.stat TH, TABLE.stat TD {  
+    padding: 5px 10px;
+    color: #FFF;
+}
+
+TABLE.stat TH {
+    background: #030303 url(/i/tournament/tchs08/bg_th.gif) repeat-x;
+    text-align: left;
+}
+
+TABLE.stat TR.light TD {
+    background: #242424;
+    border: 1px solid #242424;
+}
+
+TABLE.stat TR.dark TD {
+    background: #1b1b1b;
+    border: 1px solid #1b1b1b;
+}
+
+TABLE.stat TD.headerC { text-align: center; }
+
+TABLE.stat TD.headerR { text-align: right; }
+
+TABLE.stat TD.valueC, TABLE.stat TD.valueCE, TABLE.stat TD.valueCA { text-align: center; }
+
+TABLE.stat TD.valueR, TABLE.stat TD.valueRE, TABLE.stat TD.valueRA { text-align: right; }
+
+TABLE.stat TD.valueE, TABLE.stat TD.valueCE, TABLE.stat TD.valueRE {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+TABLE.stat TD.valueA, TABLE.stat TD.valueCA, TABLE.stat TD.valueRA{
+    color: #009900;
+    font-weight: bold;
+}
+
+TABLE.stat TD.field {
+    color: #000000;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+TABLE.stat a:link, TABLE.stat a:visited { text-decoration: none; }
+
+TABLE.stat a:hover, TABLE.stat a:active { text-decoration: underline; }
+
+/* -- HANDLE -- 
+Because I don't have a knowledge about the meaning of every handles color
+and to maintain easy midfication, please map the original handles color class naming
+to this convention, otherwise replace these namings according to the current TC 
+handles naming convention.
+*/
+
+.handle_01 { font-weight: bold; color: #FF9900; }
+.handle_02 { font-weight: bold; color: #EE0000; }
+.handle_03 { font-weight: bold; color: #DDCC00; }
+.handle_04 { font-weight: bold; color: #6666FF; }
+.handle_05 { font-weight: bold; color: #00A900; }
+.handle_06 { font-weight: bold; color: #999999; }
+.handle_07 { font-weight: bold; color: #FFFFFF; }
+
+/* -- SPONSORS -- */
+
+#sponsors UL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#sponsors LI {
+    margin: 0 0 10px 0;
+    padding: 0;
+    border: 0;
+}
+
+/* ----------------------------------------------------------------------------------------
+MAXIMUM WIDE LAYOUT
+
+To get the maximum possible wide layout of the current prototype design, add/change class
+"page_wide" property to the BODY tag.
+----------------------------------------------------------------------------------------- */
+
+/* ## ALTERNATE LAYOUT - START ## */
+.page_wide #mainwrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.page_wide H1 {
+    left: 60px;
+    top: 11px;
+}
+
+.page_wide #title {
+    width: 880px;
+    background: url(/i/tournament/tchs08/title_arrow_left.gif) no-repeat 0 50%;
+    
+}
+
+.page_wide #title H2 {
+    padding: 0 20px 0 30px;
+}
+
+.page_wide #powered {
+    left: 800px;
+    top: 15px;
+}
+
+.page_wide #content {
+    width: 690px;
+    margin: 10px 0 0 5px;
+}
+
+.page_wide #sponsors {
+    margin: 0;
+}
+/* ## ALTERNATE LAYOUT - END ## */
+
+
+/* ------------------
+FOOTER
+------------------- */
+
+#footer {
+    clear: both;
+    min-height: 80px;
+    font-size: 11px;
+    background: transparent url(/i/tournament/tchs08/bg_footer.jpg) no-repeat center top;
+    color: #FFF;
+    text-align: center;
+}
+
+#footer A {
+    color: #cdcdcd;
+    font-weight: bold;
+}
+
+#footer A:hover {
+    color: #d2b54a;
+}
+
+#footer P {
+    padding: 5px 0 0 0;
+}
+
+P#copyright {
+    padding-top: 15px;
+    font-weight: normal;
+    color: #8f8f8f;
+}
+
+
+/* ------------------
+MISC
+------------------- */
+
+/* For placing non-browser related information to facilitate non text-based 
+browser/reader. This is used to ensure all content is accessible for deaf users. */
+#accessibility {
+    display: none;
+}
+
+/* Guides to render to non-CSS based browser. It makes non-trational website content
+such as navigation and heading and other additional tags informative */
+.guides {
+    display: none;
+}
+
+.clear {
+    height: 1%;
+    width: 100%;
+    clear: both;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <name>topcoder-ejb-fileconversion</name>
+    <parent>
+        <artifactId>topcoder-parent</artifactId>
+        <groupId>topcoder</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <artifactId>topcoder-ejb-fileconversion</artifactId>
+    <packaging>ejb</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>topcoder</groupId>
+            <artifactId>topcoder-shared</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>topcoder</groupId>
+            <artifactId>topcoder-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.topcoder</groupId>
+            <artifactId>fileconvert</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>jboss</groupId>
+            <artifactId>jbossall-client</artifactId>
+            <version>4.0.4.GA</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+</project>

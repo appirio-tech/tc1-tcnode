@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.topcoder</groupId>
+  <artifactId>document_generation</artifactId>
+  <versioning>
+    <release>1.0.0</release>
+    <versions>
+      <version>1.0.0</version>
+    </versions>
+    <lastUpdated>20160430082637</lastUpdated>
+  </versioning>
+</metadata>

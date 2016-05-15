@@ -1,0 +1,247 @@
+h2 {
+    color: #d92228;
+    margin: 10px 0;
+}
+
+.c {
+    text-align: center;
+}
+
+.r {
+    text-align: right;
+}
+
+#pageSpacer {
+    position: relative;
+    width: 780px;
+    margin: 50px 0 40px 0;
+    text-align: left;
+    background: transparent;
+    font-size: 13px;
+    font-family: "Source Sans Pro", Arial, Helvetica, Verdana, sans-serif;
+}
+
+#pageSpacer p {
+    padding: 10px 0;
+}
+
+#eventLogo {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 200px;
+    height: 105px;
+}
+
+#eventBannerBox {
+    width: 535px;
+    height: 150px;
+    vertical-align: middle;
+}
+
+#eventBannerBox img {
+    vertical-align: middle;
+}
+
+#eventDescBox {
+    background: transparent url(/i/reskin/digital_run/eventDescBoxBG.png) top center no-repeat;
+    height: 150px;
+    margin-bottom: 27px; /* that's how far the nav box sticks out the bottom */
+    color: #ffffff;
+    line-height: 16px;
+}
+
+#eventDescBox div.spacer {
+    padding: 45px 250px 20px 20px;
+}
+
+#eventDescBox a {
+    color: #ffffff;
+}
+
+#eventDescBox a:link, #eventDescBox a:visited {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#eventDescBox a:hover, #eventDescBox a:active {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+#navBox {
+    display: table-cell;
+    list-style-type: none;
+    position: absolute;
+    top: 116px;
+    right: 20px;
+    width: 220px;
+    height: 170px;
+    background: transparent url(/i/reskin/digital_run/navBoxBG.png) top center no-repeat;
+    margin: 0;
+    /* (height - #tabs x 32) / 2 */
+    padding: 24px 0 16px;
+}
+
+#navBox li {
+    display: block;
+    margin: 8px 4px;
+    text-align: center;
+}
+
+#navBox li a, #navBox li a:link, #navBox li a:visited {
+    display: block;
+    line-height: 24px;
+    background: transparent url(/i/reskin/digital_run/navBoxLinkBG.png) top center no-repeat;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#navBox li a:hover, #navBox li a:active {
+    background: transparent url(/i/reskin/digital_run/navBoxLinkBG.png) bottom center no-repeat;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#navBox a {
+    -webkit-transition: none;
+    transition: none;
+}
+
+#contestTypes {
+    /* START this is need to properly contain floats visually */
+    overflow: auto;
+    width: 100%;
+    font-size: 12px;
+    line-height: 16px;
+    /* END this is need to properly contain floats visually */
+}
+
+#contestTypes div.designColumn, #contestTypes div.developmentColumn, #contestTypes div.studioColumn {
+    float: left;
+    width: 230px;
+    margin: 0 0 0 22px;
+    text-align: center;
+}
+
+#contestTypes a {
+    font-weight: bold;
+}
+
+div.prizeLine {
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "Source Sans Pro", 'Arial', sans-serif;
+    padding: 10px 0;
+}
+
+div.prizeLine span.money {
+    display: block;
+    font-size: 36px;
+    line-height: normal;
+    color: #8ec93b;
+}
+
+div.prizeLine span.month {
+    display: block;
+    line-height: normal;
+}
+
+div.prizeGuarantee {
+    color: #000000;
+    font-weight: bold;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+div.prizeGuarantee span.money {
+    display: block;
+    font-size: 1.5em;
+    line-height: normal;
+}
+
+div.prizeGuarantee span.month {
+    display: block;
+    line-height: normal;
+}
+
+table.drStat {
+    border: 1px solid #999999;
+}
+
+table.drStat th {
+    padding: 2px 4px 2px 4px;
+    line-height: normal;
+    color: #000000;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #e5e5e5;
+}
+
+table.drStat th.title {
+    background: #3d3d3d url(/i/reskin/digital_run/drStatTitleBG.png) top center repeat-x;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #ffffff;
+}
+
+table.drStat tr.odd td {
+    background-color: #f5f5f5;
+}
+
+table.drStat tr.even td {
+    background-color: #efefef;
+}
+
+table.drStat td {
+    padding: 2px 4px 2px 4px;
+    line-height: normal;
+    color: #000000;
+    font-size: 11px;
+    border-top: 1px solid #FFFFFF;
+}
+
+div.popUp {
+    display: none;
+    left: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    z-index: 100;
+}
+
+div.popUp div {
+    background: none repeat scroll 0% 0% #FFFFCC;
+    border: 1px solid #999999;
+    float: left;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0px;
+    padding: 4px 6px;
+    white-space: nowrap;
+}
+
+table.stat td.B {
+    border-right: 1px solid #e7e7e7 !important;
+}
+
+.maxWidthBody, .myTCBody, .fixedWidthBody {
+    float: left;
+    width: 734px !important;
+}
+
+td.drTD {
+    text-align: center;
+}
+
+td.drTD .fixedWidthBody, td.drTD .pageTitleTable {
+    text-align: left;
+}
+
+td.drTD .pagingBox {
+    width:100% !important;
+}

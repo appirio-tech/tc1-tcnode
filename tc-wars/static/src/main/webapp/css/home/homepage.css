@@ -1,0 +1,1514 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	background: transparent;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+/* the display of screen */
+.clear{
+	clear:both;
+}
+.hide{
+	display:none;
+}
+
+/********************************************** page start **********************************************/
+body{
+	background:url(../../i/home/body_bg.gif) repeat-x #3e3e3e;
+	}
+	
+	/** out lay **/
+	#outLay{
+		width:100%;
+		background:url(../../i/home/body_left_bg.gif) no-repeat left 114px;
+		}
+		
+		/** main Content **/
+		#mainContent{
+			width:960px;
+			margin:0 auto;
+			}
+			
+			/** header **/
+			#mainContent #header{
+				height:88px;
+				}
+				
+				/** logo **/
+				#mainContent #header div#logo{
+					width:260px;
+					height:38px;
+					float:left;
+					display:inline;
+					margin-top:30px;
+					margin-left:10px;
+					}
+					
+					#mainContent #header div#logo a{
+						width:260px;
+						height:38px;
+						display:block;
+						background:url(../../i/home/topCoder_logo.png) no-repeat;
+						}
+						
+				/** main Nav **/
+				#mainContent #header #mainNav{
+					width:auto;
+					float:right;
+					display:inline;
+					margin-top:42px;
+					}
+					
+					#mainContent #header #mainNav li{
+						position: relative;
+						width:auto;
+						height:19px;
+						float:left;
+						display:inline;
+						}
+						
+					#mainContent #header #mainNav li.line{
+						width:1px;
+						padding:0;
+						background:url(../../i/home/mainNav_line.gif) no-repeat;
+						}
+						
+						#mainContent #header #mainNav li a{
+							width:auto;
+							height:19px;
+							display:block;
+							padding:0 8px;
+							font-family:Arial, Helvetica, sans-serif;
+							font-size:12px;
+							color:#fffffe;
+							line-height:19px;
+							}
+							
+						#mainContent #header #mainNav li a:hover{
+							color:#fc0000;
+							background:#353535;
+							text-decoration:none;
+							}
+						#mainContent #header #mainNav li .tip{ 
+							width:auto;
+							position:absolute;
+							margin-top:-34px;
+							}
+							
+							#mainContent #header #mainNav li .tip .tipContent{ 
+								width:100%;
+								height:25px;
+								line-height:25px;
+								background:url(../../i/home/aboutMe_tipContent.gif) repeat-x;
+								white-space:nowrap;
+								padding: 0px 3px;
+								}
+								
+								#mainContent #header #mainNav li .tip .tipContent p{ 
+									font-size:12px;
+									text-align:center;
+									}
+									
+									#mainContent #header #mainNav li .tip .tipContent p strong{ 
+										color:#ff0000;
+										}
+									
+							#mainContent #header #mainNav li .tip .tipArrow{ 
+								width:7px;
+								height:4px;
+								display:block;
+								margin-left: 90px;
+								background:url(../../i/home/aboutMe_tip.gif) no-repeat;
+								}
+
+			
+			/** content **/
+			#mainContent #content{
+				width:100%;
+				}
+				
+				#mainContent #content .content_top{
+					width:100%;
+					padding-top:5px;
+					background:url(../../i/home/mainContest_top.gif) no-repeat left top;
+					}
+					
+				#mainContent #content .content_bottom{
+					width:100%;
+					padding-bottom:5px;
+					background:url(../../i/home/mainContest_bottom.gif) no-repeat left bottom;
+					}
+					
+				#mainContent #content .content_inner{
+					width:100%;
+					height:665px;
+					}
+					
+					/** title Text **/
+					#mainContent #content .content_inner .titleText{
+						height:95px;
+						background: #fffffd;
+						}
+						
+						#mainContent #content .content_inner .titleText .info{
+							padding-top:21px;
+							margin-left:30px;
+							font-family:Helvetica, Arial, sans-serif;
+							font-size:18px;
+							color:#555555;
+							line-height:24px;
+							}
+							
+						#mainContent #content .content_inner .titleText .community{
+							margin-left:30px;
+							font-family:Helvetica, Arial, sans-serif;
+							font-size:30px;
+							line-height:32px;
+							font-weight:normal;
+							}
+							
+							#mainContent #content .content_inner .titleText .community .red{
+								color:#ff0000;
+								}
+								
+					/** map **/
+					#mainContent #content .content_inner .map{
+						width:100%;
+						height:384px;
+						background:url(../../i/home/mapContest_bg.gif) repeat-x;
+						}
+						
+						#mainContent #content .content_inner .map .mapInner{
+							width:100%;
+							height:384px;
+							background:url(../../i/home/earth_map.gif) no-repeat left top;
+							}
+							
+						/** intro **/
+						#mainContent #content .content_inner .map .intro{
+							width:384px;
+							height:71px;
+							padding-top:63px;
+							margin-left:532px;
+							}
+							
+							#mainContent #content .content_inner .map .intro .introInner{
+								width:384px;
+								height:71px;
+								color: #fff;
+								}
+							
+							#mainContent #content .content_inner .map .intro p{
+								width:334px;
+								font-size:15px;
+								margin: 0px;
+								font-family:Arial, Helvetica, sans-serif;
+								line-height:20px;
+								padding-top:-10px; 
+								padding-left: 70px;
+								text-align: left; 
+								color: #fff;
+								}
+								
+								#mainContent #content .content_inner .map .intro p span{
+									font-family:Arial, Helvetica, sans-serif;
+									}
+							.large { font-size: 26px }
+									
+
+						/** get start button **/
+						#mainContent #content .content_inner .map .getStartButton{
+							width:262px;
+							height:59px;
+							margin: 20px 0px 0px 60px;
+							display:block;
+							}
+						
+							#mainContent #content .content_inner .map .getStartButton a {
+								width:100%;
+								height:59px;
+								display:block;
+								cursor:pointer;
+								background:url(../../i/home/get_Started_button.png) no-repeat;
+								}
+								
+							#mainContent #content .content_inner .map .getStartButton a:hover{
+								background: url(../../i/home/get_Started_button_hover.png) no-repeat;
+							}
+								
+						/** tip **/
+						#mainContent #content .content_inner .map #getStartTip{
+							width:374px;
+							height:132px;
+							position:absolute;
+							margin-left:540px;
+							margin-top:-194px;
+							background:url(../../i/home/tip_bg.png) no-repeat;
+							}
+							
+							#mainContent #content .content_inner .map #getStartTip p{
+								width:322px;
+								margin-top:14px;
+								margin-left:21px;
+								font-size:16px;
+								line-height:20px;
+								}
+								
+								#mainContent #content .content_inner .map #getStartTip p strong.red{
+									color:#ff0000;
+									}
+					
+					/** nav **/		
+					#mainContent #content .content_inner .nav{
+						height:74px;
+						background:url(../../i/home/nav_bg.gif) repeat-x #f1f1f1;
+						}
+						
+						#mainContent #content .content_inner .nav ul{
+							margin:0 10px;
+							}
+							
+							#mainContent #content .content_inner .nav ul li{
+								width:auto;
+								height:59px;
+								float:left;
+								display:inline;
+								line-height:59px;
+								}
+								
+								#mainContent #content .content_inner .nav ul li a{
+									width:100%;
+									display:block;
+									font-family:Helvetica, Arial, sans-serif;
+									text-align:center;
+									}
+								
+								#mainContent #content .content_inner .nav ul li a:hover{
+									font-weight:bold;
+									text-decoration:none;
+									}
+									
+								#mainContent #content .content_inner .nav ul li.first a:hover,#mainContent #content .content_inner .nav ul li.second a:hover,#mainContent #content .content_inner .nav ul li.third a:hover{
+									background:url(../../i/home/tab_hover.gif) no-repeat center 1px;
+									}
+									
+								
+							/** first hover tab **/
+							#mainContent #content .content_inner .nav ul li.firstHover{
+								width:315px;
+								height:59px;
+								font-size:24px;
+								font-weight:bold;
+								text-align:center;
+								background:url(../../i/home/red_tab_hover.gif) no-repeat;
+								}
+								
+								#mainContent #content .content_inner .nav ul li.firstHover a{
+									color:#fffffe;
+									}
+									
+							/** second tab **/
+							#mainContent #content .content_inner .nav ul li.second{
+								width:310px;
+								height:59px;
+								font-size:20px;
+								text-align:center;
+								background:url(../../i/home/red_tab_second.gif) no-repeat;
+								}
+								
+								#mainContent #content .content_inner .nav ul li.second a{
+									color:#333;
+									}
+									
+							/** third tab **/
+							#mainContent #content .content_inner .nav ul li.third{
+								width:315px;
+								height:59px;
+								font-size:20px;
+								text-align:center;
+								background:url(../../i/home/red_tab_third.gif) no-repeat;
+								}
+								
+								#mainContent #content .content_inner .nav ul li.third a{
+									color:#333;
+									}
+									
+									
+					/** nav for development **/		
+					#mainContent #content .content_inner #developmentTab .nav{
+						height:74px;
+						background:url(../../i/home/nav_bg.gif) repeat-x #f1f1f1;
+						}
+						
+						#mainContent #content .content_inner #developmentTab .nav ul{
+							margin:0 10px;
+							}
+							
+							#mainContent #content .content_inner #developmentTab .nav ul li{
+								width:auto;
+								height:59px;
+								float:left;
+								display:inline;
+								line-height:59px;
+								}
+								
+								#mainContent #content .content_inner #developmentTab .nav ul li a{
+									width:100%;
+									display:block;
+									font-family:Helvetica, Arial, sans-serif;
+									text-align:center;
+									}
+								
+								#mainContent #content .content_inner #developmentTab .nav ul li a:hover{
+									font-weight:bold;
+									text-decoration:none;
+									}
+									
+								#mainContent #content .content_inner #developmentTab .nav ul li.first a:hover,#mainContent #content .content_inner #developmentTab .nav ul li.second a:hover,#mainContent #content .content_inner #developmentTab .nav ul li.third a:hover{
+									background:url(../../i/home/tab_hover.gif) no-repeat center 1px;
+									}
+									
+								
+							/** first tab **/
+							#mainContent #content .content_inner #developmentTab .nav ul li.first{
+								width:315px;
+								height:59px;
+								font-size:20px;
+								text-align:center;
+								background:url(../../i/home/development_tab.gif) no-repeat;
+								}
+								
+								#mainContent #content .content_inner #developmentTab .nav ul li.first a{
+									color:#333;
+									}
+									
+							/** second tab **/
+							#mainContent #content .content_inner #developmentTab .nav ul li.secondHover{
+								width:310px;
+								height:59px;
+								font-size:24px;
+								font-weight:bold;
+								text-align:center;
+								background:url(../../i/home/development_tab_hover.gif) no-repeat;
+								}
+								
+								#mainContent #content .content_inner #developmentTab .nav ul li.secondHover a{
+									color:#fffffe;
+									}
+									
+							/** third tab **/
+							#mainContent #content .content_inner #developmentTab .nav ul li.third{
+								width:315px;
+								height:59px;
+								font-size:20px;
+								text-align:center;
+								background:url(../../i/home/development_tab.gif) no-repeat;
+								}
+								
+								#mainContent #content .content_inner #developmentTab .nav ul li.third a{
+									color:#333;
+									}
+									
+					
+					/** design tab map **/
+					#mainContent #content .content_inner #designTab .map{
+						width:100%;
+						height:384px;
+						background:url(../../i/home/master_map_bg.gif) repeat-x;
+						}
+						
+						#mainContent #content .content_inner #designTab .map .mapInner{
+							width:100%;
+							height:384px;
+							background:url(../../i/home/master_map_bg_top.gif) no-repeat left top;
+							}
+							
+							/** left Side **/
+							#mainContent #content .content_inner #designTab .map .masterLeftSide{
+								width:324px;
+								float:left;
+								display:inline;
+								margin-top:23px;
+								margin-left:42px;
+								}
+								
+								#mainContent #content .content_inner #designTab .map .masterLeftSide h2{
+									width:275px;
+									height:107px;
+									background:url(../../i/home/master_logo.png) no-repeat;
+									}
+									
+								#mainContent #content .content_inner #designTab .map .masterLeftSide p{
+									width:322px;
+									margin-left:14px;
+									font-family:Helvetica, Arial, sans-serif;
+									font-size:14px;
+									line-height:19px;
+									}
+									
+									#mainContent #content .content_inner #designTab .map .masterLeftSide p strong{
+										font-family:Helvetica, Arial, sans-serif;
+										}
+									
+								#mainContent #content .content_inner #designTab .map .masterLeftSide p.label{
+									margin-top:12px;
+									}
+									
+								#mainContent #content .content_inner #designTab .map .masterLeftSide p.detail{
+									margin-top:6px;
+									font-family:Arial, Helvetica, sans-serif;
+									font-size:11px;
+									color:#fffffe;
+									line-height:14px;
+									}
+									
+								#mainContent #content .content_inner #designTab .map .masterLeftSide .button{
+									height:33px;
+									margin-top:1px;
+									margin-left:10px;
+									}
+									
+									#mainContent #content .content_inner #designTab .map .masterLeftSide .button a{
+										width:210px;
+										height:33px;
+										float:left;
+										display:inline;
+										text-align:center;
+										font-family:Helvetica, Arial, sans-serif;
+										font-size:14px;
+										color:#fffffe;
+										font-weight:bold;
+										line-height:31px;
+										cursor:pointer;
+										background:url(../../i/home/master_compete_button.png) no-repeat;
+										}
+										
+										#mainContent #content .content_inner #designTab .map .masterLeftSide .button a span{
+											font-family:Helvetica, Arial, sans-serif;
+											}
+									
+									#mainContent #content .content_inner #designTab .map .masterLeftSide .button a:hover{
+										text-decoration:none;
+										background:url(../../i/home/master_compete_button_hover.png) no-repeat;
+										}
+										
+									#mainContent #content .content_inner #designTab .map .masterLeftSide .button a.laungh{
+										background:url(../../i/home/master_laungh_button.png) no-repeat;
+										}
+										
+									#mainContent #content .content_inner #designTab .map .masterLeftSide .button a.laungh:hover{
+										background:url(../../i/home/master_laungh_button_hover.png) no-repeat;
+										}
+										
+											
+							/** right Side **/
+							#mainContent #content .content_inner #designTab .map .masterRightSide{
+								width:513px;
+								float:left;
+								display:inline;
+								margin-top:20px;
+								margin-left:42px;
+								}
+								
+								#mainContent #content .content_inner #designTab .map .masterRightSide .topCorner{
+									width:100%;
+									padding-top:4px;
+									background:url(../../i/home/master_corner_top.gif) no-repeat left top;
+									}
+									
+								#mainContent #content .content_inner #designTab .map .masterRightSide .bottomCorner{
+									width:100%;
+									padding-bottom:3px;
+									background:url(../../i/home/master_corner_bottom.gif) no-repeat left bottom;
+									}
+									
+								#mainContent #content .content_inner #designTab .map .masterRightSide .inner{
+									height:327px;
+									border-left:#fff solid 1px;
+									border-right:#fff solid 1px;
+									background:url(../../i/home/master_corner_bg.gif) repeat-x;
+									}
+									
+									/** scroll **/
+									#mainContent #content .content_inner #designTab .map .masterRightSide #masterScroll{
+										width:450px;
+										height:285px;
+										padding-top:14px;
+										margin-left:28px;
+										}
+										
+										/** title **/
+										#mainContent #content .content_inner #designTab .map .masterRightSide #scrollTitle{
+											height:29px;
+											position:relative;
+											background:#f0f0f0;
+											}
+											
+											#mainContent #content .content_inner #designTab .map #pervButton{
+												width:19px;
+												height:29px;
+												display:block;
+												position:absolute;
+												background:url(../../i/home/master_scroll_left_disable.gif) no-repeat;
+												}
+												
+												#mainContent #content .content_inner #designTab .map #pervButton a{
+													width:19px;
+													height:29px;
+													display:block;
+													position:absolute;
+													text-indent:-9999px;
+													background:url(../../i/home/master_scroll_left.gif) no-repeat;
+													}
+												
+												#mainContent #content .content_inner #designTab .map #pervButton a.hide{
+													display:none;
+													}
+												
+												#mainContent #content .content_inner #designTab .map #pervButton a:hover{
+													width:19px;
+													height:29px;
+													display:block;
+													position:absolute;
+													background:url(../../i/home/master_scroll_left_hover.gif) no-repeat;
+													}
+												
+											#mainContent #content .content_inner #designTab .map #nextButton{
+												width:19px;
+												height:29px;
+												display:block;
+												position:absolute;
+												right:0;
+												background:url(../../i/home/master_scroll_right_disable.gif) no-repeat;
+												}
+												
+												#mainContent #content .content_inner #designTab .map #nextButton a{
+													width:19px;
+													height:29px;
+													display:block;
+													position:absolute;
+													right:0;
+													text-indent:-9999px;
+													background:url(../../i/home/master_scroll_right.gif) no-repeat;
+													}
+													
+												#mainContent #content .content_inner #designTab .map #nextButton a.hide{
+													display:none;
+													}
+												
+												#mainContent #content .content_inner #designTab .map #nextButton a:hover{
+													width:19px;
+													height:29px;
+													display:block;
+													position:absolute;
+													right:0;
+													background:url(../../i/home/master_scroll_right_hover.gif) no-repeat;
+													}
+												
+											#mainContent #content .content_inner #designTab .map h2{
+												font-family:Helvetica, Arial, sans-serif;
+												font-size:18px;
+												color:#0066a7;
+												line-height:29px;
+												text-align:center;
+												}
+												
+										/** scroll text **/
+										#mainContent #content .content_inner #designTab .map #scrollTxt{
+											width:450px;
+											height:230px;
+											margin-top:20px;
+											overflow:hidden;
+											position:absolute;
+											}
+											
+											#mainContent #content .content_inner #designTab .map .scrollInner{
+												width:450px;
+												position:absolute;
+												left:450px;
+												}
+											
+											/** pic **/
+											#mainContent #content .content_inner #designTab .map #scrollTxt .masterPic{
+												width:228px;
+												height:228px;
+												float:left;
+												display:inline;
+												margin-right:16px;
+												}
+											
+											/** detail **/
+											#mainContent #content .content_inner #designTab .map #scrollTxt .userDetail{
+												width:206px;
+												float:left;
+												display:inline;
+												}
+											
+											#mainContent #content .content_inner #designTab .map #scrollTxt .userDetail .userFace{
+												width:64px;
+												float:left;
+												display:inline;
+												margin-right:10px;
+												}
+											
+												#mainContent #content .content_inner #designTab .map #scrollTxt .userDetail .userFace img{
+													width:60px;
+													height:66px;
+													display:block;
+													border:#000 solid 2px;
+													}
+											
+											/** user info **/		
+											#mainContent #content .content_inner #designTab .map #scrollTxt .userDetail .userInfo p{
+												font-family:Helvetica, Arial, sans-serif;
+												font-size:14px;
+												font-weight:bold;
+												line-height:18px;
+												}
+												
+												#mainContent #content .content_inner #designTab .map #scrollTxt .userDetail .userInfo p span{
+													font-family:Helvetica, Arial, sans-serif;
+													color:#0066a7;
+													}
+													
+											/** description **/
+											#mainContent #content .content_inner #designTab .map #scrollTxt .userDetail .description{
+												margin-top:12px;
+												font-size:12px;
+												line-height:16px;
+												}
+												
+												#mainContent #content .content_inner #designTab .map #scrollTxt .userDetail .description dt{
+													font-size:12px;
+													font-weight:bold;
+													}
+													
+											/** view More **/
+											#mainContent #content .content_inner #designTab .map #scrollTxt .userDetail .viewMore{
+												font-family:Helvetica, Arial, sans-serif;
+												font-size:12px;
+												line-height:16px;
+												color:#000;
+												text-decoration:underline;
+												}
+												
+												#mainContent #content .content_inner #designTab .map #scrollTxt .userDetail .viewMore:hover{
+													text-decoration:none;
+													}
+													
+											/** button **/
+											#mainContent #content .content_inner #designTab .map #scrollTxt .userDetail .button{
+												height:25px;
+												padding-top:6px;
+												overflow:hidden;
+												}
+												
+												#mainContent #content .content_inner #designTab .map #scrollTxt .userDetail .button a{
+													width:202px;
+													height:25px;
+													line-height:25px;
+													float:left;
+													display:inline;
+													font-family:Helvetica, Arial, sans-serif;
+													font-size:13px;
+													font-weight:bold;
+													text-align:center;
+													color:#fffffe;
+													background:url(../../i/home/learn_button.gif) no-repeat;
+													}
+													
+												#mainContent #content .content_inner #designTab .map #scrollTxt .userDetail .button a:hover{
+													text-decoration:none;
+													background:url(../../i/home/learn_button_hover.gif) no-repeat;
+													}
+													
+													#mainContent #content .content_inner #designTab .map #scrollTxt .userDetail .button a span{
+														font-family:Helvetica, Arial, sans-serif;
+														}
+													
+							/** nav **/		
+							#mainContent #content .content_inner #designTab .nav{
+								height:74px;
+								background:url(../../i/home/master_nav_bg.gif) repeat-x #f1f1f1;
+								}
+								
+								#mainContent #content .content_inner #designTab .nav ul{
+									margin:0 10px;
+									}
+									
+									#mainContent #content .content_inner #designTab .nav ul li{
+										width:auto;
+										height:59px;
+										float:left;
+										display:inline;
+										line-height:59px;
+										}
+										
+										#mainContent #content .content_inner #designTab .nav ul li a{
+											width:100%;
+											display:block;
+											text-align:center;
+											}
+										
+										#mainContent #content .content_inner #designTab .nav ul li a:hover{
+											font-weight:bold;
+											text-decoration:none;
+											}
+											
+										#mainContent #content .content_inner #designTab .nav ul li.first a:hover,#mainContent #content .content_inner #designTab .nav ul li.second a:hover,#mainContent #content .content_inner #designTab .nav ul li.third a:hover{
+											background:url(../../i/home/tab_hover.gif) no-repeat center 1px;
+											}
+											
+										
+									/** first hover tab **/
+									#mainContent #content .content_inner #designTab .nav ul li.first{
+										width:315px;
+										height:59px;
+										font-size:20px;
+										text-align:center;
+										background:url(../../i/home/blue_tab_first.gif) no-repeat;
+										}
+										
+										#mainContent #content .content_inner #designTab .nav ul li.first a{
+											color:#333;
+											}
+											
+									/** second tab **/
+									#mainContent #content .content_inner #designTab .nav ul li.second{
+										width:310px;
+										height:59px;
+										font-size:20px;
+										text-align:center;
+										background:url(../../i/home/blue_tab_second.gif) no-repeat;
+										}
+										
+										#mainContent #content .content_inner #designTab .nav ul li.second a{
+											color:#333;
+											}
+											
+									/** third tab **/
+									#mainContent #content .content_inner #designTab .nav ul li.thirdHover{
+										width:315px;
+										height:59px;
+										font-size:24px;
+										font-weight:bold;
+										text-align:center;
+										background:url(../../i/home/blue_tab_hover.gif) no-repeat;
+										}
+										
+										#mainContent #content .content_inner #designTab .nav ul li.thirdHover a{
+											color:#fffffe;
+											}
+					
+									
+					/** scroll **/
+					#mainContent #content .content_inner .scrollDiv{
+						height:155px;
+						background:url(../../i/home/scrollDiv_bg.gif) repeat-x;
+						}
+						
+						/** match **/
+						#mainContent #content .content_inner .scrollDiv .match{
+							width:615px;
+							height:115px;
+							float:left;
+							display:inline;
+							margin-top:20px;
+							margin-left:10px;
+							position:relative;
+							background:#fff;
+							}
+							
+							#mainContent #content .content_inner .scrollDiv .match #matchSlider{
+								width:581px;
+								height:114px !important;
+								position:absolute;
+								left:17px;
+								background:url(../../i/home/scrollDiv_inner_bg.gif) repeat-x;
+								}
+								
+								#mainContent #content .content_inner .scrollDiv .match #matchSlider li{
+									width:581px;
+									}
+									
+									/** text list **/
+									#mainContent #content .content_inner .scrollDiv .match #matchSlider .textList{
+										padding-top:10px;
+										padding-left:19px;
+										padding-right:15px;
+										}
+										
+										/** title **/
+										#mainContent #content .content_inner .scrollDiv .match #matchSlider .textList h2{
+											padding:0 3px;
+											font-size:16px;
+											line-height:23px;
+											color:#333;
+											background:url(../../i/home/match_title_bg.gif) repeat-x left bottom;
+											}
+											
+											#mainContent #content .content_inner .scrollDiv .match #matchSlider .textList h2 span{
+												font-weight:normal;
+												}
+										
+										/** detail **/		
+										#mainContent #content .content_inner .scrollDiv .match #matchSlider .textList p{
+											padding:0 2px;
+											padding-top:5px;
+											font-size:12px;
+											line-height:16px;
+											color:#a8a8a8;
+											}
+											
+										/** link **/
+										#mainContent #content .content_inner .scrollDiv .match #matchSlider .textList .link{
+											height:25px;
+											padding-top:7px;
+											}
+											
+											/** button **/
+											#mainContent #content .content_inner .scrollDiv .match #matchSlider .textList .link .button{
+												width:auto;
+												float:left;
+												display:inline;
+												margin-right:6px;
+												padding-left:24px;
+												font-family:Helvetica, Arial, sans-serif;
+												font-size:16px;
+												font-weight:bold;
+												color:#fffffe;
+												line-height:24px;
+												text-decoration:none;
+												background:url(../../i/home/button.gif) no-repeat left top;
+												}
+												
+											#mainContent #content .content_inner .scrollDiv .match #matchSlider .textList .link .button:hover{
+												background:url(../../i/home/button_hover.gif) no-repeat left top;
+												}
+												
+												#mainContent #content .content_inner .scrollDiv .match #matchSlider .textList .link .button span{
+													width:auto;
+													float:left;
+													display:inline;
+													height:25px;
+													padding-right:24px;
+													font-family:Helvetica, Arial, sans-serif;
+													cursor:pointer;
+													background:url(../../i/home/button.gif) no-repeat right top;
+													}
+													
+												#mainContent #content .content_inner .scrollDiv .match #matchSlider .textList .link .button:hover span{
+													background:url(../../i/home/button_hover.gif) no-repeat right top;
+													}
+											
+											/** link list **/
+											#mainContent #content .content_inner .scrollDiv .match #matchSlider .textList .link .linkList{
+												width:auto;
+												float:left;
+												display:inline;
+												font-size:12px;
+												line-height:25px;
+												color:#000;
+												}
+												
+												#mainContent #content .content_inner .scrollDiv .match #matchSlider .textList .link .linkList a{
+													padding:0 4px;
+													color:#000;
+													}
+							
+						/** member **/
+						#mainContent #content .content_inner .scrollDiv .member{
+							width:313px;
+							height:115px;
+							float:left;
+							display:inline;
+							margin-top:20px;
+							margin-left:12px;
+							position:relative;
+							background:#fff;
+							}
+							
+							#mainContent #content .content_inner .scrollDiv .member #memberSlider{
+								width:279px;
+								height:114px !important;
+								position:absolute;
+								left:17px;
+								background:url(../../i/home/scrollDiv_inner_bg.gif) repeat-x;
+								}
+								
+								#mainContent #content .content_inner .scrollDiv .member #memberSlider li{
+									width:279px;
+									}
+									
+									/** text list **/
+									#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList{
+										height:100px;
+										padding-top:14px;
+										padding-left:4px;
+										}
+										
+										/** user face **/
+										#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList .userFace{
+											width:77px;
+											height:85px;
+											float:left;
+											display:inline;
+											}
+											
+											#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList .userFace img{
+												display:block;
+												border:#000 solid 2px;
+												}
+												
+										/** user info **/
+										#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList .userInfo{
+											width:190px;
+											float:left;
+											display:inline;
+											margin-left:6px;
+											}
+											
+											/** title **/
+											#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList .userInfo h2{
+												font-family:Helvetica, Arial, sans-serif;
+												font-size:20px;
+												color:#ff0000;
+												line-height:19px;
+												}
+											
+											/** month **/	
+											#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList .userInfo .month{
+												height:18px;
+												padding-top:5px;
+												}
+												
+												#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList .userInfo .month p{
+													width:auto;
+													float:left;
+													display:inline;
+													padding-left:2px;
+													font-family:Helvetica, Arial, sans-serif;
+													font-size:16px;
+													font-weight:bold;
+													line-height:18px;
+													}
+													
+												#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList .userInfo .month a{
+													width:auto;
+													float:left;
+													display:inline;
+													margin-left:8px;
+													padding-left:10px;
+													font-size:12px;
+													font-weight:bold;
+													color:#fffffe;
+													line-height:16px;
+													background:url(../../i/home/member_button.gif) no-repeat left top;
+													}
+													
+												#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList .userInfo .month a:hover{
+													background:url(../../i/home/member_button_hover.gif) no-repeat left top;
+													}
+													
+												#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList .userInfo .month a:hover{
+													text-decoration:none;
+													}
+													
+													#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList .userInfo .month a span{
+														width:auto;
+														height:18px;
+														float:left;
+														display:inline;
+														padding-right:10px;
+														cursor:pointer;
+														background:url(../../i/home/member_button.gif) no-repeat right top;
+														}
+														
+													#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList .userInfo .month a:hover span{
+														background:url(../../i/home/member_button_hover.gif) no-repeat right top;
+														}
+														
+											/** handle **/
+											#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList .userInfo .handle{
+												margin-top:14px;
+												font-size:12px;
+												font-weight:bold;
+												color:#4b4b4b;
+												line-height:17px;
+												}
+												
+												#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList .userInfo .handle a{
+													color:#4b4b4b;
+													}
+												
+											/** link list **/
+											#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList .userInfo .linkList{
+												font-size:11px;
+												}
+												
+												#mainContent #content .content_inner .scrollDiv .member #memberSlider .textList .userInfo .linkList a{
+													color:#000;
+													line-height:18px;
+													}
+										
+						
+					/** bottom scroll **/
+					#mainContent #content .content_inner .bottomScrollDiv{
+						height:158px;
+						background:url(../../i/home/bottomScroll_bg.gif) repeat-x;
+						}
+						
+						#mainContent #content .content_inner .bottomScrollDiv .bottomScroll_inner{
+							width:940px;
+							height:123px;
+							margin:0 auto;
+							padding-top:30px;
+							position:relative;
+							}
+							
+							#wrap {
+								width:940px; 
+								height:123px;
+								}
+							
+								#slide {
+									width:904px;
+									height: 107px; 
+									overflow:hidden; 
+									position:absolute; 
+									left:17px;
+									top: 20px; 
+									}
+									
+									#slide div {
+										width:860px; 
+										height: 107px; 
+										position:absolute; 
+										left:904px; 
+										padding:0 22px;
+										}
+										
+										#slide div img {
+											width:auto;
+											float:left; 
+											display:block;
+											margin-right:20px; 
+											
+											}
+											
+										#slide div dt{
+											color:#fffffe;
+											font-size:16px;
+											font-family:Helvetica, Arial, sans-serif;
+											font-weight:bold;
+											line-height:20px;
+											}
+											
+										#slide div dd{
+											padding-bottom:2px;
+											color:#fffffe;
+											font-size:16px;
+											font-family:Helvetica, Arial, sans-serif;
+											line-height:20px;
+											}
+											
+										#slide div p {
+											font-size:12px;
+											color:#8e8e8e; 
+											line-height:19px; 
+											}
+											
+										#slide div a {
+											font-size:12px;
+											color:#8e8e8e; 
+											line-height:20px;
+											text-decoration:underline;
+											}
+											
+										#slide div a:hover {
+											text-decoration:none;
+											}
+											
+										#previous {
+											width:7px; 
+											height:100px; 
+											display:block;
+											background:url(../../i/home/bottomScroll_left_disable.gif) no-repeat left center; 
+											position:absolute; 
+											}
+										
+											#previous a{
+												width:7px; 
+												height:100px;
+												display:block;
+												background:url(../../i/home/bottomScroll_left.gif) no-repeat left center; 
+												position:absolute; 
+												text-indent:-9999px;
+												}
+												
+											#previous a.hide{
+												display:none;
+												}
+												
+											#previous a:hover{
+												background:url(../../i/home/bottomScroll_left_hover.gif) no-repeat left center;
+												}
+							
+										#next{
+											width:7px; 
+											height:100px; 
+											background:url(../../i/home/bottomScroll_right_disable.gif) no-repeat left center; 
+											position:absolute; 
+											right:0;
+											}
+										
+											#next a{
+												width:7px; 
+												height:100px; 
+												background:url(../../i/home/bottomScroll_right.gif) no-repeat left center;
+												position:absolute; 
+												cursor:pointer;
+												text-indent:-9999px;
+												right:0;
+												}
+												
+											#next a.hide{
+												display:none;
+												}
+											
+											#next a:hover{
+												background:url(../../i/home/bottomScroll_right_hover.gif) no-repeat left center;
+												}
+												
+										#buttons {
+											position:absolute;
+											bottom:0;
+											left: 370px; 
+											}
+											
+											#buttons a {
+												width:6px; 
+												height:6px;
+												float:left; 
+												display:inline;
+												margin-right:10px; 
+												background:url(../../i/home/scrollNum.gif) no-repeat;
+												}
+												
+											#buttons a:hover{
+												background:url(../../i/home/scrollNum_hover.gif) no-repeat;
+												}
+												
+											#buttons a.hover{
+												background:url(../../i/home/hover_scrollNum.gif) no-repeat;
+												}
+							
+							
+							/** scroll button **/
+							.match #prevBtn{
+								width:17px;
+								height:115px;
+								display:block;
+								position:absolute;
+								background:url(../../i/home/scroll_left_disable.gif) no-repeat;
+								}
+							
+								.match #prevBtn a{
+									width:17px;
+									height:115px;
+									display:block;
+									text-indent:-9999px;
+									background:url(../../i/home/scroll_left.gif) no-repeat;
+									}
+									
+								.match #prevBtn a:hover{
+									background:url(../../i/home/scroll_left_hover.gif) no-repeat;
+									}
+								
+							.match #nextBtn{
+								width:17px;
+								height:115px;
+								display:block;
+								position:absolute;
+								left:598px;
+								background:url(../../i/home/scroll_right_disable.gif) no-repeat;
+								}
+								
+								.match #nextBtn a{
+									width:17px;
+									height:115px;
+									display:block;
+									text-indent:-9999px;
+									background:url(../../i/home/scroll_right.gif) no-repeat;
+									}
+								
+								.match #nextBtn a:hover{
+									background:url(../../i/home/scroll_right_hover.gif) no-repeat;
+									}
+								
+							.member #prevBtn2{
+								width:17px;
+								height:115px;
+								display:block;
+								position:absolute;
+								background:url(../../i/home/scroll_left_disable.gif) no-repeat;
+								}
+							
+								.member #prevBtn2 a{
+									width:17px;
+									height:115px;
+									display:block;
+									text-indent:-9999px;
+									background:url(../../i/home/scroll_left.gif) no-repeat;
+									}
+									
+								.member #prevBtn2 a:hover{
+									background:url(../../i/home/scroll_left_hover.gif) no-repeat;
+									}
+								
+							.member #nextBtn2{
+								width:17px;
+								height:115px;
+								display:block;
+								position:absolute;
+								left:296px;
+								background:url(../../i/home/scroll_right_disable.gif) no-repeat;
+								}
+								
+								.member #nextBtn2 a{
+									width:17px;
+									height:115px;
+									display:block;
+									text-indent:-9999px;
+									background:url(../../i/home/scroll_right.gif) no-repeat;
+									}
+								
+								.member #nextBtn2 a:hover{
+									background:url(../../i/home/scroll_right_hover.gif) no-repeat;
+									}
+
+			
+			/** footer **/					
+			#mainContent #footer{
+				height:80px;
+				}
+				
+				#mainContent #footer .footer_inner{
+					margin-top:18px;
+					}
+				
+				#mainContent #footer p{
+					font-size:11px;
+					color:#6e6e6e;
+					line-height:14px;
+					}
+
+.introsub {
+	position: relative;
+}
+/* Drop down styles*/
+div.selectbox-wrapper {
+  position: absolute;
+  width: 300px;
+  background-color:white;
+  border:1px solid #ccc;
+  margin:0px;
+  margin-top: 0px;
+  padding:0px;
+  text-align:left;
+  max-height:200px;
+  overflow:auto;
+  background: #fbfbfb;
+  left: 70px;
+  z-index: 1000;
+}
+
+/*Drop down list styles*/
+div.selectbox-wrapper ul {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+/* Selected item in dropdown list*/
+div.selectbox-wrapper ul li.selected { 
+  background: #f0f0f0;
+}
+
+/* Hover state for dropdown list */
+div.selectbox-wrapper ul li.current { 
+  background: #f5f5f5;
+}
+
+/* Drop down list items style*/
+div.selectbox-wrapper ul li {
+  list-style-type:none;
+  display:block;
+  margin:0;
+  padding:4px 2px 4px 8px;
+  cursor:pointer;
+  font-size: .8em;
+  border-bottom:1px solid #dadada;
+  height: 1.2em;
+  line-height: 1.2em;
+  background: #f9f9f9;
+}
+
+/* Look and feel of select box */
+.selectbox 
+{
+  margin-left: 70px;
+  padding-left:5px;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size:.8em;/* Resize Font*/
+  width : 300px; /* Resize Width */
+  display : block;
+  text-align:left; 
+  background: #f9f9f9 url('../../i/home/dropdown_bg.png') no-repeat 100% 50%;
+  cursor: pointer;
+  border:1px solid #dadada;
+  color: #4f4a4a;
+  height: 2em;
+  line-height: 2em;
+}
+
+
+/* RSS Feed */
+#rss {
+	clear: both;
+	position: relative;
+	height: 40px;
+	background: #010101;
+}
+	#rss #loading {
+		position: absolute;
+		top: 5px;
+		left: 130px;
+	}
+	#rss .wrap {
+		border: 1px solid #6c4a9b;
+		border-bottom: none;
+		overflow: hidden;
+		padding: 8px 14px 14px;
+	}
+		
+		#rss .scrollNav {
+			display: inline;
+			float: left;
+			margin-top: 12px;	
+			width: 29px;
+		}
+			#rss .movePrev {
+				background: url('../../i/home/scroll_left.png') no-repeat top left;
+				display: inline;
+				float: left;
+				height: 14px;
+				width: 8px;
+				cursor: pointer;
+			}
+			#rss .moveNext {
+				background: url('../../i/home/scroll_right.png') no-repeat top left;
+				display: inline;
+				float: left;
+				height: 14px;
+				width: 8px;
+				margin-left: 2px;
+				cursor: pointer;
+			}
+				#rss .scrollNav a:hover {
+					background-position: 0 -14px;
+				}
+	
+		#rss .scrollWrap {
+			display: inline;
+			float: left;
+			margin-top: 10px;
+			overflow: hidden;
+			position: relative;
+			width: 750px;
+		}
+			#rss ul {
+				position: relative;
+			}
+				#rss li {
+					display: none;
+					float: left;
+					font-size: 14px;
+					width: 750px;
+				}
+				#rss li a { color: #888888; }
+		#rss .icon {
+			display: inline;
+			float: left;
+			margin-top: 12px;
+			width: 30px;
+			height: 31px;
+		}
+			#rss .icon a {
+				background: url('../../i/home/rss_icon.png') no-repeat top left;
+				width: 32px;
+				height: 15px;
+				display: inline;
+				float: left;
+			}
+			#rss .icon a:hover {
+				background-position: 0px -15px;
+			}
+		#rss .topNews {
+			display: inline; 
+			float: left; 
+			color: rgb(204, 1, 1); 
+			padding-left: 50px; 
+			padding-top: 10px; 
+			padding-right: 5px; 
+			font-size: 14px;
+		}

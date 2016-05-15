@@ -1,0 +1,27 @@
+/* IE6 Specific CSS Document */
+#content_right {
+	display: inline;
+}
+
+#compete h2 {
+	margin: 0px 0px 0px 5px;
+}
+#compete div {
+	margin: 0px 0px 0px 5px;
+}
+#member-area {
+	margin: 13px 0px 0px 5px;
+}
+#enterprise-solutions,
+#tc-direct, #featured-client {
+	margin: 12px 0px 0px 5px;
+}
+.button-container a {
+	float: right;
+}
+#compete p {
+	float: left;
+}
+#welcome-banner {display:inline;}
+#contact-button h2 a {display:inline;}
+#drawer-container {height:445px;}

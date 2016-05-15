@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+body {
+	position:relative;
+	margin:0;
+	padding:0;
+	width:100%;
+	font-family:Arial;
+	background-color:#FFFFFF;
+}
+
+/*--------------
+ button style
+--------------*/
+a.btn1{
+	background:url(../i/btn1.gif) no-repeat left top;
+	padding-left:6px;
+	display:inline-block;
+	height:26px;
+	overflow:hidden;
+	color:#333333;
+	font-size:12px;
+	font-weight:bold;
+}
+	a.btn1.red {
+		background-image:url(../i/btn1-red.gif);
+		color:#FFFFFE;
+	}
+a.btn1 .rightSide{
+	background:url(../i/btn1.gif) no-repeat right -52px;
+	padding-right:6px;
+	display:inline-block;
+}
+	a.btn1.red .rightSide{
+		background-image:url(../i/btn1-red.gif);
+	}
+a.btn1 .inner{
+	background:url(../i/btn1.gif) repeat-x left -26px;
+	display:inline-block;
+	cursor:pointer;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+}
+	a.btn1.red .inner{
+		padding:0 17px;
+		background-image:url(../i/btn1-red.gif);
+	}
+
+a.btn1:hover{
+	background-position:left -78px;
+}
+a.btn1:hover .rightSide{
+	background-position:right bottom;
+}
+a.btn1:hover .inner{
+	background-position:left -104px;
+}
+
+/* HEADER */
+#header {
+	width:100%;
+	height:70px;
+	padding-top:30px;
+	background:url(../i/header.png) repeat-x 0 0;
+}
+
+/* LOGO */
+.logo {
+	width:234px;
+	height:36px;
+	margin-left:40px;
+	background:url(../i/logo.png) no-repeat 0 0;
+}
+
+/* CONTENT */
+#content {
+	width:100%;
+	margin-top:4px;
+	padding-top:28px;
+	background:url(../i/content.png) repeat-x top #cccccc;
+}
+
+#content .contentBottom {
+	width:100%;
+	height:70px;
+	line-height:70px;
+	font-size:12px;
+	color:#333333;
+	text-align:center;
+}
+			
+/*
+* POPUP
+*/
+
+.photoPopup {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	background:url(../i/bgBlack.png) repeat;
+    z-index:3;
+}
+
+	.photoPopup .popupWindow {
+		width:700px;
+		height:560px;
+		margin-top:100px;
+		margin:100px auto;
+		padding-top:3px;
+		padding-left:7px;
+		background:url(../i/popup.png) repeat-x 0 0 #FFFFFF;
+		border:1px #CCCCCC solid;
+	}
+	
+	.popupRemovePhoto .popupWindow {
+		width:495px;
+		height:211px;
+	}
+
+		.photoPopup .title {
+			width:690px;
+			height:41px;
+			line-height:41px;
+			font-family:"Myriad Pro";
+			font-size:18px;
+			font-weight:bold;
+			text-align:center;
+			background-color:#FFFFFF;
+			border:1px #DCDCDC solid;
+		}
+		
+		.popupRemovePhoto .title {
+			width:486px;
+		}
+
+		.photoPopup .content {
+			width:680px;
+			height:488px;
+			margin-top:5px;
+			padding:8px 5px;
+			background-color:#FFFFFF;
+			border:1px #DCDCDC solid;
+		}
+		
+		.popupRemovePhoto .content {
+			width:475px;
+			height:137px;
+		}
+
+			.photoPopup .content img {
+				float:left;
+				border:1px #CCCCCC solid;
+			}
+            
+            .photoPopup .content #uploadImage img {
+				margin-left:0px;
+			}
+			
+			.popupRemovePhoto .content img {
+				float:left;
+				margin-left:0px;
+				margin-right:9px;
+			}
+			
+			.photoPopup .content .locateInput {
+				float:left;
+				width:270px;
+				height:20px;
+				font-size:12px;
+				line-height:20px;
+				padding-left:10px;
+				border:1px #CCCCCC solid;
+				overflow:hidden;
+				margin-right:2px;
+			}
+			
+				.photoPopup .content .locateInput .inner {
+					float:left;
+					width:300px;
+				}
+			
+			.photoPopup .content .btnBrowse {
+				float:right;
+				position:relative;
+				top:-2px;
+			}
+			
+				.photoPopup .content .btnBrowse .inner {
+					padding:0 14px;
+				}
+				
+				.file-wrapper input {
+					height:100%;
+					cursor:pointer;
+					position: absolute;
+					right: 0;
+					top: 0;
+					filter: alpha(opacity=1);
+					-moz-opacity: 0.01;
+					opacity: 0.01;
+				}
+				
+			.photoPopup .content .inputFile {
+				position:absolute;
+				z-index:-1;
+			}
+				
+			.photoPopup .content .alert {
+				float:left;
+				width:239px;
+				padding-top:7px;
+				padding-left:8px;
+				padding-right:8px;
+				margin-top:10px;
+				margin-bottom:8px;
+				font-size:12px;
+				line-height:17px;
+				color:#CC0000;
+				background-color:#FEFFDB;
+				border:1px #CBCC9A solid;
+			}
+			
+			.photoPopup .content .btnCancel {
+				float:left;
+				margin-left:35px;
+				margin-top:15px;
+			}
+			
+				.photoPopup .content .btnCancel .inner {
+					padding:0 14px;
+				}
+				
+			.photoPopup .content .btnUpload {
+				float:left;
+				margin-left:20px;
+				margin-top:15px;
+			}
+			
+			.photoPopup .content .text {
+			/*	float:left; */
+				width:340px;
+				height:78px;
+				line-height:78px;
+				font-size:12px;
+				text-align:center;
+			}
+				
+			.photoPopup .content .btnNo {
+				float:left;
+				margin-right:2px;
+				margin-left:73px;
+			}
+			
+				.photoPopup .content .btnNo .inner {
+					padding:0 28px;
+				}
+				
+			.photoPopup .content .btnYes {
+				float:left;
+				margin-right:2px;
+			}
+			
+				.photoPopup .content .btnYes .inner {
+					padding:0 25px;
+				}
+                
+                .photoPopup a {
+                    text-decoration:none;
+                }
+
+                .photoPopup a:focus {
+                    outline:none;
+                }
+
+
+		#photoUploadLeft {
+			float:left;
+			width:370px;
+			margin-top:20px;
+			padding-left:3px;
+		}
+		#photoUploadRight {
+			float:right;
+			width:263px;
+			padding-left:10px;
+			margin-top:20px;
+		}
+        
+        #previewDiv {
+            overflow:hidden;
+            width:140px;
+            height:140px;
+            margin-left:55px;
+        }
+		
+		#uploadImage {
+			border:1px #cccccc solid;
+			width:auto;
+			height:auto;
+			background:#eeeeee;
+			float:left;
+			margin-top:20px;
+		}
+		
+		#uploadImage p{
+			width:400px;
+			height:400px;
+			line-height:400px;
+			text-align:center;
+		}
+
+
+
+.clear {
+	clear:both;
+}	
+
+.hide {
+	display:none;
+}

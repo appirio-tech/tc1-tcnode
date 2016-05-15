@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>topcoder</title>
+	<atom:link href="http://www.topcoder.com/feed/?post_type=blog" rel="self" type="application/rss+xml" />
+	<link>http://www.topcoder.com</link>
+	<description>let&#039;s build it</description>
+	<lastBuildDate>Mon, 17 Mar 2014 18:31:43 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Algorithms, Asteroids and Galileo</title>
+		<link>http://www.topcoder.com/blog/algorithms-asteroids-and-galileo/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=algorithms-asteroids-and-galileo</link>
+		<comments>http://www.topcoder.com/blog/algorithms-asteroids-and-galileo/#comments</comments>
+		<pubDate>Thu, 13 Mar 2014 22:22:13 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Hicks]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Challenges]]></category>
+		<category><![CDATA[Data Science]]></category>
+		<category><![CDATA[topcoders]]></category>
+		<category><![CDATA[algorithm]]></category>
+		<category><![CDATA[asteroid hunters]]></category>
+		<category><![CDATA[asteroids]]></category>
+		<category><![CDATA[galileo]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[planets]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[starry messenger]]></category>
+		<category><![CDATA[SXSW]]></category>
+		<category><![CDATA[SXSWi]]></category>
+		<category><![CDATA[telescope]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14526</guid>
+		<description><![CDATA[@AndyLaMora &#8211; Andy LaMora &#038; @RSIAL &#8211; Rashid Sial On Monday, March 10th, NASA announced the Asteroid Data Hunter Challenge at SXSWi. This contest is the first...<br/><a href="http://www.topcoder.com/blog/algorithms-asteroids-and-galileo/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<p style="padding-bottom:5px"> <img style="float: left; margin-right: 1em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/NTL_Logo_2.png" width="150px" /> <i><a href="https://twitter.com/AndyLaMora">@AndyLaMora</a> &#8211; Andy LaMora &#038; <a href="https://twitter.com/RSIAL">@RSIAL</a> &#8211; Rashid Sial</i></p>
+
+<p style="padding-bottom:5px">On Monday, March 10th, <a href="http://www.nasa.gov/press/2014/march/be-an-asteroid-hunter-in-nasas-first-asteroid-grand-challenge-contest-series/#.UyIoY-ddXYd">NASA announced the Asteroid Data Hunter Challenge</a> at SXSWi. This contest is the first in the Asteroid Grand Challenge series.  In this series, competitors from all backgrounds will be invited to contribute their ideas and solutions to help improve the detection and classification of asteroids. </p>
+
+<p style="padding-bottom:5px">The goal of Data Hunter challenge is simple &#8211; we need to create an algorithm to identify asteroids in images from ground-based telescopes, while also:
+<ul>
+<li>increasing the detection sensitivity</li>
+<li>minimizing the number of false positives</li>
+<li>ignoring imperfections in the data</li>
+<li>make sure it runs effectively on most computers</li>
+</ul>
+
+<p style="padding-bottom:5px">Topcoder is one of the many organizations that will be supporting this effort, and we couldn’t be more honored and proud to contribute. </p>
+
+<p style="padding-bottom:5px">NASA is joining a long list of organizations that are using crowdsourcing to solve complex problems. In addition to NASA’s own recent efforts with the <a href="https://www.topcoder.com/iss/">ISS challenge series</a> on topcoder and other platforms through their NTL, COECI and Open Innovation programs, NASA joins none other than Galileo himself. </p>
+
+<p style="padding-bottom:5px">404 years ago, in Padua Italy, Galileo published his first masterpiece, <a href="http://en.wikipedia.org/wiki/Sidereus_Nuncius">The Starry Messenger</a>, in which he asked citizen scientists to do exactly the same thing &#8211; consider moving lights in the sky. </p>
+
+<p style="padding-bottom:5px">In this famous work, Galileo described 4 new dots of light that were circling Jupiter. This was a surprising and entirely novel finding. To share his news, he published his findings. But not in Latin, as was standard for natural philosophy at the time, but in Italian &#8211; the common language. In doing so, he consciously and deliberately targeted the citizen scientists of the world. The impact of his findings cannot be overstated &#8211; within 5 years, his book was published in every western language, and in Chinese.</p>
+
+<p style="padding-bottom:5px">In opening his search to a crowd, Galileo ran into an interesting and unexpected problem &#8211; which anyone familiar with challenges and crowdsourcing can tell you is a common occurrence &#8211; that opened the door to some early objections to his findings. Very few people, probably less than a dozen, owned a telescope powerful enough to see the moons. The telescope at the time was a brand new invention. Galileo, the very embodiment of the “Renaissance Man”, created his own. Unfortunately, he could not meet the hardware demands of all those who were interested in looking at these dots of light. In the Asteroid Grand Challenge, NASA has a leg up on Galileo’s problem &#8211; NASA and its partners have gathered imagery data from state of the art, enormously expensive observation hardware linked together electronically across mountaintops all over the county, and the world. And is sharing this priceless store of knowledge with you.</p>
+
+<p style="padding-bottom:5px"> <a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Andy-Mountain.jpg"><img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Andy-Mountain-Small.jpeg" /></a></p>
+
+<p style="padding-bottom:5px">On March 17th, NASA will open its next detection challenge &#8211; Asteroid Data Hunter &#8211; on the topcoder platform. We hope you come and join us in the hunt for asteroids, and we can’t wait to see what comes next.</p>
+
+<p style="padding-bottom:5px">Please visit <a href="http://topcoder.com/asteroids">topcoder.com/asteroids</a> to register and participate.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/algorithms-asteroids-and-galileo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>DocuSign Is Like Bacon</title>
+		<link>http://www.topcoder.com/blog/docusign-is-like-bacon/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=docusign-is-like-bacon</link>
+		<comments>http://www.topcoder.com/blog/docusign-is-like-bacon/#comments</comments>
+		<pubDate>Thu, 13 Mar 2014 19:17:19 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Hicks]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[Appirio]]></category>
+		<category><![CDATA[bacon]]></category>
+		<category><![CDATA[CEO]]></category>
+		<category><![CDATA[CIO]]></category>
+		<category><![CDATA[conference]]></category>
+		<category><![CDATA[CTO]]></category>
+		<category><![CDATA[DocuSign]]></category>
+		<category><![CDATA[eSignature]]></category>
+		<category><![CDATA[industry]]></category>
+		<category><![CDATA[momentum]]></category>
+		<category><![CDATA[partner]]></category>
+		<category><![CDATA[platform]]></category>
+		<category><![CDATA[san francisco]]></category>
+		<category><![CDATA[standard]]></category>
+		<category><![CDATA[tech]]></category>
+		<category><![CDATA[transaction management]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14508</guid>
+		<description><![CDATA[@will_price &#8211; Will Price I wish I could say that this blog title is my own, but I shamelessly stole that quote from Dan Reid, the Director...<br/><a href="http://www.topcoder.com/blog/docusign-is-like-bacon/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<p style="padding-bottom:5px"> <a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Will-Image-1-Full.jpg"><img style="float: left; margin-right: 1em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/will-image-1-featured.jpeg" width="150px" /></a>
+
+<i><a href="http://twitter.com/will_price">@will_price</a> &#8211; Will Price </i> </p>
+
+<p style="padding-bottom:5px"> I wish I could say that this blog title is my own, but I shamelessly stole that quote from Dan Reid, the Director of Partner Integrations at DocuSign. Dan&#8217;s session at DocuSign Momentum was one of many I took in last week while visiting San Francisco for DocuSign&#8217;s annual Momentum Conference. DocuSign has been a trusted partner to Appirio and topcoder for a couple years now; so getting out there and seeing all the upcoming platform features was a great opportunity that I just had to jump on.</p>
+
+<p style="padding-bottom:5px"> Before I jump into the cool features announced at the conference, I figure I should give some context to Dan&#8217;s excellent quote. DocuSign is like bacon; because it just makes everything better. You may be a bit skeptical about how eSignature makes everything better, but I encourage you to step away from that focus on eSignature and think about DocuSign as a transaction management platform. It quickly became clear to conference attendees that DocuSign wasn’t just for signing contracts. It doubles as a workflow engine! Need a quick way to manage your next big software release and the slew of approvals and sign-offs needed before releasing into production? Why not create a quick document and stick it in DocuSign, set up the signoffs in there and send it off? With sign-in-order you can even structure who signs and when, to make sure all the development managers sign off before your CTO.</p>
+
+<p style="padding-bottom:5px"> Speaking of transaction management, DocuSign is aiming to become the world leader in Digital Transaction Management (DTM). My favorite announcement last week was the <a href="https://www.docusign.com/press-releases/industry-leaders-align-on-digital-transaction-management-standard">establishment of the xDTM standard</a> for digital transaction management. DocuSign aims to build a global standard for DTM where they hope they do for transaction management what the PCI standard did for credit cards. The board of governors for the new standard boasts a lot of strong leaders and it should be exciting to see where they go with it.</p>
+
+<p style="padding-bottom:5px"> During the first day the amount of content was almost overwhelming at times. The opening keynote, delivered by DocuSign CEO Keith Krach, was where xDTM was announced, and where Keith shared my favorite “DocuSign story” that I have heard to date. I looked for a video to share, but wasn’t able to hunt one down. Let’s just say it involved robbery, vigilantism, and DocuSign. After Keith wrapped up we were treated to a technical showcase from Grant Peterson, the CTO of DocuSign. Grant talked us through the upgrades to DocuSign platform to make them “Carrier Grade”. With their new platform they now will require no scheduled maintenance! To show us how resilient the platform could be Grant started taking down server centers (in their test environment of course). Even with 60% of DocuSigns servers offline, the DocuSign experience remained unaffected. I even sat there on my tablet accessing the demo environments myself to see if I noticed any performance degradation. I didn’t. Grant then walked us through the new DocuSign interface, which was nice looking and should improve the user experience.</p>
+
+<p style="padding-bottom:5px"><a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Will-image-2.jpeg"><img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Will-image-2-embeded.jpeg" /></a> </p>
+
+<p style="padding-bottom:5px"> I am a little biased, but my favorite talk came next. <a href="https://twitter.com/alexisohanian">Alexis Ohanian</a>, cofounder of reddit.com, came on stage to give us a speech. I’ve been a redditor for a long time, so getting to see Alexis speak was a real treat. He gave a rousing talk about how we all need to question ‘Why?’ whenever we are told something. Never accept status quo and always innovate. Alexis complimented his talk with some cool facts and even cooler memes. Even <a href="http://cdn.memegenerator.net/instances/500x/47078932.jpg">grumpy cat made an appearance</a>. After Alexis wrapped up his talk I had the pleasure of meeting him, albeit briefly. I was totally starstruck and probably babbled about the power of the crowd incoherently. He did sign a book for me though!</p>
+
+<center> <p style="padding-bottom:5px"> <img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Will-Image-3.jpg" /></p></center>
+
+<p style="padding-bottom:5px"> The rest of Day 1 was spent in breakout sessions learning more about the power of the DocuSign API, and getting a sneak peek at their upcoming Mobile SDK. Our community has done some great things with the API and has had some involvement in the SDK, so it was really exciting to see these sessions.</p>
+
+<p style="padding-bottom:5px"> Day 2 gave us plenty more breakout sessions and some additional big talks. Appirio CEO Chris Barbin made an appearance during a live C-Suite panel with Bloomberg TV host Jeffrey Hayzlett. Also on the panel were executives from Comcast and T-Mobile. Barbin made a compelling argument not only for using DocuSign in your business, but also for moving your business to the cloud. There were multiple topcoder shoutouts during the panel, which always brought a smile to my face!</p>
+
+<p style="padding-bottom:5px"> I spent some time on Day 2 meeting with DocuSign stakeholders and looking for more and more we can bring to the community. They have always been strong supporters of this community and I am hopeful that the relationship will grow and we will see more and more DocuSign specific challenges making their way onto topcoder in the coming months.</p>
+
+<p style="padding-bottom:5px"> Momentum was a great experience and I really appreciated the opportunity to meet with the people who have been supporters of our community for the past couple years. I am excited for the future not only of DocuSign, but also for topcoder and the great things we can do with them. Already looking forward to Momentum 2015!</p>]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/docusign-is-like-bacon/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Design of New Web Based Arena</title>
+		<link>http://www.topcoder.com/blog/design-of-new-web-based-arena/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=design-of-new-web-based-arena</link>
+		<comments>http://www.topcoder.com/blog/design-of-new-web-based-arena/#comments</comments>
+		<pubDate>Wed, 12 Mar 2014 19:05:46 +0000</pubDate>
+		<dc:creator><![CDATA[David Hessing]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Challenges]]></category>
+		<category><![CDATA[Data Science]]></category>
+		<category><![CDATA[Design]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[topcoders]]></category>
+		<category><![CDATA[algorithm]]></category>
+		<category><![CDATA[applet]]></category>
+		<category><![CDATA[arena]]></category>
+		<category><![CDATA[browser based]]></category>
+		<category><![CDATA[cloud computing]]></category>
+		<category><![CDATA[html5]]></category>
+		<category><![CDATA[OSS]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14507</guid>
+		<description><![CDATA[@delemach &#8211; David Hessing The topcoder Arena is in many ways the defining trait of topcoder. Running algorithm competitions is how topcoder got is start, and fourteen...<br/><a href="http://www.topcoder.com/blog/design-of-new-web-based-arena/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<p style="padding-bottom:5px"><a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Arena-1024.jpg"><img style="float: left; margin-right: 1em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Arena-175.jpeg" width="150px" /></a> <i> <a href="https://twitter.com/delemach">@delemach</a>  &#8211; David Hessing</i> </p>
+
+<p style="padding-bottom:5px">The topcoder Arena is in many ways the defining trait of topcoder. Running algorithm competitions is how topcoder got is start, and fourteen years later we&#8217;re still going strong. The algorithm competitions are pure competitions of programmatic skill &#8211; no client reviewing the output, no larger project to think about, indeed not even very many libraries to leverage. Just a programming problem, an editor, and a ticking clock.</p>
+
+<p style="padding-bottom:5px"> <a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Winner-Professional-Sports.-Olympic-journey-2012-A-series-of-sports-imagery-from-Olympic-qualifying-events-and-Olympic-sports-competition-during-the-London-2012-Olympic-Games.-Usain-Bolt-of-Jamaica-races-ahead-of-Ryan-Bailey-o-960x536.jpg"><img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Hessing-Blog-Competition-Image-Small1.jpeg" /></a>
+
+<p style="padding-bottom:5px">Although topcoder&#8217;s algorithm competition program remains rock solid, the technology it runs on needs updating. When it was written, the applet-based arena was vastly ahead of its time. Custom chat, a scalable grid computing architecture, the ability to safely compile and test arbitrary code submissions &#8211; these features simply did not exist. Now though, with cloud computing resources in abundance, applets out of vogue, with many options to leverage amazing OSS toolsets, and with the resources of Appirio behind us, we&#8217;re in a position to build Arena 2.0. We&#8217;re focusing in 2014 on releasing a web-based arena with significant feature enhancements.</p>
+
+<center><p style="padding-bottom:5px"><a href="https://drive.google.com/folderview?id=0B3YZam7dQczEMjBfMW01YkgxdkE&#038;usp=sharing">Check out the winning designs here</a>  </p></center>
+
+<p style="padding-bottom:5px"> This work will take time and we&#8217;re not turning off the battle-tested applet anytime soon. However today we&#8217;re proud to share our latest designs for the web-based arena. You&#8217;ll notice that it takes many cues from applet. You&#8217;ll also see hints of some of the new features we plan to build, like pick-up contests and problem-based practicing. This design will change; among other things we will be adding our new logo and tweaking colors. But it&#8217;s far enough along that it conveys the idea of where we&#8217;re heading.</p>
+
+We <a href="http://apps.topcoder.com/forums/?module=Thread&#038;threadID=813049&#038;start=0&#038;mc=1#1854590">welcome your feedback and suggestions</a>! We look forward to sharing prototypes in Q2.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/design-of-new-web-based-arena/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>TCO14 Finals: November 16-19 in San Francisco!</title>
+		<link>http://www.topcoder.com/blog/tco14-finals-november-16-19-in-san-francisco/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=tco14-finals-november-16-19-in-san-francisco</link>
+		<comments>http://www.topcoder.com/blog/tco14-finals-november-16-19-in-san-francisco/#comments</comments>
+		<pubDate>Tue, 11 Mar 2014 17:21:30 +0000</pubDate>
+		<dc:creator><![CDATA[Jessie D'Amato Ford]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[topcoders]]></category>
+		<category><![CDATA[algorithm]]></category>
+		<category><![CDATA[AT&T Park]]></category>
+		<category><![CDATA[marathon]]></category>
+		<category><![CDATA[Pier 48]]></category>
+		<category><![CDATA[san francisco]]></category>
+		<category><![CDATA[SF Giants]]></category>
+		<category><![CDATA[tco14]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14488</guid>
+		<description><![CDATA[Back in January, we announced that TCO14 was moving to San Francisco with the relaunch of our new site. Today, we are extremely excited to announce the...<br/><a href="http://www.topcoder.com/blog/tco14-finals-november-16-19-in-san-francisco/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<p style="padding-bottom:5px"> 
+
+<img style="float: left; margin-right: 1em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/TCO14_175x175-01.png" width="150px" />
+
+Back in January, we announced that <a href="http://www.topcoder.com/blog/ready-for-a-new-topcoder/">TCO14 was moving to San Francisco with the relaunch of our new site</a>.</p>
+
+<p style="padding-bottom:5px"> Today, we are extremely excited to announce the 2014 Topcoder Open Finals dates and location! This incredible event will be hosted at Pier 48 at AT&#038;T Park in San Francisco, California from November 16th &#8211; 19th, 2014. This will mark the TCO&#8217;s return to downtown San Francisco since our <a href="http://community.topcoder.com/tc?module=Static&#038;d1=tournaments&#038;d2=tccc01&#038;d3=summary">first ever TCO</a> way back in 2001! And for any and all of you baseball fans, you’ll know that this is right next door to the where the San Francisco Giants play. Peanuts and crackerjacks anyone?</p>
+
+<p style="padding-bottom:5px"> <center><a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/TCO14EntranceLarge.jpg"><img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/TCO14EntranceSmall2.jpg" /></a></center> </p>
+
+<p style="padding-bottom:5px"> TCO14 finalists will be staying at the <a href="http://www.marriott.com/hotels/travel/sfocd-courtyard-san-francisco-downtown/">Courtyard San Francisco Downtown</a>; about a 15 minute walk away however shuttles will be provided as well.</p>
+
+<p style="padding-bottom:5px"> <center> <a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/map.png"><img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/mapSmall.png" /></a></center></p>
+
+<p style="padding-bottom:5px"> We are also thrilled to announce the <a href="http://community.topcoder.com/tco14/algorithm/">Algorithm</a> and <a href="http://community.topcoder.com/tco14/marathon/">Marathon</a> Competition details. Rounds start next month so be sure to register for the event now if you have not already.</p>
+
+<p style="padding-bottom:5px"> Not only is this event taking place in an enormous and awesome space, but the event itself will be cutting edge and a departure from past years. We’re looking to add more events, more activities, more networking opportunities, and more fun! So if you’ve won a trip already get ready to be part of history! And if you’re still trying to win a trip &#8211; give the last few months of competitions your all! Most importantly, if you live in the Bay Area, we really hope you’ll stop in to check out the all-new Topcoder Open.</p>
+
+<p style="padding-bottom:5px"> Trust me, this will be a TCO like never before dedicated just for you, our amazing and talented community. For the next eight months, your community team will be working incredibly hard to bring this event to you so at any time you have suggestions or comments, please let us know! I can’t wait to get to Pier 48 and see what we’ve put together but most importantly to see all of you.</p>
+
+<p style="padding-bottom:5px"> Best of luck!</p>]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/tco14-finals-november-16-19-in-san-francisco/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>In The News: Be an Asteroid Hunter in NASA&#8217;s First Asteroid Grand Challenge Contest Series</title>
+		<link>http://www.topcoder.com/blog/in-the-news-be-an-asteroid-hunter-in-nasas-first-asteroid-grand-challenge-contest-series/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=in-the-news-be-an-asteroid-hunter-in-nasas-first-asteroid-grand-challenge-contest-series</link>
+		<comments>http://www.topcoder.com/blog/in-the-news-be-an-asteroid-hunter-in-nasas-first-asteroid-grand-challenge-contest-series/#comments</comments>
+		<pubDate>Mon, 10 Mar 2014 18:35:46 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Hicks]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[algorithims]]></category>
+		<category><![CDATA[asteroidhunters]]></category>
+		<category><![CDATA[asteroids]]></category>
+		<category><![CDATA[COECI]]></category>
+		<category><![CDATA[harvard]]></category>
+		<category><![CDATA[In the News]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[Planetary Resources]]></category>
+		<category><![CDATA[press release]]></category>
+		<category><![CDATA[space]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14497</guid>
+		<description><![CDATA[NASA Press Release 03/10/14 &#8211; Sarah Ramsey &#8220;NASA’s Asteroid Data Hunter contest series will offer $35,000 in awards over the next six months to citizen scientists who...<br/><a href="http://www.topcoder.com/blog/in-the-news-be-an-asteroid-hunter-in-nasas-first-asteroid-grand-challenge-contest-series/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<p style="padding-bottom:5px"> <img style="float: left; margin-right: 1em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/news-1.png" width="150px" />
+
+<i>NASA Press Release 03/10/14 &#8211; Sarah Ramsey</i> </p>
+
+<p style="padding-bottom:5px"> &#8220;NASA’s Asteroid Data Hunter contest series will offer $35,000 in awards over the next six months to citizen scientists who develop improved algorithms that can be used to identify asteroids.</p>
+
+<p style="padding-bottom:5px"> This contest series is being conducted in partnership with Planetary Resources Inc. of Bellevue, Wash. The first contest in the series will kick off on March 17. Prior to the kick off, competitors can create an account on the contest series website and learn more about the rules and different phases of the contest series by going to: <a href="http://bit.ly/AsteroidHunters">bit.ly/AsteroidHunters&#8221;</a> </p>
+
+<p style="padding-bottom:5px"> <a href="http://www.nasa.gov/press/2014/march/be-an-asteroid-hunter-in-nasas-first-asteroid-grand-challenge-contest-series/#.Ux35VeddXYd">View today&#8217;s full Press Release here</a> </p>
+
+<p style="padding-bottom:5px"><center> <a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Asteroid_Data_Hunter.jpg"><img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Asteroid_Data_Hunter680px.jpg" /></a></center> </p>
+
+]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/in-the-news-be-an-asteroid-hunter-in-nasas-first-asteroid-grand-challenge-contest-series/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>An Interview With Adam Loeb &#8211; Your topcoder TechOlympics Winner</title>
+		<link>http://www.topcoder.com/blog/an-interview-with-adam-loeb-your-topcoder-techolympics-winner/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=an-interview-with-adam-loeb-your-topcoder-techolympics-winner</link>
+		<comments>http://www.topcoder.com/blog/an-interview-with-adam-loeb-your-topcoder-techolympics-winner/#comments</comments>
+		<pubDate>Tue, 04 Mar 2014 17:26:00 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Hicks]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[topcoders]]></category>
+		<category><![CDATA[adam loeb]]></category>
+		<category><![CDATA[cincinnati]]></category>
+		<category><![CDATA[competition]]></category>
+		<category><![CDATA[computer science]]></category>
+		<category><![CDATA[GE Aviation]]></category>
+		<category><![CDATA[high school]]></category>
+		<category><![CDATA[interview]]></category>
+		<category><![CDATA[programming]]></category>
+		<category><![CDATA[TechOlympics]]></category>
+		<category><![CDATA[TopCoder]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14479</guid>
+		<description><![CDATA[A couple weeks back topcoder was a sponsor for a super cool event called the TechOlympics. The 3-day event is catered to High Schoolers in programming, and...<br/><a href="http://www.topcoder.com/blog/an-interview-with-adam-loeb-your-topcoder-techolympics-winner/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<p style="padding-bottom:5px"> 
+
+<img style="float: left; margin-right: 1em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/AdamLoeb.jpg" width="150px" />
+
+A couple weeks back topcoder was a sponsor for a super cool event called the <a href="https://www.techolympics.org/">TechOlympics</a>. The 3-day event is catered to High Schoolers in programming, and runs onsite competitions for prizes. Right in the topcoder wheel house. </p>
+
+<p style="padding-bottom:5px"> I was lucky enough to get an introduction to <a href="https://twitter.com/adam_loeb">Adam Loeb</a>, who won the topcoder portion of the event. I asked Adam if he would be willing to do a quick interview for our blog and he happily agreed.</p>
+
+<p style="padding-bottom:5px">First off, a little background on Adam. He is a senior in High School at Lakota East in Ohio, and has a pretty unique, and extremely impressive claim to fame. Adam <a href="http://www.lakotaonline.com/m/news.cfm?storyID=3554">aced the AP Computer Science exam with a perfect score</a>. A feat that only 19 students world wide also achieved. When he is not getting perfect scores on tests, Adam likes to do what every senior in High School likes to do. <del datetime="2014-03-04T14:52:14+00:00">Homework,</del> <del datetime="2014-03-04T14:52:14+00:00">studying,</del> hanging out with friends, taking strokes off of his golf game, and of course, answering interview questions for the topcoder blog. Something tells me he&#8217;ll be making a few more appearances on the blog over the next few years. </p>
+
+<p style="padding-bottom:5px">Without further ado, here is my interview with Adam Loeb.</p>
+
+<p style="padding-bottom:5px"> 
+<b>Q: How old were you when you started programming?</b> <br />
+A: I started my sophomore year of high school (so about 2 and a half years ago)
+</p>
+
+<p style="padding-bottom:5px">
+<b>Q: What got you started in programming?</b>  <br />
+A: I took Computer Science 1 at my school and discovered that I loved creating things and solving problems. Programming was the perfect opportunity to do this.
+</p>
+
+<p style="padding-bottom:5px">
+<b>Q: What do you do in your free time? (If you ever have any)</b> <br />
+A: I golf, play trumpet and ukulele, participate in various physics and computer science related competitions (including <a href="http://www.soinc.org/">Science Olympiad</a> and <a href="http://teams.tsaweb.org/">TSA TEAMS</a>), work as an <a href="http://interalliance.org/index.php">INTERalliance</a> intern at GE Aviation, participate and lead in many clubs at my school, help to create innovative solutions for the INTERalliance as a member of the IT team within the INTERalliance Leadership Council, and hang out with friends/play video games. Oh, and I do enjoy programming every once in a while :-)
+</p>
+
+<p style="padding-bottom:5px">
+<b>Q: What was the first app you built?</b>  <br />
+A: I have not officially deployed any apps. Although one cool app that we are currently working and won the Showcase with at TechOlympics is a typing tutorial. It think it has a lot of potential, and myself and a few friends will probably be pursuing further options with it.
+</p>
+
+<p style="padding-bottom:5px">
+<b>Q: What is your favorite language? </b> <br />
+A: C# &#8211; mostly because I’m the most familiar with it, but I also really like Visual Studio. It’s a very nice tool.
+</p>
+
+<p style="padding-bottom:5px">
+<b>Q: If you could go back in time and be a founder of any tech company today, which would you choose? And why?</b> <br />
+A: Google &#8211; They are extremely innovative and their services are amazingly well executed. Microsoft or Apple would be pretty cool as well.
+</p>
+
+<p style="padding-bottom:5px">
+<b>Q: You&#8217;re a senior in HS, have you decided where you will be attending College? </b> <br />
+A: I have not officially decided. I’m still looking at a few places including Carnegie Mellon, University of Illinois, Purdue, and Ohio State.
+</p>
+
+<p style="padding-bottom:5px">
+<b>Q: What is your dream job?</b> <br />
+A: I’m not sure yet! I haven’t had a chance to experience enough of the world yet. Although I do know that I want to do something related to writing software, I’m still trying to figure out if I’d rather work for a big company like Google, or a startup. One of my major goals is to work at Google, Microsoft, or Apple at least once. I am a huge fan of all three companies, and it would be amazing to have an opportunity to work at one or more of them.
+</p>
+
+<p style="padding-bottom:5px">
+<b>Q: Do you have an idea for an app or company you want to start? </b>  <br />
+A: I actually have a list! I plan to start some of them with some friends over the summer. If any of them are successful, I’ll let you know :-)
+</p>
+
+<p style="padding-bottom:5px">
+<b> Q: How did you hear about <a href="https://www.techolympics.org/">TechOlympics</a>?</b> <br />
+A: I am a member of the INTERalliance Leadership Council, so I actually help in running TechOlympics. I ran my own “Mystery Coding” event and helped with all the logistics around the 500 student convention.
+</p>
+
+<p style="padding-bottom:5px">
+<b>Q: Was this your first year competing?</b>  <br />
+A: Yes. This was the first year topcoder sponsored an event. Last year I helped run the Speed Coding equivalent, so I was unable to participate.
+</p>
+
+<p style="padding-bottom:5px">
+<b> Q: What was the best part of the TechOlympics?</b>  <br />
+A: Winning the topcoder portion was a definite plus. Also winning the Showcase was a huge honor. And of course the various breakout sessions were fun and insightful, but I also really enjoyed hearing from the participants about how much they were enjoying the convention. When you have a part in putting something like TechOlympics together, its a really good feeling to know the other students are having a great time.
+</p>
+
+<center> <p style="padding-bottom:5px"><a href="https://twitter.com/singhns/statuses/437364986722009088"><img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/Screen-Shot-2014-03-04-at-11.24.57-AM.png" alt="" height="476" width="600"></a> </p> </center>
+
+<p style="padding-bottom:5px">
+<b> Q: What was the problem set, and solution that made you win? </b>  <br />
+A: The last problem in the first round was probably the hardest. Thinking back, it wasn’t too bad, but in the moment, I just could not get it to work! I had finished the first two problems incredibly quickly, and I figured this one would set me apart and put me in the finals if I could figure it out. I submitted it as time expired, and I still have no idea if it worked or not! But it was pretty close. </p>
+
+<p style="padding-bottom:5px">
+I also struggled with the first problem in the finals. It took me about 30 seconds to code once I figured it out, but it took me several minutes longer than everyone else to finally figure out the obvious solution. Of course I managed to come back in the other two problems :-)
+</p>
+
+<p style="padding-bottom:5px">
+<b> Q: What was the biggest challenge? </b>  <br />
+A: In the finals of the competition, the biggest challenge was staying focused. We were programming out in the middle of the main hallway of the convention with people standing around watching us and talking. It was really fun, but hard to not get distracted. I actually wore sunglasses through the entire final round of the competition! It was initially just to be funny because my friend brought me some from the GE booth, and the second place winner (Josh Clyde) said he would wear an identical pair because we were from the same school. Josh took his off at the start, but I kept them on because they sort of blocked out everyone else and helped me to focus on the problems.
+</p>
+
+<p style="padding-bottom:5px">
+<b> Q: Loaded question here :-) Are you going to continue to compete on topcoder? </b>  <br />
+A: Ha! I sure hope so! At the moment, I’m pretty busy, but I really do enjoy competitive coding. 
+</p>
+
+<p style="padding-bottom:5px">
+<b> Q: You mentioned you like video games. What are some of your favorite games? </b>  <br />
+A: Minecraft &#8211; as “little kidish” as it may sound, I really like the creative aspect, and it lends itself well to playing with large groups of friends. I also really enjoy puzzle games such as Portal. As for board games, Monopoly is probably my favorite. 
+</p>
+
+<p style="padding-bottom:5px">
+<b> Q: What websites do you frequent? </b> <br />
+A: Youtube and Facebook for fun. Also Stack Overflow is pretty helpful when programming. 
+</p>
+
+<p style="padding-bottom:5px">
+<b> Q: Stack overflow is great! Any other favorite online communities? </b>  <br />
+A: I’m honestly not sure right now. I&#8217;m not really active in any others. At least not yet!
+</p>
+
+<p style="padding-bottom:5px">
+<b> Q: Finally,what tech company or piece of technology give you the most inspiration to continue your path into programming? </b> <br />
+A: I think apps in general have inspired me quite a bit. Especially for mobile phones, apps have shown that anyone can program and be pretty successful. Sure it may require a little luck, but I believe with enough persistence, one can really make an impact with a cleverly coded app. As for companies, really, Google, Microsoft, and Apple definitely inspire me. 
+</p>
+
+<p style="padding-bottom:5px">
+<b> Thanks for your time Adam. I look forward to doing this again one day! </b> </p>]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/an-interview-with-adam-loeb-your-topcoder-techolympics-winner/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How I Love Thee. Let me Count the Ways&#8230; in Binary</title>
+		<link>http://www.topcoder.com/blog/how-i-love-thee-let-me-count-the-ways-in-binary/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-i-love-thee-let-me-count-the-ways-in-binary</link>
+		<comments>http://www.topcoder.com/blog/how-i-love-thee-let-me-count-the-ways-in-binary/#comments</comments>
+		<pubDate>Fri, 28 Feb 2014 16:12:44 +0000</pubDate>
+		<dc:creator><![CDATA[Jeff Douglas]]></dc:creator>
+				<category><![CDATA[Results]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14468</guid>
+		<description><![CDATA[The results of our second Valentine&#39;s Day poety challenge were just as good as the first. Our Love Poetry in Code challenge had 21 submissions with some...<br/><a href="http://www.topcoder.com/blog/how-i-love-thee-let-me-count-the-ways-in-binary/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<p style="padding-bottom:5px">The results of our second Valentine&#39;s Day poety challenge were just as good <a href="http://www.topcoder.com/blog/coders-have-feelings-too/">as the first</a>. Our <a href="https://studio.topcoder.com/?module=ViewContestDetails&amp;ct=30039565">Love Poetry in Code</a> challenge had 21 submissions with some really interesting concepts!</p>
+
+<h3>First place: <a href="http://www.topcoder.com/member-profile/ForceLogic/">ForceLogic</a></h3>
+
+<p style="padding-bottom:5px">ForceLogic actually wrote a node.js application that generated his poetry for him. How cheeky!</p>
+
+<p style="padding-bottom:0px">New nerd&#8230;
+Having a lot of fun&#8230;</p>
+
+<p style="padding-bottom:0px">&#35;&#35; PLAY ALL THE VIDEOGAMES! &#35;&#35;<br />
+&#35;&#35; CODE ALL THE THINGS!! &#35;&#35;<br />
+&#35;&#35; LAUGH AT ALL THE MEMES! &#35;&#35;<br />
+&#35;&#35; SUCH SCIENCE VERY SMARTNESS MUCH INTELLIGENCE WOW!&#35;&#35;<br />
+&#35;&#35; CODE ALL THE CHALLENGES ON TOPCODER! &#35;&#35;<br />
+&#35;&#35; PLAY ALL THE VIDEOGAMES! &#35;&#35;<br />
+&#35;&#35; CODE ALL THE THINGS!! &#35;&#35;<br />
+&#35;&#35; LAUGH AT ALL THE MEMES! &#35;&#35;<br />
+&#35;&#35; SUCH SCIENCE VERY SMARTNESS MUCH INTELLIGENCE WOW! &#35;&#35;<br />
+&#35;&#35; CODE ALL THE CHALLENGES ON TOPCODER! &#35;&#35;<br />
+&#35;&#35; PLAY ALL THE VIDEOGAMES! &#35;&#35;<br />
+&#35;&#35; CODE ALL THE THINGS!! &#35;&#35;<br />
+&#35;&#35; LAUGH AT ALL THE MEMES! &#35;&#35;<br />
+&#35;&#35; SUCH SCIENCE VERY SMARTNESS MUCH INTELLIGENCE WOW! &#35;&#35;<br />
+&#35;&#35; CODE ALL THE CHALLENGES ON TOPCODER! &#35;&#35;  </p>
+
+<p style="padding-bottom:0px">Fun finished.
+Trying unconventional fun&#8230;</p>
+
+<p style="padding-bottom:0px">&#35;&#35; FAP fap FAP fap FAP &#8230; &#35;&#35; </p>
+
+<p style="padding-bottom:0px">Nope.<br />
+I&#39;m just sitting in this corner crying silently forever alone&#8230;</p>
+
+<p style="padding-bottom:0px">&#35;&#35;&#35;&#35;&#35; A WILD GIRL APPEARS &#35;&#35;&#35;&#35;</p>
+
+<p style="padding-bottom:0px">Nerd uses &quot;FLIRT&quot;:<br />
+&lt;3&lt;3 YOU HAVE NICER LEGS THAN AN ISOSCELES RIGHT TRIANGLE. &lt;/3&lt;/3 </p>
+
+<p style="padding-bottom:0px">IT&#39;S NOT EFFECTIVE!! :(( </p>
+
+<p style="padding-bottom:0px">I&#39;m just sitting in this corner crying silently forever alone&#8230;<br />
+&#35;&#35;&#35;&#35;&#35; A WILD GIRL APPEARS &#35;&#35;&#35;&#35;</p>
+
+<p style="padding-bottom:0px">Nerd uses &quot;FLIRT&quot;:<br />
+&lt;3&lt;3 BABY, YOU OVERCLOCK MY PROCESSOR. &lt;/3&lt;/3 </p>
+
+<p style="padding-bottom:0px">IT&#39;S NOT EFFECTIVE!! :((  </p>
+
+<p style="padding-bottom:0px">I&#39;m just sitting in this corner crying silently forever alone&#8230;</p>
+
+<p style="padding-bottom:0px">&#35;&#35;&#35;&#35;&#35; A WILD GIRL APPEARS &#35;&#35;&#35;&#35;</p>
+
+<p style="padding-bottom:0px">Nerd uses &quot;FLIRT&quot;:<br />
+&lt;3&lt;3 I’M A STAR. WANNA TASTE THE MILKY WAY? &lt;/3&lt;/3 </p>
+
+<p style="padding-bottom:0px">IT&#39;S NOT EFFECTIVE!! :(( </p>
+
+<p style="padding-bottom:0px">I&#39;m just sitting in this corner crying silently forever alone&#8230;</p>
+
+<p style="padding-bottom:0px">&#35;&#35;&#35;&#35;&#35; A WILD GIRL APPEARS &#35;&#35;&#35;&#35;</p>
+
+<p style="padding-bottom:0px">Nerd uses &quot;FLIRT&quot;:<br />
+&lt;3&lt;3 YOU HAVE NICER LEGS THAN AN ISOSCELES RIGHT TRIANGLE. &lt;/3&lt;/3 </p>
+
+<p style="padding-bottom:0px">IT&#39;S NOT EFFECTIVE!! :(( </p>
+
+<p style="padding-bottom:0px">&#35;&#35;&#35;&#35;&#35; A WILD NERDESS APPEARS &#35;&#35;&#35;&#35;</p>
+
+<p style="padding-bottom:0px">Nerd uses &quot;FLIRT&quot;: 
+&lt;3&lt;3  IF YOU WERE A GRAPHICS CALCULATOR, I’D LOOK AT YOUR CURVES ALL DAY LONG! &lt;/3&lt;/3 </p>
+
+<p style="padding-bottom:0px">&#35;&#35;&#35;&#35;&#35; SHE UNDERSTANDS THE JOKES &#35;&#35;&#35;&#35;</p>
+
+<p style="padding-bottom:0px">IT&#39;S SUPER EFFECTIVE!! :)) </p>
+
+<p style="padding-bottom:0px">&#35;&#35;&#35;&#35;&#35; THIS IS LEGEN&#8230;. WAIT FOR IT . . .</p>
+
+<p style="padding-bottom:0px">DARY!!!! &#35;&#35;&#35;&#35;&#35;</p>
+
+<p style="padding-bottom:0px">{ fun: [ [Function: liveHappilyAter] ],<br />
+  havingFun: true,<br />
+  feelingLonely: false,<br />
+  engaged: true }</p>
+
+<p style="padding-bottom:5px">&lt;3&lt;3&lt;3 MATCH FOUND &lt;3&lt;3&lt;3</p>
+
+<h3>Second place: <a href="http://www.topcoder.com/member-profile/wcheung/">wcheung</a></h3>
+
+<pre lang="Java">
+function doTheTCOMash() {
+    var apiChoices = spinTCOPartnerAPIs();
+    var state = GOT_3_APIS;
+    while (state != GO_HOME) {
+        switch (state) {
+        case GOT_3_APIS:
+            apiChoices = decideOnTwoAPIs(apiChoices);
+            state = DECIDED_2_APIS;
+            break;
+        case DECIDED_2_APIS:
+            route('beer');
+            state = INSPIRED;
+            break;
+        case INSPIRED:
+            var duration = code(apiChoices);
+            if (duration > 4) // hrs
+                state = BREAK;
+            else if (duration == 0)
+                route('beer');
+            else if (duration == -1)
+                state = MASTERPIECE;
+            break;
+        case BREAK:
+            takeEnergyShot(swagBag); // product of Canada, eh?
+            state = INSPIRED;
+            break;
+        case MASTERPIECE:
+            waitToPresent();
+            state = PRESO_TIME;
+            break;
+        case PRESO_TIME:
+            route('beer');
+            doPreso();
+            route('beer');
+            state = WAIT_FOR_ANNOUNCEMENTS;
+            break;
+        case WAIT_FOR_ANNOUNCEMENTS:
+            wonMoney = isWinner(handle);
+            if (wonMoney) {
+                goUpOnStage();
+                photoOpps(BIG_SMILE);
+                state = GO_HOME;
+            }
+            break;
+        }
+    }
+    everybodyParty();
+    var class;
+    if (wonMoney) {
+        class = FIRST;
+        upgradeFlight(class);
+    } else
+        class = ECONOMY;
+    flyHome(class);
+}
+</pre>
+
+<h3>Third place: <a href="http://www.topcoder.com/member-profile/Lozy/">Lozy</a></h3>
+
+<pre lang="Java">
+// Merry me please!
+public class You {
+    private static int you = 0;
+    private static final int wife = 1;
+    public void marryMe() {
+        if (you != wife) {
+            // just once wedding~
+            you = wife;
+        }
+        System.out.printf("You are the %d\n", you);
+    }
+}
+</pre>
+
+<h3>Fourth place: <a href="http://www.topcoder.com/member-profile/Eeyore/">Eeyore</a></h3>
+
+<pre lang="Java">
+for (competition in ['Design', 'Develop', 'Data']) 
+  if (self.love(competition)) { goto topcoder; }
+</pre>
+
+<h3>Fifth place: <a href="http://www.topcoder.com/member-profile/billsedison/">billsedison</a></h3>
+
+<p style="padding-bottom:5px"><strong><emp>The entry from billsedison was perhaps the most complicated and coolest. From his overview: &#8220;This application can open notepad.exe in Windows automatically and type a poem character by character on the screen, that seems like your lover is writing a poem in front of you. In addition, this source code of this application is asciffied to &#8220;a little poem in C&#8221; pattern&#8221;.</emp></strong></p>
+
+<a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/codingascii.png"><img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/codingascii.png" alt="codingascii" width="450" height="300" class="alignnone size-full wp-image-14471" /></a>
+]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/how-i-love-thee-let-me-count-the-ways-in-binary/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Coders Have Feelings Too!</title>
+		<link>http://www.topcoder.com/blog/coders-have-feelings-too/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=coders-have-feelings-too</link>
+		<comments>http://www.topcoder.com/blog/coders-have-feelings-too/#comments</comments>
+		<pubDate>Thu, 27 Feb 2014 16:53:23 +0000</pubDate>
+		<dc:creator><![CDATA[Jeff Douglas]]></dc:creator>
+				<category><![CDATA[Results]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14465</guid>
+		<description><![CDATA[We kicked off a couple of poetry challenges on Valentine&#39;s Day because we are huge fans of spoken word poetry here at topcoder! Our Love Poetry challenge...<br/><a href="http://www.topcoder.com/blog/coders-have-feelings-too/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<p style="padding-bottom:5px"><a href="http://bestclipartblog.com/clipart-pics/poetry-clip-art-14.jpg"><img src="http://bestclipartblog.com/clipart-pics/poetry-clip-art-14.jpg" width="171" height="192" class="alignleft" /></a>We kicked off a couple of poetry challenges on Valentine&#39;s Day because we are <strong>huge</strong> fans of <a href="http://www.youtube.com/watch?v=GlkoQ4bUE5k">spoken word poetry</a> here at topcoder! </p>
+
+<p style="padding-bottom:5px">Our <a href="https://studio.topcoder.com/?module=ViewContestDetails&amp;ct=30039563">Love Poetry challenge</a> had 26 submissions and we selected the <a href="https://studio.topcoder.com/?module=ViewContestResults&amp;ct=30039563">top 5 winners</a> along with some interesting &quot;honorable mentions&quot; below. The following prose is breathtaking so feel free to print out this page as a keepsake. It is suitable for framing.</p>
+
+<h3>First place: <a href="http://www.topcoder.com/member-profile/eriantoongko/">eriantoongko</a></h3>
+
+<p style="padding-bottom:5px"><b>Be a Computer</b>  </p>
+
+<p style="padding-bottom:5px">I want to be a monitor, so<br />
+I can feel your romantic eyes every hour<br />
+I want to be a mice, so<br />
+I can feel you touch every single click<br />
+I want to be a keyboard, so<br />
+I will the first to read you type I LOVE YOU<br />
+I want to be a power supply, so<br />
+You can’t live without me!</p>
+
+<h3>Second place: <a href="http://www.topcoder.com/member-profile/eeyore/">Eeyore</a></h3>
+
+<p style="padding-bottom:5px">Twinkle, twinkle, API<br />
+Interface up in the sky<br />
+Connect to me under the moon<br />
+Let me call your methods soon<br />
+All my apps are in the cloud<br />
+Scalability makes me proud<br />
+Twinkle, twinkle, API<br />
+Topcoder makes it easy as pie</p>
+
+<h3>Third place: <a href="http://www.topcoder.com/member-profile/T-30/">T-30</a></h3>
+
+<p style="padding-bottom:5px">I want you to C<br />
+In the land of Java,<br />
+Oh, Ada you are mine,<br />
+Within the Blue robe.</p>
+
+<p style="padding-bottom:5px">Life is a Logo<br />
+Dart must to hit,<br />
+Like the hidden Pearl,<br />
+Within the shell.</p>
+
+<p style="padding-bottom:5px">When cows moo<br />
+Or the Falcon preys,<br />
+Bash your love,<br />
+Bon appetit.</p>
+
+<p style="padding-bottom:5px">Want to see the arc<br />
+Within you in scratch,<br />
+Love is mad,<br />
+Placed within limbo.</p>
+
+<p style="padding-bottom:5px">Euphoria of mind<br />
+Bliss within the heart,<br />
+Icon means you,<br />
+My love is Pure.  </p>
+
+<h3>Fourth place: <a href="http://www.topcoder.com/member-profile/ForceLogic/">ForceLogic</a></h3>
+
+<p style="padding-bottom:5px"><b>Love Keywords</b></p>
+
+<p style="padding-bottom:5px">With a <i>transient</i> <i>volatile</i><br />
+I want to fly in the <i>static</i> sky,<br />
+Like a bird <i>extends</i> his wings,<br />
+    I <i>package</i> my stuff to <i>finally</i> leave.<br />
+<i>While</i> I <i>throw</i> an <i>abstract</i> flint<br />
+    in the sea of the <i>float</i>ing thoughts,<br />
+I <i>try</i> to <i>super</i>intend my feelings<br />
+    <i>for</i> my <i>new</i> life in this <i>void</i> reality.<br />
+Suddenly I <i>catch</i> your bright eyes,<br />
+    high-<i>class</i> <i>double</i> flame,<br />
+I <i>default</i> day dreaming and <i>return</i> back home,<br />
+    it is a <i>new</i> home but also still the same,<br />
+I <i>continue</i> to live but <i>protected</i> by you.<br />
+    You <i>assert</i> <i>for</i> a <i>short</i> <i>switch</i>,<br />
+yes, to <i>switch</i> from <i>false</i> to <i>true</i>,<br />
+    yes, to <i>switch</i> from <i>private</i> feelings to <i>public</i>,<br />
+yes, to <i>switch</i> from <i>try</i>ing to <i>do</i>ing,<br />
+    to <i>finally</i> and <i>const</i>antly<br />
+<i>import</i> your warm soul<br />
+    that <i>throws</i> love from all <i>interface</i>s,<br />
+to become a <i>native</i> <i>char</i>acter<br />
+    of an endless <i>long</i> play,<br />
+where you are the neverending <i>return</i>,<br />
+    and we are the <i>final</i> plot.</p>
+
+<h3>Fifth place: <a href="http://www.topcoder.com/member-profile/anastasis16/">anastasis16</a></h3>
+
+<p style="padding-bottom:5px">Dear honey……</p>
+
+<p style="padding-bottom:5px">If only your heart is a system,<br />
+Then i will scan for your open port when i c:&gt; nc -l -o -v –e to your heart<br />
+But my courage is only as big as ping  behind anonymous proxy,</p>
+
+<p style="padding-bottom:5px">If only your heart is a system,<br />
+I would use PHP injection<br />
+And so i know there is a free space for me when i ls -la; find / -perm 777 -type d<br />
+Or i should put backdoor “Remote Connect-Back Shell”<br />
+And hoping your connection so i dont dwell in this despair.</p>
+
+<p style="padding-bottom:5px">If only your heart is a system,<br />
+I will stand in your bugtrack and patch<br />
+And i will be your firewall<br />
+No malicious program and hidden service<br />
+Because i dear you so much</p>
+
+<p style="padding-bottom:5px">But, your heart is not a system, but you are my angel whom debugged my system!. I suffered a severe virus threat and no antivirus can cure me except&#8230;.</p>
+
+<p style="padding-bottom:5px">YOU</p>
+
+<h3>Honorable Mentions</h3>
+
+<p style="padding-bottom:5px">There were a number of poems that we thought deserved to be mentioned so here they are in no particular order:</p>
+
+<h3>Francy-pants</h3>
+
+<p style="padding-bottom:5px">A skillful designer in France<br />
+Looked into working freelance<br />
+Topcoder he joined<br />
+And made lots of coin<br />
+Without even putting on pants</p>
+
+<h3>The Cloud</h3>
+
+<p style="padding-bottom:5px">Cloud, how do I love you?<br />
+Let me count the ways<br />
+Your processing is scalable<br />
+Your storage bounds amaze  </p>
+
+<p style="padding-bottom:5px">Updates happen instantly<br />
+Deployment costs are small<br />
+And topcoder&#39;s contest platform<br />
+Is the nicest thing of all  </p>
+
+<h3>Bombshell</h3>
+
+<p style="padding-bottom:5px">Design brings innovation<br />
+It also adds frustration.<br />
+A challenge you to win<br />
+Don&#39;t put your hands first in.</p>
+
+<p style="padding-bottom:5px">Read the specs and balance well<br />
+To always deliver a big bombshell.<br />
+And knock off your client from his feet<br />
+To show him the amazement of crowd&#39;s heat.</p>]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/coders-have-feelings-too/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Platform Update &#8211; New Site v1.1</title>
+		<link>http://www.topcoder.com/blog/platform-update-new-site-v1-1/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=platform-update-new-site-v1-1</link>
+		<comments>http://www.topcoder.com/blog/platform-update-new-site-v1-1/#comments</comments>
+		<pubDate>Tue, 25 Feb 2014 20:04:54 +0000</pubDate>
+		<dc:creator><![CDATA[Tony Jefts]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Platform]]></category>
+		<category><![CDATA[Platform Updates]]></category>
+		<category><![CDATA[challenges]]></category>
+		<category><![CDATA[coding]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[features]]></category>
+		<category><![CDATA[hubs]]></category>
+		<category><![CDATA[icons]]></category>
+		<category><![CDATA[members]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[platform]]></category>
+		<category><![CDATA[platform update]]></category>
+		<category><![CDATA[social media]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14452</guid>
+		<description><![CDATA[Phase 1 of the new site launched last month as you know. Phase 2 is still under construction and constant improvement. Here&#8217;s a quick update on the...<br/><a href="http://www.topcoder.com/blog/platform-update-new-site-v1-1/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<p style="padding-bottom:5px"> <img img style="float: left; margin-right: 1em;" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/Screen-Shot-2014-02-25-at-2.42.31-PM.png" width="150px" alt=" " /> Phase 1 of the new site launched last month as you know. Phase 2 is still under construction and constant improvement. Here&#8217;s a quick update on the latest features and fixes getting us closer to v2.0 of the new site.</p>
+
+<p style="padding-bottom:5px"> <strong> Looking for a Challenge? </strong> </p>
+
+<p style="padding-bottom:5px">Topcoder holds a lot of challenges in each of the three tracks (Design, Development and Data Science). We&#8217;re adding new tools and features to help you find and filter the challenges you are most interested in.</p>
+
+<p style="padding-bottom:5px">You&#8217;ll find detailed information in the new track &#8220;hubs.&#8221;</p>
+
+<center><a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/Track_Hubs.png"><img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/Track_Hubs1.png" alt=" " /></a></center>
+
+<ul>
+<li>Challenge Type Icons: Hover over the icon in the challenge list for a quick look at what challenge type it is.</li>
+<li> Advanced Searching: Filter by contest type, such as Mobile design or Coding Challenge. More features for this tool are coming soon!</li>
+<li> TCO eligibility</li>
+<li> The current phase (registration, submission, etc)</li>
+<li> Number of current registrants</li>
+<li> Number of current submissions </li>
+</ul>
+<p style="padding-bottom:5px">You can now also view information about past challenges. Races and Review Opportunities are coming soon.</p>
+
+<p style="padding-bottom:5px"> <strong> Challenge Details: </strong> </p>
+
+<p style="padding-bottom:5px">Social media icons on the challenge page allow you to share via Facebook, Twitter and other avenues. Now you can show your friends what you&#8217;re working on, or invite your rivals to compete with you.</p>
+
+<center><a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/social_buttons.png"><img src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/social_buttons.png" width="350px" alt=" " /></a></center>
+
+<p style="padding-bottom:5px"> <strong> Member Profiles: </strong> </p>
+<p style="padding-bottom:5px">It’s a long road ahead for member profiles. What you see today should be considered “beta” to where they are headed in the coming months.</p>
+<ul> 
+<li>Data science is relatively complete</li>
+<li>Development is showing some of the stats and rating history, past topcoder badges are also shown. Reliability is coming soon.</li>
+<li>Design submissions and other fun info is coming soon!</li>
+
+<p style="padding-bottom:5px">We hope you’ll continue to <a href="https://getfeedback.com/r/XbbOp4Eh">give us feedback</a> as we work toward creating a new experience for our community
+]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/platform-update-new-site-v1-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Choose Your Winner &#8211; Social Media Backgrounds</title>
+		<link>http://www.topcoder.com/blog/choose-your-winner-social-media-backgrounds/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=choose-your-winner-social-media-backgrounds</link>
+		<comments>http://www.topcoder.com/blog/choose-your-winner-social-media-backgrounds/#comments</comments>
+		<pubDate>Fri, 21 Feb 2014 21:51:33 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Hicks]]></dc:creator>
+				<category><![CDATA[Challenges]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[contest]]></category>
+		<category><![CDATA[Design]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[poll]]></category>
+		<category><![CDATA[social media]]></category>
+		<category><![CDATA[twitter]]></category>
+		<category><![CDATA[vote]]></category>
+		<category><![CDATA[winners]]></category>
+
+		<guid isPermaLink="false">http://www.topcoder.com/?post_type=blog&#038;p=14428</guid>
+		<description><![CDATA[A couple of weeks ago I ran my first Design contest on topcoder. The ask was to create some background images for our Twitter, Facebook, and Google+...<br/><a href="http://www.topcoder.com/blog/choose-your-winner-social-media-backgrounds/" class="more">Read More</a>]]></description>
+				<content:encoded><![CDATA[<p style="padding-bottom:5px"> <img style="float: left; margin-right: 1em;" alt="" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/9024105-large.jpg" width="150px" />A couple of weeks ago I ran my first <a href="https://studio.topcoder.com/?module=ViewContestDetails&#038;ct=30039089">Design contest</a> on topcoder. The ask was to create some background images for our <a href="https://twitter.com/topcoder">Twitter</a>, <a href="https://www.facebook.com/TopCoderInc">Facebook</a>, and <a href="https://plus.google.com/+topcoder/posts">Google+</a> pages. Of course with the announcement of the New topcoder, our existing social media presence needed a facelift to match.</p>
+
+<p style="padding-bottom:5px">The requirements for this challenge were a bit vague, and really left the designers with total creative freedom. However one main point we did stress was:
+<ul style="padding-bottom:5px">
+<li><b> Match the look and feel of the new site/logo</b></li>
+</ul>
+<p style="padding-bottom:5px">The results we got back were amazing! But, this challenge wasn&#8217;t just about which submissions I liked. This challenge was for the community, by the community. Therefore, it&#8217;s only right to have the community choose which of the winning submissions, actually gets used.</p>
+
+<p style="padding-bottom:5px"> Without further ado, check out the 1st and 2nd place submissions below, and vote on your favorite. You&#8217;ll notice the two versions of Design 1 are very similar, so take a close look! Polling closes<strong><i> Monday, February 24th at 5pm EST</i></strong>. We will update our Twitter, Facebook, and Google+ with the winning design after voting closes.</p> 
+
+<p style="padding-bottom:0px"><strong>Click each image for a larger version</strong>
+
+<table style="margin: 0px auto;" class="tftable" border="1" cellspacing="5" cellpadding="5">
+<tr><th>Design 1 With Grey Lines</th><th>Design 1 w/o Grey Lines</th><th>Design 2</th></tr>
+<tr><td><a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/Design-1-with-grey-lines-alt.png">
+<img img style="float: left; margin-right: 1em;" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/design-1-w-grey-small.png" width="200px" alt=" " /></a></td><td><a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/Design-1-without-grey-lines-alt.png">
+<img img style="float: left; margin-right: 1em;" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/design-1-without-grey-small.png" width="200px" alt=" " /></a></td><td><a href="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/Design-2-alt.png">
+<img img style="float: left; margin-right: 1em;" src="http://3a72mb4dqcfnkgfimp04jgyyd.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/design-2-small.png" width="200px" alt=" " /></a></td></tr>
+</table>
+
+<br clear="all" />
+<STYLE>#qp_main67489 .qp_btna:hover input {background:rgb(150,150,150)!important}</STYLE><div id="qp_main67489" style="border-radius:6px;border:1px solid rgb(150,150,150);margin:0px;padding:10px;padding-bottom:2px;background:rgb(255,255,255)"><div style="border-radius:6px;font-family:Arial;font-size:12px;font-weight:bold;background-color:rgb(44,44,44);color:rgb(255,255,255);margin-bottom:10px"><div style="padding:10px">Social Media Background Designs</div></div><form id="qp_form67489" action="http://www.poll-maker.com/results67489x382DAa04-3" method="post" target="_blank" style="display:inline;margin:0px;padding:0px"><div style="border-radius:6px"><div style="display:block;font-family:Arial;font-size:12px;color:rgb(0,0,0);padding-top:5px;padding-bottom:5px;clear:both;cursor:pointer;cursor:hand"><span onClick="if((!event.target?event.srcElement:event.target).tagName!='INPUT'){var c=this.childNodes[0];c.checked=(c.type=='radio'?true:!c.checked);}" style="display:block;padding-left:30px"><input style="float:left;width:25px;margin-left:-25px;margin-top:-1px;padding:0px;height:18px" name="qp_v67489" type="radio" value="1">Design 1 With Grey Lines</span></div><div style="display:block;font-family:Arial;font-size:12px;color:rgb(0,0,0);padding-top:5px;padding-bottom:5px;clear:both;cursor:pointer;cursor:hand"><span onClick="if((!event.target?event.srcElement:event.target).tagName!='INPUT'){var c=this.childNodes[0];c.checked=(c.type=='radio'?true:!c.checked);}" style="display:block;padding-left:30px"><input style="float:left;width:25px;margin-left:-25px;margin-top:-1px;padding:0px;height:18px" name="qp_v67489" type="radio" value="2">Design 1 Without Grey Lines</span></div><div style="display:block;font-family:Arial;font-size:12px;color:rgb(0,0,0);padding-top:5px;padding-bottom:5px;clear:both;cursor:pointer;cursor:hand"><span onClick="if((!event.target?event.srcElement:event.target).tagName!='INPUT'){var c=this.childNodes[0];c.checked=(c.type=='radio'?true:!c.checked);}" style="display:block;padding-left:30px"><input style="float:left;width:25px;margin-left:-25px;margin-top:-1px;padding:0px;height:18px" name="qp_v67489" type="radio" value="3">Design 2</span></div></div><div style="padding-top:10px;clear:both"><a class="qp_btna" href="#"><input name="qp_b67489" style="width:80px;height:30px;margin-right:5px;border-radius:10px;border:1px solid rgb(150,150,150);font-family:Arial;font-size:12px;font-weight:bold;color:rgb(0,0,0);cursor:pointer;cursor:hand;background:rgb(200,200,200)" type="submit" value="Vote"></a><a class="qp_btna" href="#"><input name="qp_b67489" style="width:80px;height:30px;margin-right:5px;border-radius:10px;border:1px solid rgb(150,150,150);font-family:Arial;font-size:12px;font-weight:bold;color:rgb(0,0,0);cursor:pointer;cursor:hand;background:rgb(200,200,200)" type="submit" value="Results"></a></div><a id="qp_a67489" style="float:right;font-family:Arial;font-size:10px;color:rgb(0,0,0);text-decoration:none;margin-top:-12px;margin-right:-5px" href="http://www.poll-maker.com">Poll Maker</a></form></div><script src="http://scripts.poll-maker.com/3012/scpolls.js" language="javascript"></script>]]></content:encoded>
+			<wfw:commentRss>http://www.topcoder.com/blog/choose-your-winner-social-media-backgrounds/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
