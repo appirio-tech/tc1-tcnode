@@ -178,7 +178,7 @@
                             <outputDirectory>${jboss-home}/server/all/lib</outputDirectory>
                             <resources>
                                 <resource>
-                                    <directory>tc-maven\com\informix\jdbc\com.informix.jdbc\1.0.0</directory>
+                                    <directory>tc-maven/com/informix/jdbc/com.informix.jdbc/1.0.0</directory>
                                     <includes>
                                         <include>com.informix.jdbc-1.0.0.jar</include>
                                     </includes>
