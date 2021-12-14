@@ -689,7 +689,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
-            <version>3.1.0.GA</version>
+            <version>6.2.1.Final</version>
         </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
@@ -809,7 +809,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
-            <version>3.3.1.ga</version>
+            <version>3.3.2.GA</version>
         </dependency>
 
         <!-- Specific to TC WAR -->
